@@ -106,7 +106,7 @@ class RAGEngine:
         
         try:
             print(f"[GitHub Senkronizasyonu]: {zip_url} kontrol ediliyor...")
-            with urllib.request.urlopen(req, timeout=15) as res:
+            with urllib.request.urlopen(req, timeout=4) as res:
                 zip_bytes = io.BytesIO(res.read())
 
             target_dir = DATA_CACHE_DIR

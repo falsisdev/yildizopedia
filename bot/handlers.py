@@ -4,10 +4,11 @@ from aiogram.types import Message
 from aiogram.filters import CommandStart, Command
 from aiogram.enums import ChatAction
 
-from bot.config import ADMIN_TELEGRAM_ID, DAILY_QUESTION_LIMIT
+from bot.config import ADMIN_TELEGRAM_ID, DAILY_QUESTION_LIMIT, BASE_DIR
 from bot.database import Database
 from bot.rag_engine import RAGEngine
 from bot.llm_client import LLMClient
+from aiogram.types import FSInputFile
 import re
 
 router = Router()
@@ -60,10 +61,18 @@ HELP_MESSAGE = f"""ℹ️ <b>Yıldızopedia Bot Rehberi ve Kuralları:</b>
 async def handle_start(message: Message):
     is_allowed, remaining, is_admin = db.check_user_quota(message.from_user.id)
     limit_text = "Sınırsız (Yönetici)" if is_admin else f"{remaining} / {DAILY_QUESTION_LIMIT}"
-    await message.answer(
-        WELCOME_MESSAGE + f"\n🎫 <b>Mevcut Kalan Hakkınız:</b> {limit_text}",
-        parse_mode="HTML"
-    )
+    caption = WELCOME_MESSAGE + f"\n🎫 <b>Mevcut Kalan Hakkınız:</b> {limit_text}"
+    
+    logo_path = BASE_DIR / "assets" / "logo.jpg"
+    if logo_path.exists():
+        try:
+            photo = FSInputFile(str(logo_path))
+            await message.answer_photo(photo, caption=caption, parse_mode="HTML")
+            return
+        except Exception as e:
+            print(f"[Logo Gönderme Uyarısı]: {e}")
+
+    await message.answer(caption, parse_mode="HTML")
 
 @router.message(Command("yardim", "help"))
 async def handle_help(message: Message):

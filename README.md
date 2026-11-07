@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.jpg" alt="Yıldızopedia Logo" width="220" style="border-radius: 16px;"/>
+</p>
+
 # 🌟 Yıldızopedia: Yıldız Teknik Üniversitesi Yapay Zeka Ansiklopedisi ve Dijital Bilgi Bankası
 
 [![Veritabanı Durumu](https://img.shields.io/badge/Veritaban%C4%B1-407%20Markdown%20Dosyas%C4%B1-blue.svg)](#)
