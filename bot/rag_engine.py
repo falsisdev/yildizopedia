@@ -98,15 +98,43 @@ class RAGEngine:
 
     def sync_from_github(self) -> Tuple[bool, str]:
         """
-        github.com/falsisdev/yildizopedia reposundan en güncel main.zip arşivini indirir
-        ve yerel veri önbelleğine (data_cache) açar.
+        github.com/falsisdev/yildizopedia reposundan en güncel dökümanları senkronize eder.
+        Eğer yerel git reposu mevcutsa 'git pull' ile anında (0.2 sn) günceller.
+        Tekil binary modunda ise zip arşivini indirir.
         """
+        import subprocess
+        from bot.config import BASE_DIR
+
+        # 1. Eğer yerel git deposu varsa doğrudan hızlı git pull yap
+        git_dir = BASE_DIR / ".git"
+        if git_dir.exists():
+            try:
+                print(f"[Git Senkronizasyonu]: 'git pull origin {GITHUB_BRANCH}' çalıştırılıyor...")
+                res = subprocess.run(
+                    ["git", "pull", "origin", GITHUB_BRANCH],
+                    cwd=str(BASE_DIR),
+                    capture_output=True,
+                    text=True,
+                    timeout=8
+                )
+                if res.returncode == 0:
+                    self.kb_dir = KNOWLEDGE_BASE_DIR
+                    self._load_and_index_documents()
+                    status_text = res.stdout.strip().split("\n")[-1]
+                    msg = f"✅ Git Senkronizasyonu Başarılı: {status_text}"
+                    print(f"[Git Senkronizasyonu]: {msg}")
+                    self.last_sync_info = msg
+                    return True, msg
+            except Exception as e:
+                print(f"[Git Senkronizasyon Uyarısı]: {e}")
+
+        # 2. Standart ZIP İndirme (Git olmayan ortamlar için)
         zip_url = f"{GITHUB_REPO_URL}/archive/refs/heads/{GITHUB_BRANCH}.zip"
         req = urllib.request.Request(zip_url, headers={"User-Agent": "YildizopediaBot/1.0"})
         
         try:
-            print(f"[GitHub Senkronizasyonu]: {zip_url} kontrol ediliyor...")
-            with urllib.request.urlopen(req, timeout=4) as res:
+            print(f"[GitHub ZIP Senkronizasyonu]: {zip_url} kontrol ediliyor...")
+            with urllib.request.urlopen(req, timeout=12) as res:
                 zip_bytes = io.BytesIO(res.read())
 
             target_dir = DATA_CACHE_DIR
