@@ -117,9 +117,18 @@ async def handle_sync(message: Message):
         await message.answer("⛔ Bu komutu yalnızca sistem yöneticisi kullanabilir.")
         return
 
-    status_msg = await message.answer("🔄 <i>GitHub reposundan (falsisdev/yildizopedia) en güncel arşiv çekiliyor...</i>", parse_mode="HTML")
+    status_msg = await message.answer("🔄 <i>GitHub'dan en güncel kodlar ve dökümanlar çekiliyor...</i>", parse_mode="HTML")
     success, msg = rag.sync_from_github()
-    await status_msg.edit_text(msg)
+    
+    await status_msg.edit_text(
+        f"{msg}\n\n🚀 <b>Bot yeni kodlar ve müfredatla anında yeniden başlatılıyor... (1 saniye)</b>",
+        parse_mode="HTML"
+    )
+    
+    # Telegram mesajının iletilmesi için 1 saniye bekle ve prosesi hafızada yeniden başlat
+    import sys, os, asyncio
+    await asyncio.sleep(1)
+    os.execv(sys.executable, [sys.executable] + sys.argv)
 
 @router.message(F.text)
 async def handle_question(message: Message):
