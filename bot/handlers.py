@@ -44,15 +44,17 @@ Yıldız Teknik Üniversitesi (YTÜ) kurumsal mevzuatı, öğrenci işleri süre
 • <i>"Çift Anadal (ÇAP) ve Yandal başvuru şartları nelerdir?"</i>
 
 🎫 <b>Günlük Soru Limitiniz:</b> {DAILY_QUESTION_LIMIT} Soru (Gece 00:00'da yenilenir)
-📌 <b>Komutlar:</b> /yardim, /kalan
+📌 <b>Komutlar:</b> /yardim, /kalan, /temizle
 """
 
 HELP_MESSAGE = f"""ℹ️ <b>Yıldızopedia Bot Rehberi ve Kuralları:</b>
 
 1. <b>Resmi Kaynaklar:</b> Yanıtlar doğrudan YTÜ Senato Esasları, Yönetmelikleri ve Fakülte/Bölüm web sitelerinden derlenen 407 resmi dökümana dayanır.
-2. <b>Günlük Limit:</b> Sistemimizin tüm Yıldız öğrencilerine ücretsiz ve eşit hizmet sunabilmesi için her öğrencinin günde <b>{DAILY_QUESTION_LIMIT} soru hakkı</b> vardır.
-3. <b>Komutlar:</b>
+2. <b>Çok Turlu Sohbet Hafızası:</b> Bot, sorduğunuz önceki soruları ve verdiği cevapları hatırlar. Takip sorularınızı (<i>"Peki önkoşulu var mı?", "O dersten kalırsam ne olur?"</i>) doğrudan sorabilirsiniz.
+3. <b>Günlük Limit:</b> Sistemimizin tüm Yıldız öğrencilerine ücretsiz ve eşit hizmet sunabilmesi için her öğrencinin günde <b>{DAILY_QUESTION_LIMIT} soru hakkı</b> vardır.
+4. <b>Komutlar:</b>
    • /start : Botu başlatır ve karşılama mesajını gösterir.
+   • /temizle : Sohbet hafızasını sıfırlar ve yeni bir konuya başlar.
    • /kalan : Bugün kalan soru hakkınızı görüntüler.
    • /yardim : Bu bilgilendirme mesajını açar.
 """
@@ -111,6 +113,15 @@ async def handle_stats(message: Message):
 
     await message.answer(stats_text, parse_mode="HTML")
 
+@router.message(Command("temizle", "reset", "yeni"))
+async def handle_clear_history(message: Message):
+    deleted = db.clear_chat_history(message.from_user.id)
+    await message.answer(
+        "🧹 <b>Sohbet Hafızası Sıfırlandı!</b>\n\n"
+        "Önceki konuşma geçmişimiz temizlendi. Yeni bir soru veya konuyla tertemiz bir başlangıç yapabiliriz. Sana nasıl yardımcı olabilirim?",
+        parse_mode="HTML"
+    )
+
 @router.message(Command("sync", "guncelle"))
 async def handle_sync(message: Message):
     if message.from_user.id != ADMIN_TELEGRAM_ID:
@@ -153,9 +164,12 @@ async def handle_question(message: Message):
     # 2. Canlı Durum Bildirimi Gönder (Kullanıcıya bilgi ver)
     status_msg = await message.answer("🔍 <i>Resmi mevzuat ve dökümanlar taranıyor...</i>", parse_mode="HTML")
 
-    # 3. İlgili Bağlamları Bul (RAG)
+    # 3. Geçmiş Sohbet Turlarını Getir
+    history = db.get_chat_history(user_id, limit=6)
+
+    # 4. İlgili Bağlamları Bul (RAG)
     try:
-        print(f"\n[GELEN SORU]: {query[:80]}... (Kullanıcı: {user_id})")
+        print(f"\n[GELEN SORU]: {query[:80]}... (Kullanıcı: {user_id}, Geçmiş Tur: {len(history)})")
         contexts = rag.search(query, top_k=3)
         print(f"[RAG BULUNAN BAĞLAM]: {len(contexts)} adet döküman parçası.")
         await status_msg.edit_text("✍️ <i>Resmi belgeler inceleniyor ve cevap hazırlanıyor...</i>", parse_mode="HTML")
@@ -164,17 +178,24 @@ async def handle_question(message: Message):
         await status_msg.edit_text("⚠️ Döküman arama motorunda bir hata oluştu. Lütfen tekrar deneyiniz.")
         return
 
-    # 4. Yapay Zekadan Yanıt Al (Groq -> Gemini Fallback)
+    # 5. Yapay Zekadan Yanıt Al (Groq -> Gemini Fallback, Hafıza Destekli)
     try:
         print("[LLM İSTEĞİ GÖNDERİLİYOR]...")
-        answer, model_used = await llm.generate_response(query, contexts)
+        answer, model_used = await llm.generate_response(query, contexts, history=history)
         print(f"[LLM CEVAP GELDİ] Model: {model_used}")
     except Exception as e:
         print(f"[HATA - LLM]: {e}")
         await status_msg.edit_text(f"⚠️ Yapay zeka yanıt üretirken bir hata oluştu: {e}")
         return
 
-    # 5. Veritabanına Kaydet & Kotayı Düşür
+    # 6. Sohbet Hafızasına Ekle (Kullanıcı ve Asistan)
+    try:
+        db.add_chat_message(user_id, "user", query)
+        db.add_chat_message(user_id, "model", answer)
+    except Exception as e:
+        print(f"[Hafıza Kayıt Uyarısı]: {e}")
+
+    # 7. Veritabanına Kaydet & Kotayı Düşür
     source_file = contexts[0]["file_path"] if contexts else "Belirtilmedi"
     remaining_after = db.record_query(
         telegram_id=user_id,

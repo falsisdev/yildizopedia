@@ -116,6 +116,10 @@ Yıldızopedia, teknik bilgisi olmayan tüm Yıldız öğrencilerinin doğrudan 
 
 - **Bot Adı:** Yıldızopedia
 - **Kullanıcı Adı:** `@yildizopedia_bot`
+- **🧠 Çok Turlu Sohbet Hafızası (Conversation Memory):** Bot, kullanıcının sorduğu önceki soruları ve kendi verdiği yanıtları hatırlar. Öğrenciler *"Peki bu derslerin önkoşulları var mı?"*, *"O dersten kalırsam ne olur?"* gibi doğal takip sorularını rahatça sorabilir.
+- **🧹 Hafıza Sıfırlama (`/temizle`):** Yeni bir konuya geçerken hafızayı tek komutla temizleyip sıfırdan başlama imkanı sunar.
+- **⚡ Hot Process Reload (`/sync`):** GitHub'a yeni kod veya müfredat yüklendiğinde, sunucuya SSH ile bağlanıp `systemctl restart` yazmaya gerek kalmaz. Yönetici Telegram'dan `/sync` yazdığında bot hem dökümanları çeker hem de kendi prosesini hafızada (in-memory) 1 saniyede yeniden başlatır.
+- **🎯 Deterministik Müfredat Router'ı:** Bölüm ve yarıyıl sorularında (örn: *"EHM 1. sınıf güz dersleri"*), tüm ders tablosunu (kredi, AKTS, önkoşul) eksiksiz olarak yapay zekaya enjekte eder.
 - **0 TL İşletim Maliyeti:** Öğrenciden API anahtarı istenmez. Sunucuda Groq Cloud (Llama 3.3 70B) birincil model, Google AI Studio (Gemini Flash) ise otomatik yedek model olarak çalışır.
 - **Eşit ve Sürdürülebilir Erişim:** Sistemin tek bir kullanıcı tarafından kilitlenmesini önlemek için öğrenci başına **günde 15 soru limiti** (SQLite tabanlı) uygulanır. Her gece 00:00'da sayaçlar sıfırlanır.
 - **Yönetici Modu:** Bot yöneticisi (`ADMIN_TELEGRAM_ID`) sınırsız soru hakkına sahiptir ve `/stats` komutuyla günün aktif öğrenci sayısını, sorulan toplam soruları anlık izleyebilir.
@@ -132,14 +136,56 @@ Yıldızopedia, teknik bilgisi olmayan tüm Yıldız öğrencilerinin doğrudan 
 
 ---
 
-## 🚀 VPS Dağıtım ve Çalıştırma Seçenekleri
+## 🚀 VPS Dağıtım ve 7/24 Çalıştırma Seçenekleri
 
-Botunuzu sunucuda çalıştırmak için **iki ultra pratik yol** mevcuttur:
+Botunuzu sunucuda kalıcı (7/24) çalıştırmak için önerilen yöntemler:
 
-### 1. Yol: Tek Bağımsız Binary İle Çalıştırma (En Hızlı & Sıfır Bağımlılık)
-Herhangi bir Python veya Docker kurmadan doğrudan tek bir çalıştırılabilir binary dosyasıyla başlatabilirsiniz:
+### 1. Yol: Linux Systemd Servisi Olarak Çalıştırma (Önerilen Üretim Modu)
+Sunucu yeniden başladığında otomatik açılan ve arkaplanda kesintisiz çalışan kalıcı sistem servisi:
 
-1. **Binary'yi Derleyin (veya `dist/yildizopedia-bot` dosyasını sunucuya atın):**
+1. **Repoyu Klonlayın ve Bağımlılıkları Kurun:**
+   ```bash
+   cd ~/Desktop
+   git clone https://github.com/falsisdev/yildizopedia.git
+   cd yildizopedia
+   cp .env.example .env   # API anahtarlarınızı ve ADMIN_TELEGRAM_ID değerinizi girin
+   pip install -r bot/requirements.txt
+   ```
+
+2. **Systemd Servis Dosyası Oluşturun (`/etc/systemd/system/yildizopedia.service`):**
+   ```ini
+   [Unit]
+   Description=Yıldızopedia 7/24 Telegram Bot Servisi
+   After=network.target
+
+   [Service]
+   Type=simple
+   User=root
+   WorkingDirectory=/root/Desktop/yildizopedia
+   ExecStart=/usr/bin/python3 -m bot.main
+   Restart=always
+   RestartSec=5
+   Environment=PYTHONUNBUFFERED=1
+
+   [Install]
+   WantedBy=multi-user.target
+   ```
+
+3. **Servisi Etkinleştirin ve Başlatın:**
+   ```bash
+   sudo systemctl daemon-reload
+   sudo systemctl enable yildizopedia
+   sudo systemctl start yildizopedia
+   sudo systemctl status yildizopedia
+   ```
+   *Artık sunucuyu kapatsanız veya SSH bağlantısını kesseniz dahi bot 7/24 çalışmaya devam eder.*
+
+---
+
+### 2. Yol: Tek Bağımsız Binary İle Çalıştırma (Hızlı & Sıfır Bağımlılık)
+Herhangi bir Python kütüphanesi kurmadan tek bir çalıştırılabilir binary dosyasıyla başlatmak için:
+
+1. **Binary'yi Derleyin:**
    ```bash
    bash scripts/build_binary.sh
    ```
@@ -147,29 +193,14 @@ Herhangi bir Python veya Docker kurmadan doğrudan tek bir çalıştırılabilir
    ```bash
    ./dist/yildizopedia-bot
    ```
-   *Bot ayağa kalktığında dökümanları doğrudan `github.com/falsisdev/yildizopedia` üzerinden otomatik olarak çeker ve hafızaya indeksler. Sunucunuzda döküman klasörlerini tutmanıza bile gerek yoktur!*
-
-3. **Canlı Senkronizasyon (`/sync` Komutu):**
-   GitHub'a yeni bir mevzuat veya bölüm dökümanı yüklediğinizde, botu yeniden başlatmanıza gerek kalmaz. Telegram'dan yöneticinizle `/sync` yazmanız yeterlidir; bot GitHub'dan en güncel arşivi 1 saniyede indirip yeniden indeksler.
 
 ---
 
-### 2. Yol: Docker & Docker Compose İle Çalıştırma (Kalıcı Arka Plan Servisi)
-
-1. **Repoyu Klonlayın ve `.env` Oluşturun:**
-   ```bash
-   git clone https://github.com/falsisdev/yildizopedia.git
-   cd yildizopedia
-   cp .env.example .env
-   ```
-2. **Konteyneri Başlatın:**
-   ```bash
-   docker compose up -d --build
-   ```
-3. **Logları İzleyin:**
-   ```bash
-   docker compose logs -f
-   ```
+### 3. Yol: Docker & Docker Compose İle Çalıştırma
+```bash
+docker compose up -d --build
+docker compose logs -f
+```
 
 ---
 

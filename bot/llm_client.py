@@ -21,7 +21,7 @@ TELEGRAM FORMAT KURALLARI (ÇOK ÖNEMLİ):
 - Yanıtın sonuna imza, kaynak veya dipnot ekleme; kaynak bilgilerini bot altyapısı otomatik olarak ekleyecektir.
 """
 
-def _call_groq_sync(prompt: str, context: str) -> str:
+def _call_groq_sync(prompt: str, context: str, history: List[Dict[str, str]] = None) -> str:
     """Groq Cloud API (Llama 3.3 70B) senkron HTTP çağrısı."""
     if not GROQ_API_KEY or GROQ_API_KEY.startswith("gsk_placeholder"):
         raise ValueError("Groq API anahtarı girilmedi veya geçersiz.")
@@ -31,12 +31,19 @@ def _call_groq_sync(prompt: str, context: str) -> str:
         "Authorization": f"Bearer {GROQ_API_KEY}",
         "Content-Type": "application/json"
     }
+
+    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+    if history:
+        for turn in history:
+            role = "assistant" if turn.get("role") in ["model", "assistant"] else "user"
+            messages.append({"role": role, "content": turn.get("content", "")})
+
+    user_content = f"Aşağıdaki resmi YTÜ dökümanlarını kullanarak sorumu cevapla:\n\n[RESMİ BAĞLAM]:\n{context}\n\n[ÖĞRENCİ SORUSU]:\n{prompt}"
+    messages.append({"role": "user", "content": user_content})
+
     payload = {
         "model": "llama-3.3-70b-versatile",
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": f"Aşağıdaki resmi YTÜ dökümanlarını kullanarak sorumu cevapla:\n\n[RESMİ BAĞLAM]:\n{context}\n\n[ÖĞRENCİ SORUSU]:\n{prompt}"}
-        ],
+        "messages": messages,
         "temperature": 0.2,
         "max_tokens": 1024
     }
@@ -46,7 +53,7 @@ def _call_groq_sync(prompt: str, context: str) -> str:
         result = json.loads(response.read().decode("utf-8"))
         return result["choices"][0]["message"]["content"].strip()
 
-def _call_gemini_sync(prompt: str, context: str) -> Tuple[str, str]:
+def _call_gemini_sync(prompt: str, context: str, history: List[Dict[str, str]] = None) -> Tuple[str, str]:
     """Google AI Studio (Gemini Flash) senkron HTTP çağrısı. Döner: (cevap, model_adi)"""
     if not GEMINI_API_KEY:
         raise ValueError("Gemini API anahtarı girilmedi.")
@@ -54,17 +61,40 @@ def _call_gemini_sync(prompt: str, context: str) -> Tuple[str, str]:
     # Ultra hızlı, anında yanıt veren ve 503 yoğunluğu olmayan modeller
     models = ["gemini-flash-lite-latest", "gemini-3.8-flash", "gemini-flash-latest"]
     
-    combined_prompt = (
-        f"{SYSTEM_PROMPT}\n\n"
+    raw_contents = []
+    if history:
+        for turn in history:
+            role = "model" if turn.get("role") in ["model", "assistant"] else "user"
+            raw_contents.append({
+                "role": role,
+                "parts": [{"text": turn.get("content", "")}]
+            })
+    
+    current_content = (
         f"Aşağıdaki resmi YTÜ dökümanlarını kullanarak sorumu cevapla:\n\n"
         f"[RESMİ BAĞLAM]:\n{context}\n\n"
         f"[ÖĞRENCİ SORUSU]:\n{prompt}"
     )
-    
+    raw_contents.append({
+        "role": "user",
+        "parts": [{"text": current_content}]
+    })
+
+    # Gemini içerik validasyonu (Mutlaka 'user' ile başlamalı ve ardışık aynı roller birleştirilmeli)
+    contents = []
+    for turn in raw_contents:
+        if not contents and turn["role"] != "user":
+            continue
+        if contents and contents[-1]["role"] == turn["role"]:
+            contents[-1]["parts"][0]["text"] += "\n" + turn["parts"][0]["text"]
+        else:
+            contents.append(turn)
+
     payload = {
-        "contents": [
-            {"parts": [{"text": combined_prompt}]}
-        ],
+        "systemInstruction": {
+            "parts": [{"text": SYSTEM_PROMPT}]
+        },
+        "contents": contents,
         "generationConfig": {
             "temperature": 0.4,
             "maxOutputTokens": 2048
@@ -102,9 +132,14 @@ class LLMClient:
     def __init__(self):
         pass
 
-    async def generate_response(self, user_query: str, contexts: List[Dict[str, Any]]) -> Tuple[str, str]:
+    async def generate_response(
+        self,
+        user_query: str,
+        contexts: List[Dict[str, Any]],
+        history: List[Dict[str, str]] = None
+    ) -> Tuple[str, str]:
         """
-        Kullanıcı sorusuna bağlam üzerinden yanıt üretir.
+        Kullanıcı sorusuna bağlam ve sohbet geçmişi üzerinden yanıt üretir.
         Döner: (cevap_metni, kullanilan_model_adi)
         """
         context_str = "\n\n---\n\n".join([
@@ -114,14 +149,14 @@ class LLMClient:
 
         # 1. Öncelik: Groq Cloud (Llama 3.3 70B)
         try:
-            answer = await asyncio.to_thread(_call_groq_sync, user_query, context_str)
+            answer = await asyncio.to_thread(_call_groq_sync, user_query, context_str, history)
             return answer, "Groq (Llama 3.3 70B)"
         except Exception:
             pass
 
         # 2. Yedek Öncelik: Google Gemini Flash
         try:
-            answer, model_name = await asyncio.to_thread(_call_gemini_sync, user_query, context_str)
+            answer, model_name = await asyncio.to_thread(_call_gemini_sync, user_query, context_str, history)
             return answer, model_name
         except Exception as e:
             return (

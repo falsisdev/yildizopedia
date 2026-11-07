@@ -57,6 +57,17 @@ class Database:
                 created_at TEXT
             )
             """)
+
+            # Çok turlu sohbet geçmişi (Conversation Memory) tablosu
+            cursor.execute("""
+            CREATE TABLE IF NOT EXISTS chat_history (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                telegram_id INTEGER,
+                role TEXT,
+                content TEXT,
+                created_at TEXT
+            )
+            """)
             conn.commit()
         finally:
             conn.close()
@@ -185,3 +196,66 @@ class Database:
             "all_time_queries": all_time_queries,
             "recent_logs": recent_logs
         }
+
+    def add_chat_message(self, telegram_id: int, role: str, content: str, max_history: int = 10):
+        """
+        Sohbet geçmişine mesaj ekler (role: 'user' veya 'model' / 'assistant').
+        Aynı kullanıcının son max_history mesajı dışındakileri otomatik temizler.
+        """
+        now_str = datetime.now(TR_TZ).strftime("%Y-%m-%d %H:%M:%S")
+        conn = self.get_connection()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("""
+            INSERT INTO chat_history (telegram_id, role, content, created_at)
+            VALUES (?, ?, ?, ?)
+            """, (telegram_id, role, content, now_str))
+
+            # Son max_history adet mesaj dışındakileri silerek DB boyutunu koru
+            cursor.execute("""
+            DELETE FROM chat_history
+            WHERE id NOT IN (
+                SELECT id FROM chat_history
+                WHERE telegram_id = ?
+                ORDER BY id DESC
+                LIMIT ?
+            ) AND telegram_id = ?
+            """, (telegram_id, max_history, telegram_id))
+
+            conn.commit()
+        finally:
+            conn.close()
+
+    def get_chat_history(self, telegram_id: int, limit: int = 6) -> list:
+        """
+        Kullanıcının son 'limit' adet mesajını kronolojik sırayla döner.
+        [{"role": "user", "content": "..."}, {"role": "model", "content": "..."}]
+        """
+        conn = self.get_connection()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("""
+            SELECT role, content FROM (
+                SELECT id, role, content FROM chat_history
+                WHERE telegram_id = ?
+                ORDER BY id DESC
+                LIMIT ?
+            ) ORDER BY id ASC
+            """, (telegram_id, limit))
+            return [dict(r) for r in cursor.fetchall()]
+        finally:
+            conn.close()
+
+    def clear_chat_history(self, telegram_id: int) -> int:
+        """
+        Kullanıcının tüm sohbet geçmişini sıfırlar.
+        """
+        conn = self.get_connection()
+        try:
+            cursor = conn.cursor()
+            cursor.execute("DELETE FROM chat_history WHERE telegram_id = ?", (telegram_id,))
+            deleted = cursor.rowcount
+            conn.commit()
+            return deleted
+        finally:
+            conn.close()
