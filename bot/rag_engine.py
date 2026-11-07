@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import List, Dict, Any, Tuple
 from bot.config import KNOWLEDGE_BASE_DIR, CHROMA_PERSIST_DIR, GITHUB_REPO_URL, GITHUB_BRANCH, DATA_CACHE_DIR
 
-EXCLUDED_DIRS = {".git", ".system_generated", "bot", "scratch", "venv", ".venv", "__pycache__", "chroma_db", "chroma_data"}
+EXCLUDED_DIRS = {".git", ".system_generated", "bot", "scratch", "venv", ".venv", "__pycache__", "chroma_db", "chroma_data", "data_cache", "build", "dist"}
 EXCLUDED_FILES = {"README.md", "AGENT_INSTRUCTIONS.md", "INDEX.md", "ROUTER_GUIDE.md"}
 
 TURKISH_STOPWORDS = {
@@ -263,7 +263,67 @@ class RAGEngine:
                 if best_mevzuat and best_mevzuat[0] not in selected:
                     selected.append(best_mevzuat[0])
 
-        # 3. Eğer bölüm adı geçiyorsa ve seçilenler arasında bölüm dökümanı yoksa bölümden ekle
+        # 3. Akıllı Müfredat ve Bologna Yönlendirmesi
+        # Eğer bir bölüm ve yarıyıl/dönem soruluyorsa, doğrudan o yarıyılın ders tablosunu 1. sıraya ekle
+        dept_keywords = {
+            "elektronik": "elektronik_ve_haberlesme",
+            "haberleşme": "elektronik_ve_haberlesme",
+            "ehm": "elektronik_ve_haberlesme",
+            "bilgisayar": "bilgisayar_muhendisligi",
+            "makine": "makine_muhendisligi",
+            "endüstri": "endustri_muhendisligi",
+            "mekatronik": "mekatronik_muhendisligi",
+            "kimya": "kimya_muhendisligi",
+            "biyomühendislik": "biyomuhendislik",
+            "gıda": "gida_muhendisligi",
+            "matematik": "matematik_muhendisligi",
+            "metalurji": "metalurji_ve_malzeme",
+            "elektrik": "elektrik_muhendisligi",
+            "kontrol": "kontrol_ve_otomasyon",
+            "biyomedikal": "biyomedikal_muhendisligi",
+            "yapay zeka": "yapay_zeka_ve_veri"
+        }
+
+        semester_map = {
+            ("1", "güz"): "1_yariyil.md",
+            ("1", "yarıyıl"): "1_yariyil.md",
+            ("1", "bahar"): "2_yariyil.md",
+            ("2", "yarıyıl"): "2_yariyil.md",
+            ("2", "güz"): "3_yariyil.md",
+            ("3", "yarıyıl"): "3_yariyil.md",
+            ("2", "bahar"): "4_yariyil.md",
+            ("4", "yarıyıl"): "4_yariyil.md",
+            ("3", "güz"): "5_yariyil.md",
+            ("5", "yarıyıl"): "5_yariyil.md",
+            ("3", "bahar"): "6_yariyil.md",
+            ("6", "yarıyıl"): "6_yariyil.md",
+            ("4", "güz"): "7_yariyil.md",
+            ("7", "yarıyıl"): "7_yariyil.md",
+            ("4", "bahar"): "8_yariyil.md",
+            ("8", "yarıyıl"): "8_yariyil.md"
+        }
+
+        detected_dept_folder = None
+        for k, folder in dept_keywords.items():
+            if k in q_lower:
+                detected_dept_folder = folder
+                break
+
+        detected_sem_file = None
+        for (num, term), sem_file in semester_map.items():
+            if num in q_lower and term in q_lower:
+                detected_sem_file = sem_file
+                break
+
+        if detected_dept_folder and detected_sem_file:
+            for c in self.chunks:
+                if detected_dept_folder in c.file_path and detected_sem_file in c.file_path:
+                    if "ders listesi" in tr_lower(c.section) or "|" in c.content:
+                        if c not in selected:
+                            selected.insert(0, c)
+                        break
+
+        # 4. Eğer bölüm adı geçiyorsa ve seçilenler arasında bölüm dökümanı yoksa bölümden ekle
         for dept in ["elektronik", "haberleşme", "makine", "endüstri", "mekatronik", "kimya", "biyomühendislik", "gıda", "matematik", "metalurji", "bilgisayar", "elektrik", "biyomedikal"]:
             if dept in q_lower and not has_bolum:
                 dept_matches = [c for c in self.chunks if "05_fakulteler" in c.file_path and dept in tr_lower(c.file_path)]
