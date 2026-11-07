@@ -1,0 +1,11 @@
+---
+baslik: "Endüstri Mühendisliği Komisyonlar ve Danışmanlık"
+kategori: "fakulteler_ve_bolumler"
+fakulte: "Makine Fakültesi"
+bolum: "Endüstri Mühendisliği"
+---
+
+# Endüstri Mühendisliği Komisyonlar ve Öğrenci Danışmanlığı
+
+Bölümde eğitim-öğretim süreçlerinin düzenli yürütülmesi için Staj Komisyonu, İntibak ve Muafiyet Komisyonu, ÇAP/Yandal Komisyonu, MÜDEK/Akreditasyon Komisyonu ve Bitirme Komisyonu görev yapmaktadır.
+Her öğrenciye kayıt anında bir akademik danışman atanır.

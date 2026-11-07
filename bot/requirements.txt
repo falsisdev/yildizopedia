@@ -1,0 +1,4 @@
+aiogram>=3.4.0
+sentence-transformers>=2.6.0
+chromadb>=0.4.24
+python-dotenv>=1.0.0

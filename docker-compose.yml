@@ -1,0 +1,24 @@
+services:
+  yildizopedia-bot:
+    build:
+      context: .
+      dockerfile: bot/Dockerfile
+    container_name: yildizopedia_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Bilgi bankası dökümanları ve kod
+      - .:/app
+      # Kalıcı SQLite Veritabanı ve Vektör İndeksi
+      - chroma_data:/app/chroma_db
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  chroma_data:
