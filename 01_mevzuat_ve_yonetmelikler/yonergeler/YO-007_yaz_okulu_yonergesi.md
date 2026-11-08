@@ -3,6 +3,7 @@ kod: "YO-007"
 baslik: "YTÜ Yaz Okulu Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['yaz okulu', 'kredi sınırı', 'başka üniversite', 'yaz öğretimi', 'ders alma']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Yaz Okulu Yönergesi (YÖ-007)

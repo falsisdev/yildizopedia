@@ -24,4 +24,4 @@ Biyomedikal Mühendisliği'nde iki aşamalı zorunlu staj uygulanır:
 ---
 
 ## 🎓 3. Bitirme Tezi (BME4902)
-- [BME_Graduation_Thesis_Template.docx](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/arsiv/fakulteler/eef/bme/BME_Graduation_Thesis_Template.docx) şablonuna uygun olarak tamamen İngilizce yazılır ve jüri önünde sözlü savunulur.
+- [BME_Graduation_Thesis_Template.docx](arsiv/fakulteler/eef/bme/BME_Graduation_Thesis_Template.docx) şablonuna uygun olarak tamamen İngilizce yazılır ve jüri önünde sözlü savunulur.

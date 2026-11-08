@@ -3,6 +3,7 @@ kod: "YO-075"
 baslik: "YTÜ Sınav Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['sınav', 'ara sınav', 'final', 'çakışma', 'itiraz', 'gözetmen', 'kopya']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Sınav Yönergesi (YÖ-075)

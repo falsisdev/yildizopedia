@@ -3,6 +3,7 @@ baslik: "Endüstri Mühendisliği Komisyonlar ve Danışmanlık"
 kategori: "fakulteler_ve_bolumler"
 fakulte: "Makine Fakültesi"
 bolum: "Endüstri Mühendisliği"
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # Endüstri Mühendisliği Komisyonlar ve Öğrenci Danışmanlığı

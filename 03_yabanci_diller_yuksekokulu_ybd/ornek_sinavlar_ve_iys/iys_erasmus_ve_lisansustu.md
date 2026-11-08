@@ -3,6 +3,7 @@ baslik: "Erasmus, IAESTE ve Lisansüstü (P-EPE) Sınav Formatları"
 arsivlenmis_dosyalar: ["arsiv/ybd_belgeleri/ERASMUS_EXAM_SAMPLE-1.pdf", "arsiv/ybd_belgeleri/IAESTE_ENGLISH_EXAM_SAMPLE-1.pdf", "arsiv/ybd_belgeleri/Postgraduate_English_Proficiency_Exam_(P-EPE).pdf"]
 kategori: "diger_sinavlar"
 anahtar_kelimeler: ["erasmus sınavı", "iaeste", "p-epe", "lisansüstü ingilizce sınavı"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # Erasmus, IAESTE ve Lisansüstü Dil Sınavları

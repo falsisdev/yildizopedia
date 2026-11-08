@@ -49,7 +49,7 @@ Agentlar yanıt verirken bilgiyi aldıkları kaynağa göre aşağıdaki 4 seviy
   - **Reddit r/ytu:** `https://www.reddit.com/r/ytu/`
   - **YTÜ İtiraf Ediyor:** `https://www.ytuitirafediyor.com/`
   - **YTÜ Kampüs:** `https://www.ytukampus.com/`
-  - **Yerel Doküman:** [ogrenci_topluluklari_ve_sosyal_mecralar.md](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/00_genel_ve_kurumsal/ogrenci_topluluklari_ve_sosyal_mecralar.md)
+  - **Yerel Doküman:** [ogrenci_topluluklari_ve_sosyal_mecralar.md](00_genel_ve_kurumsal/ogrenci_topluluklari_ve_sosyal_mecralar.md)
 - **Bağlayıcılık ve Güvenilirlik:** **Düşük / Doğrulamaya Muhtaç.**
 - **Kullanım Kuralları ve Çekinceler (Guardrails):**
   1. **Mevzuat Sorularında KULLANILAMAZ:** Kayıt dondurma süresi, yaz okulu kredi limiti, mezuniyet barajı, mazeret sınavı hakları gibi resmi mevzuat sorularında Tier 4 kaynakları **asla yasal dayanak gösterilemez**.
@@ -61,7 +61,7 @@ Agentlar yanıt verirken bilgiyi aldıkları kaynağa göre aşağıdaki 4 seviy
 
 ## 3. Bilgi Arama ve Cevaplama Akış Protokolü
 
-1. **Önce Yönlendiriciyi Oku:** Soru geldiğinde ilk olarak [ROUTER_GUIDE.md](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/ROUTER_GUIDE.md) dosyasındaki matrise bakın.
+1. **Önce Yönlendiriciyi Oku:** Soru geldiğinde ilk olarak [ROUTER_GUIDE.md](ROUTER_GUIDE.md) dosyasındaki matrise bakın.
 2. **Asla Uydurma / Halüsinasyon Yok:** Dosyalarda açıkça yer almayan bir kural veya tarih varsa genel tahmin yürütmeyin; "Bu husus ilgili birimin özel kurul kararına tabidir" deyin.
 3. **Madde ve Kod Belirt:** Yanıtta "Mazeret raporu 3 iş gününde verilmelidir" derken yanına `(DD-007 Esasları Madde 2)` veya `(Lisans Yönetmeliği Madde 23)` yasal dayanağını ekleyin.
 4. **Formatı Kapat:** Yanıtı yukarıdaki "Kaynak ve Güvenilirlik Bilgisi" kutusuyla sonlandırın.

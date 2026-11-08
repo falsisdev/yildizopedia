@@ -3,6 +3,7 @@ kod: "YÖ-014"
 baslik: "YTÜ Özel Öğrenci Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['özel öğrenci', 'misafir öğrenci', 'başka üniversiteden ders alma', 'kredi transferi']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Özel Öğrenci Yönergesi (YÖ-014)

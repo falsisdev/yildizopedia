@@ -3,6 +3,7 @@ baslik: "EHM Bologna 3. Yarıyıl Dersleri ve Detay Kartları"
 yariyil: 3
 kategori: "bologna_yariyil"
 anahtar_kelimeler: ["ehm 3. yarıyıl", "ders içerikleri", "akts", "haftalık izlence", "değerlendirme"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM 3. Yarıyıl Ders Programı ve Detaylı Kartları

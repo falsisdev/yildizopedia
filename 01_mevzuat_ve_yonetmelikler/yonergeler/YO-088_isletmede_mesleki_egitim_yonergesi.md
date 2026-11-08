@@ -3,6 +3,7 @@ kod: "YÖ-088"
 baslik: "YTÜ İşletmede Mesleki Eğitim Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['işletmede mesleki eğitim', 'ime', 'aday mühendislik', 'sanayi işbirliği', 'tam zamanlı staj']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ İşletmede Mesleki Eğitim Yönergesi (YÖ-088)

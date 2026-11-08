@@ -3,6 +3,7 @@ baslik: "EHM Türkiye Yükseköğretim Yeterlilikler Çerçevesi (TYYÇ) Uyumu"
 kaynak_url: "https://ehm.yildiz.edu.tr/bolum/turkiye-yuksek-ogretim-yeterlilikler-cercevesi"
 kategori: "tyyc"
 anahtar_kelimeler: ["tyyç", "seviye 6", "lisans yeterlilikleri", "bilgi", "beceri", "yetkinlik"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM Bölümü TYYÇ (Lisans Düzeyi 6) Uyumu

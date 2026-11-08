@@ -49,6 +49,6 @@ YTÜ Staj Yönergesi (YÖ-103) ve Fakülte Lisans Staj Uygulama İlkeleri uyarı
 - **Kredi:** 2 Kredi / 6 AKTS
 - **Önkoşul:** **ELM4901 Mühendislik Tasarımı** dersini başarmış olmak ve mezuniyet için gerekli kredi barajını sağlamak.
 - **Yazım ve Teslim Süreci:**
-  1. Tez çalışması, [ELM_Bitirme_Calismasi_Yazim_Kilavuzu.pdf](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/arsiv/fakulteler/eef/elm/ELM_Bitirme_Calismasi_Yazim_Kilavuzu.pdf) ve Senato DD-022 İlkelerine tam uyumlu olarak hazırlanır.
+  1. Tez çalışması, [ELM_Bitirme_Calismasi_Yazim_Kilavuzu.pdf](arsiv/fakulteler/eef/elm/ELM_Bitirme_Calismasi_Yazim_Kilavuzu.pdf) ve Senato DD-022 İlkelerine tam uyumlu olarak hazırlanır.
   2. FR-0956 Bitirme Tezi Teslim Formu ve FR-1281 Kapak Sayfası Düzeni ile jüri üyelerine teslim edilir.
   3. Akademik takvimde belirtilen bitirme sınavı haftasında bölüm jürisi önünde sözlü sunum yapılarak savunulur.

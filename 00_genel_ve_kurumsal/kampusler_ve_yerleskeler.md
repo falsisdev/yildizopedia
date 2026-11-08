@@ -2,6 +2,7 @@
 baslik: "YTÜ Kampüsleri ve Yerleşke Olanakları"
 kategori: "yerleskeler"
 anahtar_kelimeler: ["davutpaşa", "yıldız kampüsü", "maslak", "yurtlar", "ulaşım", "ring", "yemekhane"]
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Kampüsleri ve Yerleşkeler

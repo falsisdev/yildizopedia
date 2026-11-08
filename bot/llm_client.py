@@ -1,9 +1,10 @@
 import json
-import urllib.request
-import urllib.error
-import asyncio
-from typing import List, Dict, Any, Tuple
+import logging
+from typing import List, Dict, Any, Tuple, Optional
+import httpx
 from bot.config import GROQ_API_KEY, GEMINI_API_KEY
+
+logger = logging.getLogger("yildizopedia_bot.llm")
 
 SYSTEM_PROMPT = """Sen Yıldız Teknik Üniversitesi (YTÜ) kurumsal hafızası ve akıllı öğrenci asistanı Yıldızopedia'sın.
 Tavrın: Bürokratik veya aşırı çekinik DEĞİL; bilgili, samimi, çözüm odaklı, kıdemli bir Yıldızlı mentör ve akademik danışman gibidir.
@@ -21,8 +22,13 @@ TELEGRAM FORMAT KURALLARI (ÇOK ÖNEMLİ):
 - Yanıtın sonuna imza, kaynak veya dipnot ekleme; kaynak bilgilerini bot altyapısı otomatik olarak ekleyecektir.
 """
 
-def _call_groq_sync(prompt: str, context: str, history: List[Dict[str, str]] = None) -> str:
-    """Groq Cloud API (Llama 3.3 70B) senkron HTTP çağrısı."""
+async def call_groq_async(
+    prompt: str,
+    context: str,
+    history: Optional[List[Dict[str, str]]] = None,
+    timeout: float = 14.0
+) -> str:
+    """Groq Cloud API (Llama 3.3 70B) asenkron HTTP çağrısı."""
     if not GROQ_API_KEY or GROQ_API_KEY.startswith("gsk_placeholder"):
         raise ValueError("Groq API anahtarı girilmedi veya geçersiz.")
 
@@ -38,29 +44,38 @@ def _call_groq_sync(prompt: str, context: str, history: List[Dict[str, str]] = N
             role = "assistant" if turn.get("role") in ["model", "assistant"] else "user"
             messages.append({"role": role, "content": turn.get("content", "")})
 
-    user_content = f"Aşağıdaki resmi YTÜ dökümanlarını kullanarak sorumu cevapla:\n\n[RESMİ BAĞLAM]:\n{context}\n\n[ÖĞRENCİ SORUSU]:\n{prompt}"
+    user_content = (
+        f"Aşağıdaki resmi YTÜ dökümanlarını kullanarak sorumu cevapla:\n\n"
+        f"[RESMİ BAĞLAM]:\n{context}\n\n"
+        f"[ÖĞRENCİ SORUSU]:\n{prompt}"
+    )
     messages.append({"role": "user", "content": user_content})
 
     payload = {
         "model": "llama-3.3-70b-versatile",
         "messages": messages,
         "temperature": 0.2,
-        "max_tokens": 1024
+        "max_tokens": 1500
     }
 
-    req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-    with urllib.request.urlopen(req, timeout=12) as response:
-        result = json.loads(response.read().decode("utf-8"))
-        return result["choices"][0]["message"]["content"].strip()
+    async with httpx.AsyncClient(timeout=timeout) as client:
+        response = await client.post(url, json=payload, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        return data["choices"][0]["message"]["content"].strip()
 
-def _call_gemini_sync(prompt: str, context: str, history: List[Dict[str, str]] = None) -> Tuple[str, str]:
-    """Google AI Studio (Gemini Flash) senkron HTTP çağrısı. Döner: (cevap, model_adi)"""
+async def call_gemini_async(
+    prompt: str,
+    context: str,
+    history: Optional[List[Dict[str, str]]] = None,
+    timeout: float = 16.0
+) -> Tuple[str, str]:
+    """Google Gemini Flash modelleri asenkron HTTP çağrısı (x-goog-api-key header güvenliği ile)."""
     if not GEMINI_API_KEY:
         raise ValueError("Gemini API anahtarı girilmedi.")
 
-    # Ultra hızlı, anında yanıt veren ve 503 yoğunluğu olmayan modeller
-    models = ["gemini-flash-lite-latest", "gemini-3.8-flash", "gemini-flash-latest"]
-    
+    models = ["gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-flash-latest"]
+
     raw_contents = []
     if history:
         for turn in history:
@@ -69,7 +84,7 @@ def _call_gemini_sync(prompt: str, context: str, history: List[Dict[str, str]] =
                 "role": role,
                 "parts": [{"text": turn.get("content", "")}]
             })
-    
+
     current_content = (
         f"Aşağıdaki resmi YTÜ dökümanlarını kullanarak sorumu cevapla:\n\n"
         f"[RESMİ BAĞLAM]:\n{context}\n\n"
@@ -80,7 +95,7 @@ def _call_gemini_sync(prompt: str, context: str, history: List[Dict[str, str]] =
         "parts": [{"text": current_content}]
     })
 
-    # Gemini içerik validasyonu (Mutlaka 'user' ile başlamalı ve ardışık aynı roller birleştirilmeli)
+    # Gemini içerik validasyonu (İlk rol 'user' olmalı, ardışık aynı roller birleştirilmeli)
     contents = []
     for turn in raw_contents:
         if not contents and turn["role"] != "user":
@@ -96,37 +111,36 @@ def _call_gemini_sync(prompt: str, context: str, history: List[Dict[str, str]] =
         },
         "contents": contents,
         "generationConfig": {
-            "temperature": 0.4,
+            "temperature": 0.3,
             "maxOutputTokens": 2048
         }
     }
 
-    import time
+    headers = {
+        "Content-Type": "application/json",
+        "x-goog-api-key": GEMINI_API_KEY
+    }
+
     last_error = None
-    for model_name in models:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={GEMINI_API_KEY}"
-        headers = {"Content-Type": "application/json"}
-        req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-        try:
-            print(f"[{model_name} deneniyor...]")
-            with urllib.request.urlopen(req, timeout=18) as response:
-                result = json.loads(response.read().decode("utf-8"))
-                candidates = result.get("candidates", [])
+    async with httpx.AsyncClient(timeout=timeout) as client:
+        for model_name in models:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent"
+            try:
+                logger.info(f"Gemini deneniyor: {model_name}")
+                response = await client.post(url, json=payload, headers=headers)
+                response.raise_for_status()
+                data = response.json()
+                candidates = data.get("candidates", [])
                 if candidates and "content" in candidates[0]:
                     parts = candidates[0]["content"].get("parts", [])
                     if parts and "text" in parts[0]:
-                        display_name = "Gemini Flash-Lite" if "lite" in model_name else "Gemini 3.8 Flash"
+                        display_name = "Gemini Flash-Lite" if "lite" in model_name else "Gemini 2.5 Flash"
                         return parts[0]["text"].strip(), display_name
-        except urllib.error.HTTPError as e:
-            err_body = e.read().decode("utf-8", errors="ignore")
-            print(f"[Gemini HTTP Hata {e.code} ({model_name})]: {err_body[:160]}")
-            last_error = e
-            time.sleep(0.5)
-        except Exception as e:
-            print(f"[Gemini İstek Hatası ({model_name})]: {e}")
-            last_error = e
+            except Exception as e:
+                logger.warning(f"Gemini {model_name} çağrı hatası: {e}")
+                last_error = e
 
-    raise last_error or ValueError("Gemini geçerli bir yanıt döndürmedi.")
+    raise last_error or ValueError("Gemini modellerinden yanıt alınamadı.")
 
 class LLMClient:
     def __init__(self):
@@ -136,31 +150,32 @@ class LLMClient:
         self,
         user_query: str,
         contexts: List[Dict[str, Any]],
-        history: List[Dict[str, str]] = None
+        history: Optional[List[Dict[str, str]]] = None
     ) -> Tuple[str, str]:
         """
         Kullanıcı sorusuna bağlam ve sohbet geçmişi üzerinden yanıt üretir.
         Döner: (cevap_metni, kullanilan_model_adi)
+        Hata durumunda exception fırlatır (kotanın korunması için).
         """
-        context_str = "\n\n---\n\n".join([
-            f"Dosya: {c['file_path']}\nBölüm: {c['title']} - {c['section']}\nİçerik:\n{c['content']}"
-            for c in contexts
-        ])
+        if contexts:
+            context_str = "\n\n---\n\n".join([
+                f"Dosya: {c['file_path']}\nBölüm: {c['title']} - {c['section']}\nGüvenilirlik: {c.get('tier', 'Tier 1')}\nİçerik:\n{c['content']}"
+                for c in contexts
+            ])
+        else:
+            context_str = "İlgili doğrudan resmi döküman bulunamadı. Genel kurumsal YTÜ ilkelerine göre yanıtla."
 
         # 1. Öncelik: Groq Cloud (Llama 3.3 70B)
         try:
-            answer = await asyncio.to_thread(_call_groq_sync, user_query, context_str, history)
+            answer = await call_groq_async(user_query, context_str, history)
             return answer, "Groq (Llama 3.3 70B)"
-        except Exception:
-            pass
+        except Exception as e:
+            logger.info(f"Groq yanıt veremedi ({e}), Gemini fallback deneniyor...")
 
         # 2. Yedek Öncelik: Google Gemini Flash
         try:
-            answer, model_name = await asyncio.to_thread(_call_gemini_sync, user_query, context_str, history)
+            answer, model_name = await call_gemini_async(user_query, context_str, history)
             return answer, model_name
         except Exception as e:
-            return (
-                "Üzgünüm, şu anda yapay zeka model servislerine ulaşılamıyor. "
-                "Lütfen sorunuzu bir süre sonra tekrar deneyiniz veya ilgili bölüm sekreterliğiyle iletişime geçiniz.",
-                "Hata (Servis Çevrimdışı)"
-            )
+            logger.error(f"Tüm LLM servisleri başarısız oldu: {e}")
+            raise RuntimeError(f"Yapay zeka modellerine ulaşılamıyor: {e}") from e

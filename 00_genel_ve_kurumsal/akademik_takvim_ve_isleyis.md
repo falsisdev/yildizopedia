@@ -73,7 +73,7 @@ anahtar_kelimeler: ["akademik takvim 2026-2027", "ders kayıt tarihleri", "vize 
 
 ---
 ### 📌 Kaynak ve Güvenilirlik Bilgisi
-- **Birincil Kaynak:** [YTÜ Öğrenci İşleri Akademik Takvim Sayfası](https://ogi.yildiz.edu.tr/akademik-takvim) ve [2026-2027 Lisans Akademik Takvimi Excel Dosyası](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/arsiv/mevzuat_ve_yonergeler/ytu_2026_2027_lisans_akademik_takvimi.xlsx)
+- **Birincil Kaynak:** [YTÜ Öğrenci İşleri Akademik Takvim Sayfası](https://ogi.yildiz.edu.tr/akademik-takvim) ve [2026-2027 Lisans Akademik Takvimi Excel Dosyası](arsiv/mevzuat_ve_yonergeler/ytu_2026_2027_lisans_akademik_takvimi.xlsx)
 - **Güvenilirlik Düzeyi:** Tier 1 (Resmi Senato Kararı - En Yüksek Hukuki Bağlayıcılık)
 - **Geçerlilik / Güncelleme Tarihi:** 25.06.2026 (2026-2027 Eğitim-Öğretim Yılı)
 - **Yasal Dayanak:** 25.06.2026 tarih ve 06-09 sayılı YTÜ Senato Kararı

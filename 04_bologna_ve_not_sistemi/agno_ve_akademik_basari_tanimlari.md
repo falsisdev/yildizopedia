@@ -2,6 +2,7 @@
 baslik: "YTÜ YNO, AGNO Hesaplama Formülü ve Akademik Başarı Tanımları"
 kategori: "akademik_basari"
 anahtar_kelimeler: ["agno", "yno", "ağırlıklı genel not ortalaması", "başarılı öğrenci", "sınamalı öğrenci", "kredi"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YTÜ YNO ve AGNO Hesaplama Esasları

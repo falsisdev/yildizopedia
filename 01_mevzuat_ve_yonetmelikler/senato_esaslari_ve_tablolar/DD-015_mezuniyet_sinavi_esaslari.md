@@ -3,6 +3,7 @@ kod: "DD-015"
 baslik: "YTÜ Mezuniyet Sınavı ile İlgili Esaslar"
 kategori: "senato_esasi"
 anahtar_kelimeler: ['mezuniyet sınavı', 'tek ders', 'çift ders', 'mezuniyet aşaması', 'agno yükseltme']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Mezuniyet Sınavı ile İlgili Esaslar (DD-015)

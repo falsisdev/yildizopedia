@@ -3,6 +3,7 @@ kod: "DD-058"
 baslik: "YTÜ Bologna Öğretim Planı Geçiş ve İntibak Esasları"
 kategori: "senato_esasi"
 anahtar_kelimeler: ['bologna intibak', 'müfredat değişikliği', 'kod değişikliği', 'ders intibakı']
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YTÜ Bologna Öğretim Planı Geçiş ve İntibak Esasları (DD-058)

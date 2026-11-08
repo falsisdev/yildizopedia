@@ -1,6 +1,7 @@
 import sqlite3
 from datetime import datetime, timezone, timedelta
 from typing import Tuple, Dict, Any
+from pathlib import Path
 from bot.config import SQLITE_DB_PATH, ADMIN_TELEGRAM_ID, DAILY_QUESTION_LIMIT
 
 # Türkiye Saati (UTC+3)
@@ -12,11 +13,13 @@ def get_today_str() -> str:
 
 class Database:
     def __init__(self, db_path=SQLITE_DB_PATH):
-        self.db_path = str(db_path)
+        self.db_path = Path(db_path)
+        self.db_path.parent.mkdir(parents=True, exist_ok=True)
+        self.db_path_str = str(self.db_path)
         self.init_db()
 
     def get_connection(self):
-        conn = sqlite3.connect(self.db_path)
+        conn = sqlite3.connect(self.db_path_str)
         conn.row_factory = sqlite3.Row
         return conn
 

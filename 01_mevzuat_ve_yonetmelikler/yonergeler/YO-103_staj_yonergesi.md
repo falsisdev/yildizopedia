@@ -3,6 +3,7 @@ kod: "YO-103"
 baslik: "YTÜ Staj Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['staj', 'genel staj', 'mesleki staj', 'sgk', 'staj defteri', 'iş günü']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Staj Yönergesi (YÖ-103)

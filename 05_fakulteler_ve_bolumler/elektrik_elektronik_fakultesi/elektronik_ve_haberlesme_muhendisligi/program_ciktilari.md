@@ -3,6 +3,7 @@ baslik: "EHM MÜDEK ve ABET Program Çıktıları (PÇ-1 ile PÇ-11)"
 kaynak_url: "https://ehm.yildiz.edu.tr/bolum/program-ciktilari"
 kategori: "program_ciktilari"
 anahtar_kelimeler: ["program çıktıları", "pç", "müdek", "abet", "akreditasyon", "öğrenme çıktıları"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM Bölümü Program Çıktıları (PÇ)

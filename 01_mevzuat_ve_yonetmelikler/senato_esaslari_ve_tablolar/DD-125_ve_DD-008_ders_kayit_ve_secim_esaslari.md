@@ -3,6 +3,7 @@ kod: "DD-125 / DD-008"
 baslik: "YTÜ Ders Kayıt ve Seçim Esasları"
 kategori: "senato_esasi"
 anahtar_kelimeler: ['ders kayıt', 'ekle sil', 'danışman onayı', 'kredi yükü', 'üstten ders', 'önkoşul']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Ders Kayıt Esasları (DD-125)

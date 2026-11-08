@@ -3,6 +3,7 @@ baslik: "YTÜ Tarihçe, Vizyon, Misyon ve Genel Bilgiler"
 kaynak_url: "https://yildiz.edu.tr/"
 kategori: "genel_bilgiler"
 anahtar_kelimeler: ["tarihçe", "kondüktör mektebi", "yıldız teknik", "vizyon", "misyon", "araştırma üniversitesi"]
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # Yıldız Teknik Üniversitesi Tarihçe ve Genel Bilgiler

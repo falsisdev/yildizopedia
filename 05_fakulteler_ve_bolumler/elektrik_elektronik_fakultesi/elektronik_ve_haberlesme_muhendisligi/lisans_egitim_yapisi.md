@@ -3,6 +3,7 @@ baslik: "EHM Lisans Eğitim Yapısı (%30 ve %100 İngilizce)"
 kaynak_url: "https://ehm.yildiz.edu.tr/egitim/lisans"
 kategori: "lisans_egitimi"
 anahtar_kelimeler: ["%30 ingilizce", "%100 ingilizce", "laboratuvarlar", "yandal", "çap", "bologna"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM Lisans Eğitim Yapısı

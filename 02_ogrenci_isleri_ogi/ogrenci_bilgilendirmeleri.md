@@ -3,6 +3,7 @@ baslik: "YTÜ Öğrenci İşleri Resmi Bilgilendirmeleri ve Usulleri"
 kaynak_url: "https://ogi.yildiz.edu.tr/birim-hakkinda/hizli-erisim/bilgilendirmeler"
 kategori: "bilgilendirmeler"
 anahtar_kelimeler: ["mezuniyet sınavı", "kayıt silme", "ilişik kesme", "belge talebi", "akreditasyon", "yöksis aktif pasif"]
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Öğrenci İşleri Resmi Bilgilendirmeleri

@@ -3,6 +3,7 @@ baslik: "YBD Sıkça Sorulan Sorular (46 Madde Tam Metin)"
 kaynak_url: "https://ybd.yildiz.edu.tr/temel-ingilizce/sikca-sorulan-sorular"
 kategori: "ybd_sss"
 anahtar_kelimeler: ["ybd sss", "devamsızlık", "kitap", "iys", "sağlık raporu", "beklemeli öğrenci", "kur geçme"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YBD Sıkça Sorulan Sorular (Eksiksiz Resmi Kılavuz)

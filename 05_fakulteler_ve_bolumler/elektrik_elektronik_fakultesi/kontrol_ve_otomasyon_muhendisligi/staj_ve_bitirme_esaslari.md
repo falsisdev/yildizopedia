@@ -21,4 +21,4 @@ kaynak: "https://kom.yildiz.edu.tr/staj"
 ## 🎓 2. Tasarım ve Bitirme Çalışması (DD-022)
 - **KOM4901 Tasarım Projesi (7. Yarıyıl):** 4 AKTS. Bir kontrol veya otomasyon sisteminin simülasyonu ve prototip tasarımı.
 - **KOM4902 Bitirme Çalışması (8. Yarıyıl):** 6 AKTS. Tasarım projesini başarma önkoşulu vardır.
-- **Tez Yazımı:** [KOM9000_Bitirme_Calismasi_Sablonu_TR.docx](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/arsiv/fakulteler/eef/kom/KOM9000_Bitirme_Calismasi_Sablonu_TR.docx) ve İngilizce şablonuna uygun olarak hazırlanır ve jüri önünde sözlü savunulur.
+- **Tez Yazımı:** [KOM9000_Bitirme_Calismasi_Sablonu_TR.docx](arsiv/fakulteler/eef/kom/KOM9000_Bitirme_Calismasi_Sablonu_TR.docx) ve İngilizce şablonuna uygun olarak hazırlanır ve jüri önünde sözlü savunulur.

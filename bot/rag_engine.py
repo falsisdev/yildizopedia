@@ -1,15 +1,20 @@
 import os
 import re
 import math
-import io
-import zipfile
-import urllib.request
-import urllib.error
 from pathlib import Path
-from typing import List, Dict, Any, Tuple
-from bot.config import KNOWLEDGE_BASE_DIR, CHROMA_PERSIST_DIR, GITHUB_REPO_URL, GITHUB_BRANCH, DATA_CACHE_DIR
+from typing import List, Dict, Any, Tuple, Optional
+from bot.config import KNOWLEDGE_BASE_DIR
 
-EXCLUDED_DIRS = {".git", ".system_generated", "bot", "scratch", "venv", ".venv", "__pycache__", "chroma_db", "chroma_data", "data_cache", "build", "dist"}
+try:
+    import frontmatter
+except ImportError:
+    frontmatter = None
+
+EXCLUDED_DIRS = {
+    ".git", ".system_generated", "bot", "scratch", "venv", ".venv",
+    "__pycache__", "chroma_db", "chroma_data", "data_cache", "build",
+    "dist", "var", "path", "tests"
+}
 EXCLUDED_FILES = {"README.md", "AGENT_INSTRUCTIONS.md", "INDEX.md", "ROUTER_GUIDE.md"}
 
 TURKISH_STOPWORDS = {
@@ -33,24 +38,59 @@ def tokenize(text: str) -> List[str]:
     text = tr_lower(text)
     return [t for t in re.findall(r"[a-z0-9çğıöşü]+", text) if len(t) > 1 and t not in TURKISH_STOPWORDS]
 
+def parse_frontmatter_safe(raw_text: str) -> Tuple[Dict[str, Any], str]:
+    """YAML Frontmatter'ı ayrıştırır ve gövde Markdown metnini döndürür."""
+    if frontmatter is not None:
+        try:
+            post = frontmatter.loads(raw_text)
+            return dict(post.metadata), post.content
+        except Exception:
+            pass
+
+    # Regex tabanlı hafif fallback
+    if raw_text.startswith("---"):
+        parts = raw_text.split("---", 2)
+        if len(parts) >= 3:
+            yaml_block = parts[1]
+            body = parts[2].strip()
+            meta = {}
+            for line in yaml_block.split("\n"):
+                line = line.strip()
+                if ":" in line and not line.startswith("#"):
+                    k, v = line.split(":", 1)
+                    meta[k.strip()] = v.strip().strip('"').strip("'")
+            return meta, body
+
+    return {}, raw_text
+
 class DocumentChunk:
-    def __init__(self, file_path: str, title: str, section: str, content: str, tier: str = "Tier 1"):
+    def __init__(
+        self,
+        file_path: str,
+        title: str,
+        section: str,
+        content: str,
+        tier: str = "Tier 1 (Resmi Belge)",
+        metadata: Optional[Dict[str, Any]] = None
+    ):
         self.file_path = file_path
         self.title = title
         self.section = section
         self.content = content
         self.tier = tier
-        self.tokens = tokenize(content + " " + title + " " + section)
+        self.metadata = metadata or {}
+        # Arama indeksine sadece başlık, bölüm ve gövdeyi dahil et; YAML anahtarlarını karıştırma
+        self.tokens = tokenize(title + " " + section + " " + content)
 
 class SimpleBM25:
-    """Saf Python Okapi BM25 Arama Motoru."""
+    """Okapi BM25 Arama Motoru."""
     def __init__(self, chunks: List[DocumentChunk], k1: float = 1.5, b: float = 0.75):
         self.chunks = chunks
         self.k1 = k1
         self.b = b
         self.doc_len = [len(c.tokens) for c in chunks]
         self.avg_doc_len = sum(self.doc_len) / len(self.doc_len) if self.doc_len else 1.0
-        
+
         self.df: Dict[str, int] = {}
         self.tf: List[Dict[str, int]] = []
         for c in chunks:
@@ -67,6 +107,9 @@ class SimpleBM25:
             self.idf[t] = math.log(1 + (self.N - freq + 0.5) / (freq + 0.5))
 
     def score(self, query_tokens: List[str], top_k: int = 5) -> List[DocumentChunk]:
+        if not self.chunks or not query_tokens:
+            return []
+
         scores = [0.0] * self.N
         for t in query_tokens:
             if t not in self.idf:
@@ -80,98 +123,48 @@ class SimpleBM25:
                     scores[idx] += idf_val * (numerator / denominator)
 
         ranked_indices = sorted(range(self.N), key=lambda i: scores[i], reverse=True)
+        # SIFIR EŞLEŞME GÜVENLİĞİ: Sadece pozitif skora sahip parçaları döndür
         results = [self.chunks[i] for i in ranked_indices if scores[i] > 0]
-        return results[:top_k] if results else self.chunks[:top_k]
+        return results[:top_k]
 
 class RAGEngine:
     def __init__(self, kb_dir: Path = KNOWLEDGE_BASE_DIR):
         self.kb_dir = kb_dir
         self.chunks: List[DocumentChunk] = []
-        self.bm25: SimpleBM25 = None
-        self.last_sync_info = "Henüz senkronize edilmedi."
+        self.bm25: Optional[SimpleBM25] = None
+        self.last_sync_info = "Yerel bilgi bankası yüklendi."
         
-        # 1. Başlangıçta GitHub'dan en güncel veriyi çekmeyi dene
-        self.sync_from_github()
-        
-        # 2. İndeksle
+        # Dökümanları yükle ve indeksle
         self._load_and_index_documents()
 
-    def sync_from_github(self) -> Tuple[bool, str]:
-        """
-        github.com/falsisdev/yildizopedia reposundan en güncel dökümanları senkronize eder.
-        Eğer yerel git reposu mevcutsa 'git pull' ile anında (0.2 sn) günceller.
-        Tekil binary modunda ise zip arşivini indirir.
-        """
-        import subprocess
-        from bot.config import BASE_DIR
-
-        # 1. Eğer yerel git deposu varsa doğrudan hızlı git pull yap
-        git_dir = BASE_DIR / ".git"
-        if git_dir.exists():
-            try:
-                print(f"[Git Senkronizasyonu]: 'git pull origin {GITHUB_BRANCH}' çalıştırılıyor...")
-                res = subprocess.run(
-                    ["git", "pull", "origin", GITHUB_BRANCH],
-                    cwd=str(BASE_DIR),
-                    capture_output=True,
-                    text=True,
-                    timeout=8
-                )
-                if res.returncode == 0:
-                    self.kb_dir = KNOWLEDGE_BASE_DIR
-                    self._load_and_index_documents()
-                    status_text = res.stdout.strip().split("\n")[-1]
-                    msg = f"✅ Git Senkronizasyonu Başarılı: {status_text}"
-                    print(f"[Git Senkronizasyonu]: {msg}")
-                    self.last_sync_info = msg
-                    return True, msg
-            except Exception as e:
-                print(f"[Git Senkronizasyon Uyarısı]: {e}")
-
-        # 2. Standart ZIP İndirme (Git olmayan ortamlar için)
-        zip_url = f"{GITHUB_REPO_URL}/archive/refs/heads/{GITHUB_BRANCH}.zip"
-        req = urllib.request.Request(zip_url, headers={"User-Agent": "YildizopediaBot/1.0"})
-        
+    def reload_index(self) -> Tuple[bool, str]:
+        """Bilgi bankası dökümanlarını yeniden okur ve bellek içi indeksi günceller."""
         try:
-            print(f"[GitHub ZIP Senkronizasyonu]: {zip_url} kontrol ediliyor...")
-            with urllib.request.urlopen(req, timeout=12) as res:
-                zip_bytes = io.BytesIO(res.read())
-
-            target_dir = DATA_CACHE_DIR
-            target_dir.mkdir(parents=True, exist_ok=True)
-            extracted_count = 0
-
-            with zipfile.ZipFile(zip_bytes) as z:
-                for member in z.namelist():
-                    parts = member.split("/", 1)
-                    if len(parts) > 1 and parts[1]:
-                        rel_path = parts[1]
-                        if rel_path.endswith(".md"):
-                            dest_file = target_dir / rel_path
-                            dest_file.parent.mkdir(parents=True, exist_ok=True)
-                            with z.open(member) as src, open(dest_file, "wb") as dst:
-                                dst.write(src.read())
-                            extracted_count += 1
-
-            self.kb_dir = target_dir
             self._load_and_index_documents()
-            msg = f"✅ GitHub ({GITHUB_REPO_URL}) üzerinden {extracted_count} adet güncel döküman başarıyla çekildi ve indekslendi."
-            print(f"[GitHub Senkronizasyonu Başarılı]: {msg}")
+            msg = f"✅ Bilgi bankası tazelendi: {len(self.chunks)} bölüm parçası indekslendi."
             self.last_sync_info = msg
             return True, msg
         except Exception as e:
-            msg = f"⚠️ GitHub ({GITHUB_REPO_URL}) senkronizasyonu yapılamadı ({e}). Yerel dökümanlar kullanılıyor."
-            print(f"[GitHub Senkronizasyon Bildirimi]: {msg}")
+            msg = f"❌ İndeks yenileme hatası: {e}"
             self.last_sync_info = msg
             return False, msg
 
-    def _determine_tier(self, rel_path: str) -> str:
-        if "reddit" in rel_path or "itiraf" in rel_path or "kariyer" in rel_path or "wikipedia" in rel_path:
-            return "İkincil / Öğrenci Platformu (Tier 2)"
-        return "Resmi Kurumsal Belge (Tier 1)"
+    def _determine_tier_fallback(self, rel_path: str, meta: Dict[str, Any]) -> str:
+        """Frontmatter'da guvenilirlik_duzeyi yoksa güvenli hiyerarşik varsayılan belirler."""
+        if "guvenilirlik_duzeyi" in meta and meta["guvenilirlik_duzeyi"]:
+            return str(meta["guvenilirlik_duzeyi"])
+
+        rel_lower = rel_path.lower()
+        if "00_genel_ve_kurumsal/ogrenci_topluluklari" in rel_lower or "itiraf" in rel_lower or "reddit" in rel_lower:
+            return "Tier 4 (Gayriresmî Öğrenci Deneyimi / Doğrulamaya Muhtaç)"
+        if "vikipedi" in rel_lower or "taban_puan" in rel_lower:
+            return "Tier 3 (İkincil / İstatistiki Kaynak)"
+        if "05_fakulteler" in rel_lower or "bologna" in rel_lower:
+            return "Tier 2 (Resmi Bologna ve Bölüm Portalı)"
+        return "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 
     def _load_and_index_documents(self):
-        """Tüm dökümanları hem ## hem de ### (Madde/Soru) bazında granüler parçalar olarak indeksler."""
+        """Tüm markdown dökümanlarını frontmatter ayrıştırmasıyla granüler parçalar olarak indeksler."""
         all_chunks = []
         if not self.kb_dir.exists():
             return
@@ -186,22 +179,30 @@ class RAGEngine:
 
                 try:
                     with open(file_path, "r", encoding="utf-8") as f:
-                        text = f.read()
+                        raw_text = f.read()
                 except Exception:
                     continue
 
-                tier = self._determine_tier(rel_path)
-                chunks = self._chunk_markdown(text, rel_path, tier)
+                meta, body = parse_frontmatter_safe(raw_text)
+                tier = self._determine_tier_fallback(rel_path, meta)
+                chunks = self._chunk_markdown(body, rel_path, tier, meta)
                 all_chunks.extend(chunks)
 
         self.chunks = all_chunks
         if self.chunks:
             self.bm25 = SimpleBM25(self.chunks)
 
-    def _chunk_markdown(self, text: str, rel_path: str, tier: str) -> List[DocumentChunk]:
-        """Markdown dökümanını ## ve ### başlıklarına göre ayırır (Maddeler ve sorular izole edilir)."""
-        sections = re.split(r'\n(?=###? )', text)
-        doc_title = Path(rel_path).stem.replace("_", " ").title()
+    def _chunk_markdown(
+        self,
+        body_text: str,
+        rel_path: str,
+        tier: str,
+        meta: Dict[str, Any]
+    ) -> List[DocumentChunk]:
+        """Markdown gövdesini ## ve ### başlıklarına göre ayırır."""
+        sections = re.split(r'\n(?=###? )', body_text)
+        default_title = meta.get("baslik") or Path(rel_path).stem.replace("_", " ").title()
+        doc_title = default_title
         chunks = []
 
         for s in sections:
@@ -211,19 +212,64 @@ class RAGEngine:
             lines = s_clean.split("\n")
             first_line = lines[0]
 
-            if first_line.startswith("# ") and doc_title == Path(rel_path).stem.replace("_", " ").title():
+            if first_line.startswith("# ") and doc_title == default_title:
                 doc_title = first_line.replace("#", "").strip()
 
             sec_title = first_line.replace("#", "").strip() if first_line.startswith("#") else "Genel"
             content = "\n".join(lines[1:]).strip() if len(lines) > 1 else s_clean
 
             if len(content) > 35:
-                chunks.append(DocumentChunk(rel_path, doc_title, sec_title, content, tier))
+                chunks.append(DocumentChunk(rel_path, doc_title, sec_title, content, tier, meta))
 
-        if not chunks and text.strip():
-            chunks.append(DocumentChunk(rel_path, doc_title, "Genel", text.strip(), tier))
+        if not chunks and body_text.strip():
+            chunks.append(DocumentChunk(rel_path, doc_title, "Genel", body_text.strip(), tier, meta))
 
         return chunks
+
+    def _extract_semester_and_department(self, q_lower: str) -> Tuple[Optional[str], Optional[str]]:
+        """Sorgudan bölüm ve hedeflenen Bologna yarıyıl dosyasını regex ile güvenle çıkarır."""
+        dept_keywords = {
+            "elektronik": "elektronik_ve_haberlesme",
+            "haberleşme": "elektronik_ve_haberlesme",
+            "ehm": "elektronik_ve_haberlesme",
+            "bilgisayar": "bilgisayar_muhendisligi",
+            "makine": "makine_muhendisligi",
+            "endüstri": "endustri_muhendisligi",
+            "mekatronik": "mekatronik_muhendisligi",
+            "kimya": "kimya_muhendisligi",
+            "biyomühendislik": "biyomuhendislik",
+            "gıda": "gida_muhendisligi",
+            "matematik": "matematik_muhendisligi",
+            "metalurji": "metalurji_ve_malzeme",
+            "elektrik": "elektrik_muhendisligi",
+            "kontrol": "kontrol_ve_otomasyon",
+            "biyomedikal": "biyomedikal_muhendisligi",
+            "yapay zeka": "yapay_zeka_ve_veri"
+        }
+
+        detected_dept = None
+        for k, folder in dept_keywords.items():
+            if k in q_lower:
+                detected_dept = folder
+                break
+
+        # Güvenli Regex Yarıyıl Tespiti (Örn: "3. yarıyıl", "3 yarıyıl", "5. dönem")
+        sem_num = None
+        m_yariyil = re.search(r'\b([1-8])\.?\s*(yarıyıl|yariyil|dönem|donem)\b', q_lower)
+        if m_yariyil:
+            sem_num = int(m_yariyil.group(1))
+        else:
+            # Sınıf + Güz/Bahar Tespiti (Örn: "2. sınıf güz" -> 3, "1. sınıf bahar" -> 2)
+            m_sinif = re.search(r'\b([1-4])\.?\s*sınıf\b', q_lower)
+            if m_sinif:
+                s_val = int(m_sinif.group(1))
+                if "bahar" in q_lower:
+                    sem_num = s_val * 2
+                elif "güz" in q_lower or "guz" in q_lower:
+                    sem_num = (s_val * 2) - 1
+
+        sem_file = f"{sem_num}_yariyil.md" if sem_num else None
+        return detected_dept, sem_file
 
     def search(self, query: str, top_k: int = 4) -> List[Dict[str, Any]]:
         """Kullanıcı sorusuyla en alakalı döküman parçalarını seçer ve döküman çeşitliliği sağlar."""
@@ -231,9 +277,13 @@ class RAGEngine:
             return []
 
         tokens = tokenize(query)
-        raw_matches = self.bm25.score(tokens, top_k=50)
+        if not tokens:
+            return []
 
-        # 1. Genel arama sonuçlarından en iyi parçaları topla (dosya başına max 1)
+        raw_matches = self.bm25.score(tokens, top_k=50)
+        if not raw_matches:
+            return []
+
         selected: List[DocumentChunk] = []
         seen_files: set = set()
         
@@ -264,80 +314,31 @@ class RAGEngine:
                     selected.append(best_mevzuat[0])
 
         # 3. Akıllı Müfredat ve Bologna Yönlendirmesi
-        # Eğer bir bölüm ve yarıyıl/dönem soruluyorsa, doğrudan o yarıyılın ders tablosunu 1. sıraya ekle
-        dept_keywords = {
-            "elektronik": "elektronik_ve_haberlesme",
-            "haberleşme": "elektronik_ve_haberlesme",
-            "ehm": "elektronik_ve_haberlesme",
-            "bilgisayar": "bilgisayar_muhendisligi",
-            "makine": "makine_muhendisligi",
-            "endüstri": "endustri_muhendisligi",
-            "mekatronik": "mekatronik_muhendisligi",
-            "kimya": "kimya_muhendisligi",
-            "biyomühendislik": "biyomuhendislik",
-            "gıda": "gida_muhendisligi",
-            "matematik": "matematik_muhendisligi",
-            "metalurji": "metalurji_ve_malzeme",
-            "elektrik": "elektrik_muhendisligi",
-            "kontrol": "kontrol_ve_otomasyon",
-            "biyomedikal": "biyomedikal_muhendisligi",
-            "yapay zeka": "yapay_zeka_ve_veri"
-        }
-
-        semester_map = {
-            ("1", "güz"): "1_yariyil.md",
-            ("1", "yarıyıl"): "1_yariyil.md",
-            ("1", "bahar"): "2_yariyil.md",
-            ("2", "yarıyıl"): "2_yariyil.md",
-            ("2", "güz"): "3_yariyil.md",
-            ("3", "yarıyıl"): "3_yariyil.md",
-            ("2", "bahar"): "4_yariyil.md",
-            ("4", "yarıyıl"): "4_yariyil.md",
-            ("3", "güz"): "5_yariyil.md",
-            ("5", "yarıyıl"): "5_yariyil.md",
-            ("3", "bahar"): "6_yariyil.md",
-            ("6", "yarıyıl"): "6_yariyil.md",
-            ("4", "güz"): "7_yariyil.md",
-            ("7", "yarıyıl"): "7_yariyil.md",
-            ("4", "bahar"): "8_yariyil.md",
-            ("8", "yarıyıl"): "8_yariyil.md"
-        }
-
-        detected_dept_folder = None
-        for k, folder in dept_keywords.items():
-            if k in q_lower:
-                detected_dept_folder = folder
-                break
-
-        detected_sem_file = None
-        for (num, term), sem_file in semester_map.items():
-            if num in q_lower and term in q_lower:
-                detected_sem_file = sem_file
-                break
-
+        detected_dept_folder, detected_sem_file = self._extract_semester_and_department(q_lower)
         if detected_dept_folder and detected_sem_file:
             for c in self.chunks:
                 if detected_dept_folder in c.file_path and detected_sem_file in c.file_path:
                     if "ders listesi" in tr_lower(c.section) or "|" in c.content:
-                        if c not in selected:
-                            selected.insert(0, c)
+                        if c in selected:
+                            selected.remove(c)
+                        selected.insert(0, c)
+                        has_bolum = True
                         break
 
-        # 4. Eğer bölüm adı geçiyorsa ve seçilenler arasında bölüm dökümanı yoksa bölümden ekle
-        for dept in ["elektronik", "haberleşme", "makine", "endüstri", "mekatronik", "kimya", "biyomühendislik", "gıda", "matematik", "metalurji", "bilgisayar", "elektrik", "biyomedikal"]:
-            if dept in q_lower and not has_bolum:
-                dept_matches = [c for c in self.chunks if "05_fakulteler" in c.file_path and dept in tr_lower(c.file_path)]
-                if dept_matches:
-                    dept_bm25 = SimpleBM25(dept_matches)
-                    best_dept = dept_bm25.score(tokens, top_k=1)
-                    if best_dept and best_dept[0] not in selected:
-                        selected.append(best_dept[0])
-                break
+        # 4. Bölüm sorusuysa ve henüz bölüm dökümanı yoksa bölüm ekle
+        if detected_dept_folder and not has_bolum:
+            dept_matches = [c for c in self.chunks if "05_fakulteler" in c.file_path and detected_dept_folder in c.file_path]
+            if dept_matches:
+                dept_bm25 = SimpleBM25(dept_matches)
+                best_dept = dept_bm25.score(tokens, top_k=1)
+                if best_dept and best_dept[0] not in selected:
+                    selected.append(best_dept[0])
 
         return [{
             "file_path": c.file_path,
             "title": c.title,
             "section": c.section,
             "content": c.content,
-            "tier": c.tier
+            "tier": c.tier,
+            "metadata": c.metadata
         } for c in selected]

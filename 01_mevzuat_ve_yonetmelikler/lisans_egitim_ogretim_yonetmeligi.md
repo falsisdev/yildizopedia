@@ -5,6 +5,7 @@ resmi_gazete_tarihi: "19/01/2012 - 28178"
 kategori: "temel_yonetmelik"
 baglantili_kurum: "YTÜ Rektörlüğü / YÖK"
 anahtar_kelimeler: ['lisans', 'kayıt', 'devamsızlık', 'sınav', 'harf notu', 'agno', 'mezuniyet', 'ek sınav', 'azami süre']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # Yıldız Teknik Üniversitesi Önlisans ve Lisans Eğitim-Öğretim Yönetmeliği (Mevzuat No: 15812)

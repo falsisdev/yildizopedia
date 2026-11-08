@@ -3,6 +3,7 @@ kod: "DD-118 / DD-013"
 baslik: "YTÜ Lisans Mezunlarının Derece Tespitine Yönelik Usul ve Esaslar"
 kategori: "senato_esasi"
 anahtar_kelimeler: ['derece', 'bölüm birincisi', 'fakülte birincisi', 'üniversite derecesi', 'onur öğrencisi']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Lisans Mezunlarının Derece Tespitine Yönelik Usul ve Esaslar (DD-118 / DD-013)

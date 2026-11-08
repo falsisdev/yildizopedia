@@ -3,6 +3,7 @@ baslik: "EHM Bölüm Sınav Kuralları ve Salon Disiplini"
 kaynak_url: "https://ehm.yildiz.edu.tr/ogrenci/sinav-kurallari"
 kategori: "sinav_kurallari"
 anahtar_kelimeler: ["ehm sınav kuralları", "hesap makinesi", "salon disiplini", "sınav itirazı", "yö-075"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM Bölümü Sınav Kuralları

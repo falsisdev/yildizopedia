@@ -3,6 +3,7 @@ baslik: "YTÜ Lisans Programları Genel Kabul ve Kayıt Koşulları"
 kaynak_url: "https://www.bologna.yildiz.edu.tr/index.php?r=institution/admission"
 kategori: "kabul_ve_kayit"
 anahtar_kelimeler: ["yks", "dgs", "yatay geçiş", "ek madde 1", "yurtdışı kabul", "çap", "kayıt"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YTÜ Lisans Programları Genel Kabul ve Kayıt Koşulları

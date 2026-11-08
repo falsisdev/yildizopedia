@@ -2,6 +2,7 @@
 baslik: "EHM Bologna Önkoşul Zincirleri ve Ders Bağımlılık Haritası"
 kategori: "onkosul_haritasi"
 anahtar_kelimeler: ["önkoşul", "bağımlılık", "kilit dersler", "bitirme önkoşulu", "laboratuvar önkoşulları"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM Bologna Önkoşul Zincirleri ve Bağımlılık Haritası

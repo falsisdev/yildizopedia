@@ -2,6 +2,7 @@
 baslik: "YTÜ ve YÖK 4'lük ve 100'lük Not Dönüşüm Tabloları"
 kategori: "senato_esasi_tablo"
 anahtar_kelimeler: ['not dönüşümü', '4lük sistem', '100lük sistem', 'yök dönüşüm tablosu', 'harf notu']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ ve YÖK 4'lük ve 100'lük Not Dönüşüm Tabloları (DD-039)

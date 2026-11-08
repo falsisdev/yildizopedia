@@ -3,6 +3,7 @@ kod: "DD-042"
 baslik: "YTÜ Sınav Sonuçlarına Yapılacak İtirazlar ile İlgili Esaslar"
 kategori: "senato_esasi"
 anahtar_kelimeler: ['itiraz', 'maddi hata', 'sınav kağıdı', 'not düzeltme']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Sınav Sonuçlarına Yapılacak İtirazlar ile İlgili Esaslar (DD-042)

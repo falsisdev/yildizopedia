@@ -3,6 +3,7 @@ baslik: "İYS 1. Oturum Örnek Sınav Analizi"
 arsivlenmis_dosya: "arsiv/ybd_belgeleri/Session_I_(Sample_EPE.pdf"
 kategori: "iys_ornekleri"
 anahtar_kelimeler: ["session 1", "reading comprehension", "vocabulary", "close test"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # İYS 1. Oturum: Reading & Language Use

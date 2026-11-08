@@ -3,6 +3,7 @@ kod: "DD-022"
 baslik: "YTÜ Lisans Öğretimi Bitirme Çalışması İlkeleri"
 kategori: "senato_esasi"
 anahtar_kelimeler: ['bitirme', 'bitirme çalışması', 'tez', 'jüri', 'sunum', 'ehm9000']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Lisans Öğretimi Bitirme Çalışması İlkeleri (DD-022)

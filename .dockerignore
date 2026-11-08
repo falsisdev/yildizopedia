@@ -1,0 +1,30 @@
+# Git & Version Control
+.git/
+.gitignore
+
+# Virtual Environments & Python Cache
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database & Variable State
+var/
+*.sqlite
+*.sqlite3
+bot_data.sqlite3
+
+# Large Binary Source Archive (Not needed inside runtime container)
+arsiv/
+
+# Local Dev & IDE
+.vscode/
+.idea/
+.DS_Store
+*.log
+scratch/
+.system_generated/
+tmp/

@@ -3,6 +3,7 @@ kod: "YÖ-102"
 baslik: "YTÜ Yurt Dışından Lisans Programlarına Öğrenci Kabul Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['yurtdışı kabul', 'yös', 'sat', 'uluslararası öğrenci', 'yabancı uyruklu']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Yurt Dışından Lisans Programlarına Öğrenci Kabul Yönergesi (YÖ-102)

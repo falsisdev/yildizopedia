@@ -3,6 +3,7 @@ kod: "YÖ-064"
 baslik: "YTÜ Önceki Öğrenmenin Tanınmasına İlişkin Yönerge"
 kategori: "yonerge"
 anahtar_kelimeler: ['önceki öğrenme', 'sertifika', 'yeterlilik sınavı', 'akreditasyon', 'muafiyet']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Önceki Öğrenmenin Tanınmasına İlişkin Yönerge (YÖ-064)

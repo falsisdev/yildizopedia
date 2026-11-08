@@ -32,7 +32,7 @@ Akran danışmanları; fakülteye yeni başlayan öğrencilerin ders seçimleri,
 ## 🚨 2. EEF Acil Durum Eylem Planı Özeti
 
 Fakültenin Davutpaşa Kampüsü'ndeki binasında acil durumlarda (deprem, yangın, tahliye, ilkyardım) izlenecek prosedürler dekanlık tarafından resmi olarak yayımlanmıştır:
-- **Orijinal Belge:** [EEF_Acil_durum_eylem_plani.pdf](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/arsiv/fakulteler/eef/dekanlik/EEF_Acil_durum_eylem_plani.pdf)
+- **Orijinal Belge:** [EEF_Acil_durum_eylem_plani.pdf](arsiv/fakulteler/eef/dekanlik/EEF_Acil_durum_eylem_plani.pdf)
 
 ### Temel Protokoller:
 1. **Acil Tahliye:** Yangın veya deprem anında asansörler kesinlikle kullanılmaz; koridorlardaki yeşil yönlendirme tabelaları takip edilerek acil çıkış merdivenlerinden bina terk edilir.

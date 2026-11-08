@@ -3,6 +3,7 @@ kod: "YO-096"
 baslik: "YTÜ Azami Öğrenim Süresini Tamamlayan Öğrencilerin Ek Süre ve Sınav Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['azami süre', 'ek sınav', '7 yıl', 'mezuniyet', 'ilişik kesme', '2547 madde 44']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Azami Öğrenim Süresini Tamamlayan Öğrencilerin Ek Süre ve Sınav Yönergesi (YÖ-096)

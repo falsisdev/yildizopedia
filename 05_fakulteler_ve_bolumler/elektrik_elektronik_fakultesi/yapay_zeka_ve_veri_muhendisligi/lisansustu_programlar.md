@@ -14,4 +14,4 @@ kaynak: "http://www.fbe.yildiz.edu.tr/"
 | **Yapay Zeka ve Veri Mühendisliği Tezli YL Programı** | Tezli YL | 562 | İngilizce |
 
 - **Yasal Dayanak:** YTÜ Fen Bilimleri Enstitüsü (FBE).
-- **Detaylı Bilgilendirme Kılavuzu:** [AI_Yuksek_Lisans_Programi_Tanitim_Kilavuzu.pdf](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/arsiv/fakulteler/eef/ai/AI_Yuksek_Lisans_Programi_Tanitim_Kilavuzu.pdf)
+- **Detaylı Bilgilendirme Kılavuzu:** [AI_Yuksek_Lisans_Programi_Tanitim_Kilavuzu.pdf](arsiv/fakulteler/eef/ai/AI_Yuksek_Lisans_Programi_Tanitim_Kilavuzu.pdf)

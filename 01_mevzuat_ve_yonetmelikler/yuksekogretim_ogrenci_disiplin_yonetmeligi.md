@@ -3,6 +3,7 @@ baslik: "Yükseköğretim Kanunu Madde 54 - Öğrenci Disiplin Hükümleri"
 kanun_no: "2547 Madde 54 (7437 Sayılı Kanun)"
 kategori: "kanun_disiplin"
 anahtar_kelimeler: ['disiplin', 'kopya', 'kınama', 'uzaklaştırma', 'çıkarma', 'savunma', 'itiraz süresi']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # Yükseköğretim Öğrenci Disiplin Hükümleri (2547 Sayılı Kanun Madde 54)

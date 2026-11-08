@@ -2,6 +2,7 @@
 baslik: "EHM Seçimlik Ders Havuzları ve Teknik Seçmeli Grupları"
 kategori: "secimli_dersler"
 anahtar_kelimeler: ["mesleki seçmeli", "teknik seçmeli", "sosyal seçmeli", "uss", "mes", "ums"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM Seçimlik Ders Havuzları

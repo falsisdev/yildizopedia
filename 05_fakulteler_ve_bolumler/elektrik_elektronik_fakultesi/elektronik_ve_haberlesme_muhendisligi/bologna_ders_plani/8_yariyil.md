@@ -3,6 +3,7 @@ baslik: "EHM Bologna 8. Yarıyıl Dersleri ve Detay Kartları"
 yariyil: 8
 kategori: "bologna_yariyil"
 anahtar_kelimeler: ["ehm 8. yarıyıl", "ders içerikleri", "akts", "haftalık izlence", "değerlendirme"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM 8. Yarıyıl Ders Programı ve Detaylı Kartları

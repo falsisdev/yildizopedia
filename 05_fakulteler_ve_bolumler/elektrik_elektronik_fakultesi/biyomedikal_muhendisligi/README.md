@@ -28,10 +28,10 @@ Eğitim dili **%100 İngilizce**dir.
 ---
 
 ## 📚 Dokümantasyon Rehberi
-- [Lisans Eğitim Yapısı (%100 İngilizce)](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/lisans_egitim_yapisi.md): %100 İngilizce program profili, program çıktıları ve eğitim hedefleri.
-- [Staj ve ÇDTP / Bitirme Esasları](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/staj_ve_cdtp_esaslari.md): Hastane/Klinik ve Endüstri stajları, Çok Disiplinli Tasarım Projesi (ÇDTP) süreçleri ve Bitirme Tezi.
-- [Laboratuvarlar ve Araştırma Altyapısı](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/laboratuvarlar_ve_arastirma.md): Biyomedikal laboratuvarları, donanımları ve araştırma alanları.
-- [Komisyonlar ve Öğrenci Danışmanlığı](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/komisyonlar_ve_ogrenci_danismanligi.md): Bölüm komisyonları ve danışmanlık.
-- [Lisansüstü Programlar](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/lisansustu_programlar.md): Biyomedikal Mühendisliği Tezli YL (Bologna ID: 542).
-- [Biyomedikal Mühendisliği SSS](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/sikca_sorulan_sorular.md): Bölüm ve staj SSS tam metni.
-- [Bologna Ders Planı (1-8. Yarıyıllar)](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/bologna_ders_plani/README.md): 8 yarıyılın BME kodlu dersleri ve önkoşulları.
+- [Lisans Eğitim Yapısı (%100 İngilizce)](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/lisans_egitim_yapisi.md): %100 İngilizce program profili, program çıktıları ve eğitim hedefleri.
+- [Staj ve ÇDTP / Bitirme Esasları](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/staj_ve_cdtp_esaslari.md): Hastane/Klinik ve Endüstri stajları, Çok Disiplinli Tasarım Projesi (ÇDTP) süreçleri ve Bitirme Tezi.
+- [Laboratuvarlar ve Araştırma Altyapısı](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/laboratuvarlar_ve_arastirma.md): Biyomedikal laboratuvarları, donanımları ve araştırma alanları.
+- [Komisyonlar ve Öğrenci Danışmanlığı](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/komisyonlar_ve_ogrenci_danismanligi.md): Bölüm komisyonları ve danışmanlık.
+- [Lisansüstü Programlar](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/lisansustu_programlar.md): Biyomedikal Mühendisliği Tezli YL (Bologna ID: 542).
+- [Biyomedikal Mühendisliği SSS](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/sikca_sorulan_sorular.md): Bölüm ve staj SSS tam metni.
+- [Bologna Ders Planı (1-8. Yarıyıllar)](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/biyomedikal_muhendisligi/bologna_ders_plani/README.md): 8 yarıyılın BME kodlu dersleri ve önkoşulları.

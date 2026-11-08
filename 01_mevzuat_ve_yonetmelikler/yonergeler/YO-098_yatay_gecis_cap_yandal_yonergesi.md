@@ -3,6 +3,7 @@ kod: "YO-098"
 baslik: "YTÜ Lisans Düzeyindeki Programlar Arasında Geçiş ile Çift Anadal ve Yan Dal Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['çift anadal', 'çap', 'yandal', 'yatay geçiş', 'kurum içi yatay geçiş', 'ek madde 1', 'ortalama']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Lisans Düzeyindeki Programlar Arasında Geçiş ile Çift Anadal, Yan Dal Yönergesi (YÖ-098)

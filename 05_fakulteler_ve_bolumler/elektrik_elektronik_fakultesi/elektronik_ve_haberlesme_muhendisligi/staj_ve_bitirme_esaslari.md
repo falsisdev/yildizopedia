@@ -3,6 +3,7 @@ baslik: "EHM Staj, Tasarım Projesi ve Bitirme Çalışması Esasları"
 kaynak_url: "https://ehm.yildiz.edu.tr/ogrenci/staj"
 kategori: "staj_ve_bitirme"
 anahtar_kelimeler: ["ehm staj", "genel staj 30 gün", "mesleki staj 30 gün", "ehm4200", "ehm9000", "staj defteri fr-1876"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM Staj, Tasarım Projesi ve Bitirme Çalışması Esasları

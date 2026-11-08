@@ -2,6 +2,7 @@
 baslik: "YTÜ Kayıt Dondurma ve İzinli Ayrılma Esasları"
 kategori: "kayit_islemleri"
 anahtar_kelimeler: ["kayıt dondurma", "izinli ayrılma", "askerlik", "sağlık kurulu raporu", "maddi imkansızlık"]
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Kayıt Dondurma ve İzinli Ayrılma İşlemleri

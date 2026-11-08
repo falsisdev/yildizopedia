@@ -2,6 +2,7 @@
 baslik: "YBD Sınav ve Başarı Değerlendirme Esasları"
 kategori: "ybd_sinavlar"
 anahtar_kelimeler: ["kur başarı notu", "portfolyo", "writing", "speaking", "iys barajı", "devamsızlık sınırı %85"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YBD Sınav ve Başarı Değerlendirme Esasları

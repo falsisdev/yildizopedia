@@ -3,6 +3,7 @@ baslik: "YBD Kurlar, Ders İçerikleri ve Program Amaçları"
 kaynak_url: "https://ybd.yildiz.edu.tr/temel-ingilizce/duzeyler-ders-icerikleri-program-amaclari"
 kategori: "kurlar_ve_icerik"
 anahtar_kelimeler: ["a1 kuru", "a2 kuru", "b1 kuru", "b2 kuru", "c1 kuru", "haftalık ders saati", "cefr"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YBD Kurlar, Ders İçerikleri ve Düzey Amaçları

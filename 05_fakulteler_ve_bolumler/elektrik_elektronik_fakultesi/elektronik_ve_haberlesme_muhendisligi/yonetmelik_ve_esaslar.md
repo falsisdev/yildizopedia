@@ -3,6 +3,7 @@ baslik: "EHM Bölümü İçi Yönetmelik, Yönerge ve Laboratuvar Güvenlik Esas
 kaynak_url: "https://ehm.yildiz.edu.tr/egitim/yonetmelik-ve-yonergeler"
 kategori: "bolum_esaslari"
 anahtar_kelimeler: ["ehm yönergeler", "laboratuvar güvenliği", "proje esasları", "intibak", "çakışma"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM Bölümü İçi Yönetmelik ve Uygulama Esasları
@@ -22,7 +23,7 @@ anahtar_kelimeler: ["ehm yönergeler", "laboratuvar güvenliği", "proje esaslar
 - Turnitin intihal benzerlik oranı kaynakça hariç en fazla **%20** olmalıdır (Tek kaynaktan benzerlik %3'ü aşamaz).
 
 ## 3. İlgili Üniversite ve Fakülte Belgeleri
-- [YTÜ Lisans Eğitim-Öğretim Yönetmeliği](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/01_mevzuat_ve_yonetmelikler/lisans_egitim_ogretim_yonetmeligi.md)
-- [YTÜ Sınav Yönergesi (YÖ-075)](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/01_mevzuat_ve_yonetmelikler/yonergeler/YO-075_sinav_yonergesi.md)
-- [YTÜ Staj Yönergesi (YÖ-103)](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/01_mevzuat_ve_yonetmelikler/yonergeler/YO-103_staj_yonergesi.md)
-- [YTÜ Bitirme Çalışması İlkeleri (DD-022)](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/01_mevzuat_ve_yonetmelikler/senato_esaslari_ve_tablolar/DD-022_bitirme_calismasi_ilkeleri.md)
+- [YTÜ Lisans Eğitim-Öğretim Yönetmeliği](01_mevzuat_ve_yonetmelikler/lisans_egitim_ogretim_yonetmeligi.md)
+- [YTÜ Sınav Yönergesi (YÖ-075)](01_mevzuat_ve_yonetmelikler/yonergeler/YO-075_sinav_yonergesi.md)
+- [YTÜ Staj Yönergesi (YÖ-103)](01_mevzuat_ve_yonetmelikler/yonergeler/YO-103_staj_yonergesi.md)
+- [YTÜ Bitirme Çalışması İlkeleri (DD-022)](01_mevzuat_ve_yonetmelikler/senato_esaslari_ve_tablolar/DD-022_bitirme_calismasi_ilkeleri.md)

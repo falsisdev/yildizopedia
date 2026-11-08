@@ -3,6 +3,7 @@ baslik: "Metalurji ve Malzeme Mühendisliği Komisyonlar ve Danışmanlık"
 kategori: "fakulteler_ve_bolumler"
 fakulte: "Kimya-Metalurji Fakültesi"
 bolum: "Metalurji ve Malzeme Mühendisliği"
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # Metalurji ve Malzeme Mühendisliği Komisyonlar ve Öğrenci Danışmanlığı

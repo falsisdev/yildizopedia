@@ -27,10 +27,10 @@ Program dili **%100 İngilizce**dir.
 ---
 
 ## 📚 Dokümantasyon Rehberi
-- [Lisans Eğitim Yapısı (%100 İngilizce)](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/lisans_egitim_yapisi.md): %100 İngilizce program yapısı, programlar arası geçiş ve eğitim çıktıları.
-- [Staj, Laboratuvar ve Formlar](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/staj_ve_formlar.md): Staj yönergeleri, YZM laboratuvar dersleri ve bitirme esasları.
-- [Laboratuvarlar ve Araştırma Altyapısı](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/laboratuvarlar_ve_arastirma.md): GPU kümeleri, yüksek başarımlı hesaplama ve veri laboratuvarları.
-- [Komisyonlar ve Öğrenci Danışmanlığı](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/komisyonlar_ve_ogrenci_danismanligi.md): Bölüm komisyonları ve danışmanlık.
-- [Lisansüstü Programlar](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/lisansustu_programlar.md): Tezli YL Programı (Bologna ID: 562).
-- [Yapay Zeka ve Veri Mühendisliği SSS](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/sikca_sorulan_sorular.md): Sık sorulan sorular ve yanıtları.
-- [Bologna Lisans Ders Planı (1-8. Yarıyıllar)](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/README.md): 8 yarıyılın YZM kodlu dersleri, önkoşulları ve seçmelileri.
+- [Lisans Eğitim Yapısı (%100 İngilizce)](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/lisans_egitim_yapisi.md): %100 İngilizce program yapısı, programlar arası geçiş ve eğitim çıktıları.
+- [Staj, Laboratuvar ve Formlar](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/staj_ve_formlar.md): Staj yönergeleri, YZM laboratuvar dersleri ve bitirme esasları.
+- [Laboratuvarlar ve Araştırma Altyapısı](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/laboratuvarlar_ve_arastirma.md): GPU kümeleri, yüksek başarımlı hesaplama ve veri laboratuvarları.
+- [Komisyonlar ve Öğrenci Danışmanlığı](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/komisyonlar_ve_ogrenci_danismanligi.md): Bölüm komisyonları ve danışmanlık.
+- [Lisansüstü Programlar](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/lisansustu_programlar.md): Tezli YL Programı (Bologna ID: 562).
+- [Yapay Zeka ve Veri Mühendisliği SSS](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/sikca_sorulan_sorular.md): Sık sorulan sorular ve yanıtları.
+- [Bologna Lisans Ders Planı (1-8. Yarıyıllar)](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/README.md): 8 yarıyılın YZM kodlu dersleri, önkoşulları ve seçmelileri.

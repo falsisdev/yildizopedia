@@ -1,0 +1,94 @@
+# ==============================================================================
+# YILDIZOPEDIA VERİ KAYNAKLARI YAPILANDIRMASI (SOURCES CONFIGURATION)
+# ==============================================================================
+# Bu dosya, tüm üniversite birimlerinin, Bologna program ID'lerinin ve
+# resmi web portallarının merkezi kayıt defteridir.
+
+universite:
+  ad: "Yıldız Teknik Üniversitesi"
+  kisa_ad: "YTÜ"
+  kurulus: 1911
+  web: "https://yildiz.edu.tr"
+  bologna_base_url: "http://www.bologna.yildiz.edu.tr/index.php"
+
+mevzuat_kaynaklari:
+  lisans_yonetmeligi: "https://mevzuat.yildiz.edu.tr"
+  ogi_portal: "https://ogi.yildiz.edu.tr"
+  ybd_portal: "https://ybd.yildiz.edu.tr"
+
+fakulteler:
+  elektrik_elektronik_fakultesi:
+    ad: "Elektrik-Elektronik Fakültesi"
+    web: "https://eef.yildiz.edu.tr"
+    yerleske: "Davutpaşa"
+    bolumler:
+      bilgisayar_muhendisligi:
+        ad: "Bilgisayar Mühendisliği"
+        bologna_id: 550
+        web: "https://ce.yildiz.edu.tr"
+      elektrik_muhendisligi:
+        ad: "Elektrik Mühendisliği"
+        bologna_id: 551
+        web: "https://elk.yildiz.edu.tr"
+      elektronik_ve_haberlesme_muhendisligi:
+        ad: "Elektronik ve Haberleşme Mühendisliği"
+        bologna_id: 552
+        bologna_id_yuzde100: 553
+        web: "https://ehm.yildiz.edu.tr"
+      kontrol_ve_otomasyon_muhendisligi:
+        ad: "Kontrol ve Otomasyon Mühendisliği"
+        bologna_id: 554
+        bologna_id_yuzde100: 555
+        web: "https://kom.yildiz.edu.tr"
+      biyomedikal_muhendisligi:
+        ad: "Biyomedikal Mühendisliği"
+        bologna_id: 556
+        web: "https://bme.yildiz.edu.tr"
+      yapay_zeka_ve_veri_muhendisligi:
+        ad: "Yapay Zeka ve Veri Mühendisliği"
+        bologna_id: 557
+        web: "https://ai.yildiz.edu.tr"
+
+  kimya_metalurji_fakultesi:
+    ad: "Kimya-Metalurji Fakültesi"
+    web: "https://kmf.yildiz.edu.tr"
+    yerleske: "Davutpaşa"
+    bolumler:
+      biyomuhendislik:
+        ad: "Biyomühendislik"
+        bologna_id: 560
+        web: "https://bio.yildiz.edu.tr"
+      gida_muhendisligi:
+        ad: "Gıda Mühendisliği"
+        bologna_id: 561
+        web: "https://gida.yildiz.edu.tr"
+      kimya_muhendisligi:
+        ad: "Kimya Mühendisliği"
+        bologna_id: 562
+        web: "https://kmy.yildiz.edu.tr"
+      matematik_muhendisligi:
+        ad: "Matematik Mühendisliği"
+        bologna_id: 563
+        web: "https://mat.yildiz.edu.tr"
+      metalurji_ve_malzeme_muhendisligi:
+        ad: "Metalurji ve Malzeme Mühendisliği"
+        bologna_id: 564
+        web: "https://met.yildiz.edu.tr"
+
+  makine_fakultesi:
+    ad: "Makine Fakültesi"
+    web: "https://mak.yildiz.edu.tr"
+    yerleske: "Yıldız (Merkez)"
+    bolumler:
+      makine_muhendisligi:
+        ad: "Makine Mühendisliği"
+        bologna_id: 570
+        web: "https://makina.yildiz.edu.tr"
+      mekatronik_muhendisligi:
+        ad: "Mekatronik Mühendisliği"
+        bologna_id: 571
+        web: "https://mkt.yildiz.edu.tr"
+      endustri_muhendisligi:
+        ad: "Endüstri Mühendisliği"
+        bologna_id: 572
+        web: "https://end.yildiz.edu.tr"

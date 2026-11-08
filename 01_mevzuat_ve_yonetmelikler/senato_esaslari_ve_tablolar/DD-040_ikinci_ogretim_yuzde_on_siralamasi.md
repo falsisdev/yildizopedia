@@ -3,6 +3,7 @@ kod: "DD-040"
 baslik: "YTÜ II. Öğretim Öğrencilerinin Yüzde On Sıralamasına İlişkin Esaslar"
 kategori: "senato_esasi"
 anahtar_kelimeler: ['ikinci öğretim', 'yüzde on', '%10', 'harç indirimi', 'sıralama', 'agno']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ II. Öğretim Öğrencilerinin Sıralamasına İlişkin Esaslar (DD-040)

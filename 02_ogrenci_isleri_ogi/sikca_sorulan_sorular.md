@@ -3,6 +3,7 @@ baslik: "YTÜ Öğrenci İşleri Daire Başkanlığı Sıkça Sorulan Sorular (7
 kaynak_url: "https://ogi.yildiz.edu.tr/birim-hakkinda/hizli-erisim/sikca-sorulan-sorular"
 kategori: "sss"
 anahtar_kelimeler: ["öğrenci işleri sss", "kayıt", "e-devlet", "harç", "kayıt dondurma", "mazeret", "diploma", "çap", "yatay geçiş"]
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # OGİ Sıkça Sorulan Sorular (Tam ve Güncel Liste)

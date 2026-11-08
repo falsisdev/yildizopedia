@@ -2,6 +2,7 @@
 baslik: "YTÜ Bağıl Değerlendirme Sistemi ve Başarı Hesaplama Esasları"
 kategori: "bagil_sistem"
 anahtar_kelimeler: ["bağıl değerlendirme", "sınıf ortalaması", "standart sapma", "t-skoru", "vize ağırlığı %60", "final ağırlığı %40"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YTÜ Bağıl Değerlendirme Sistemi

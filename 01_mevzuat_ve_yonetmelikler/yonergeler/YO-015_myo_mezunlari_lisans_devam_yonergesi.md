@@ -3,6 +3,7 @@ kod: "YÖ-015"
 baslik: "YTÜ Meslek Yüksekokulları Mezunlarının Lisans Öğrenimine Devamları Hakkında Yönerge"
 kategori: "yonerge"
 anahtar_kelimeler: ['dgs', 'dikey geçiş', 'myo intibak', 'önlisans mezunu']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Meslek Yüksekokulları Mezunlarının Lisans Öğrenimine Devamları Hakkında Yönerge (YÖ-015)

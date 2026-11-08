@@ -3,6 +3,7 @@ baslik: "İYS Academic Essay Yazım Formatı ve Değerlendirme Kriterleri"
 arsivlenmis_dosya: "arsiv/ybd_belgeleri/Sample_EPE_Writing_&_Essay_Writing_Criteria.pdf"
 kategori: "iys_writing"
 anahtar_kelimeler: ["writing rubrik", "opinion essay", "argumentative essay", "thesis statement", "250 kelime"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # İYS Essay Yazım Kriterleri ve Rubrik

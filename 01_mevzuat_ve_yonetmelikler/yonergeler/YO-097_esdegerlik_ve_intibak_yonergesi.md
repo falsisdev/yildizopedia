@@ -3,6 +3,7 @@ kod: "YO-097"
 baslik: "YTÜ Eşdeğerlik ve İntibak İşlemleri Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['muafiyet', 'intibak', 'eşdeğerlik', 'ders saydırma', 'dikey geçiş', 'yatay geçiş']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Eşdeğerlik ve İntibak İşlemleri Yönergesi (YÖ-097)

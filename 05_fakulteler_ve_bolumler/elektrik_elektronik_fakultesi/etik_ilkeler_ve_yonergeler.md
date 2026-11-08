@@ -12,7 +12,7 @@ anahtar_kelimeler: ["etik ilkeler", "yö-033", "etik kurulu", "intihal", "öğre
 # YTÜ Etik İlkeleri ve Etik Kurulu Yönergesi (YÖ-033)
 
 > [!IMPORTANT] Yasal Dayanak
-> Yıldız Teknik Üniversitesi Senatosu'nun 20.04.2021 tarihli ve 04-06 sayılı kararıyla revize edilen **YÖ-033 Doküman Nolu** yönergedir. Orijinal belge [EEF_etik_ilkeler_yonergesi.pdf](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/arsiv/fakulteler/eef/dekanlik/EEF_etik_ilkeler_yonergesi.pdf) arşivinde saklanmaktadır.
+> Yıldız Teknik Üniversitesi Senatosu'nun 20.04.2021 tarihli ve 04-06 sayılı kararıyla revize edilen **YÖ-033 Doküman Nolu** yönergedir. Orijinal belge [EEF_etik_ilkeler_yonergesi.pdf](arsiv/fakulteler/eef/dekanlik/EEF_etik_ilkeler_yonergesi.pdf) arşivinde saklanmaktadır.
 
 ---
 

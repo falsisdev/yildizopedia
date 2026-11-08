@@ -2,6 +2,7 @@
 baslik: "YTÜ Mezuniyet Şartları, İlişik Kesme ve Diploma Teslim Rehberi"
 kategori: "mezuniyet"
 anahtar_kelimeler: ["mezuniyet", "240 akts", "agno 2.00", "ilişik kesme", "diploma eki", "onur belgesi"]
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Mezuniyet Şartları ve Diploma İşlemleri

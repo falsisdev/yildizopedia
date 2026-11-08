@@ -25,13 +25,13 @@ anahtar_kelimeler: ["bologna ders planı", "akts", "kredi", "8 yarıyıl", "zoru
 | **GENEL TOPLAM** | **8 Yarıyıl** | **203** | **37** | **240 AKTS** |
 
 ## Dosyalar ve İnceleme Linkleri
-- [Önkoşul Zinciri ve Bağımlılık Haritası](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/onkosul_zinciri.md)
-- [1. Yarıyıl Dersleri](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/1_yariyil.md)
-- [2. Yarıyıl Dersleri](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md)
-- [3. Yarıyıl Dersleri](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/3_yariyil.md)
-- [4. Yarıyıl Dersleri](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/4_yariyil.md)
-- [5. Yarıyıl Dersleri](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/5_yariyil.md)
-- [6. Yarıyıl Dersleri](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md)
-- [7. Yarıyıl Dersleri](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/7_yariyil.md)
-- [8. Yarıyıl Dersleri](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md)
-- [Seçimlik Ders Havuzları](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/secimlik_ders_havuzlari.md)
+- [Önkoşul Zinciri ve Bağımlılık Haritası](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/onkosul_zinciri.md)
+- [1. Yarıyıl Dersleri](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/1_yariyil.md)
+- [2. Yarıyıl Dersleri](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md)
+- [3. Yarıyıl Dersleri](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/3_yariyil.md)
+- [4. Yarıyıl Dersleri](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/4_yariyil.md)
+- [5. Yarıyıl Dersleri](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/5_yariyil.md)
+- [6. Yarıyıl Dersleri](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md)
+- [7. Yarıyıl Dersleri](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/7_yariyil.md)
+- [8. Yarıyıl Dersleri](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md)
+- [Seçimlik Ders Havuzları](05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/secimlik_ders_havuzlari.md)

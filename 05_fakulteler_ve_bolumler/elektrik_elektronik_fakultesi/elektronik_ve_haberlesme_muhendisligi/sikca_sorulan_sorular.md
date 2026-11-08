@@ -3,6 +3,7 @@ baslik: "EHM Bölümü Sıkça Sorulan Sorular (Resmi Bölüm Kılavuzu)"
 kaynak_url: "https://ehm.yildiz.edu.tr/ogrenci/sikca-sorulan-sorular"
 kategori: "ehm_sss"
 anahtar_kelimeler: ["ehm sss", "staj sırası", "staj belgeleri", "çap sınav çakışması", "tasarım projesi", "bitirme komisyonu"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # EHM Bölümü Sıkça Sorulan Sorular

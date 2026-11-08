@@ -3,6 +3,7 @@ baslik: "İYS 2. Oturum Dinleme ve Not Alma (Listening & Note-Taking)"
 arsivlenmis_dosyalar: ["arsiv/ybd_belgeleri/Session_II_(Sample_EPE).pdf", "arsiv/ybd_belgeleri/Listening_Scripts_(Session_II-Sample_EPE).pdf"]
 kategori: "iys_ornekleri"
 anahtar_kelimeler: ["listening", "note-taking", "listening script", "dinleme sınavı"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # İYS 2. Oturum: Dinleme ve Not Alma (Note-Taking)

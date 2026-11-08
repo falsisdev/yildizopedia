@@ -10,15 +10,12 @@ services:
     environment:
       - PYTHONUNBUFFERED=1
     volumes:
-      # Bilgi bankası dökümanları ve kod
+      # Kod ve dökümanlar
       - .:/app
-      # Kalıcı SQLite Veritabanı ve Vektör İndeksi
-      - chroma_data:/app/chroma_db
+      # Kalıcı SQLite Veritabanı ve Loglar
+      - ./var:/app/var
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "3"
-
-volumes:
-  chroma_data:

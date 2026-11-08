@@ -3,6 +3,7 @@ baslik: "YBD Hakkında ve Hazırlık Eğitimi Yapısı"
 kaynak_url: "https://ybd.yildiz.edu.tr/temel-ingilizce/hakkinda"
 kategori: "hazirlik_yapisi"
 anahtar_kelimeler: ["hazırlık süresi", "%30 ingilizce", "%100 ingilizce", "muafiyet", "iys", "toefl", "pte"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YBD Hakkında ve Hazırlık Eğitimi Yapısı

@@ -3,6 +3,7 @@ kod: "DD-007"
 baslik: "YTÜ Yarıyıl İçi Sınavları için Mazeretlerin Kabulü ve Mazeret Sınavlarının Yapılış Esasları"
 kategori: "senato_esasi"
 anahtar_kelimeler: ['mazeret', 'rapor', 'sağlık raporu', 'vize mazereti', '3 gün', 'sağlık kurulu']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Yarıyıl İçi Sınavları için Mazeretlerin Kabulü ve Mazeret Sınavlarının Yapılış Esasları (DD-007)

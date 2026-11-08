@@ -2,6 +2,7 @@
 baslik: "YTÜ Katkı Payı ve Öğrenim Ücreti (Harç) Esasları"
 kategori: "mali_islemler"
 anahtar_kelimeler: ["harç", "katkı payı", "ikinci öğretim", "uzatma", "ikinci üniversite", "halkbank"]
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Katkı Payı ve Öğrenim Ücreti (Harç) Esasları

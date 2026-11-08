@@ -22,7 +22,7 @@
    - `arsiv/` klasöründe Senato kararlarının, resmi yönergelerin, sınav örneklerinin, staj defterlerinin ve formların **orijinal PDF, DOCX ve XLSX** kopyaları kalıcı olarak saklanır.
    - Ana kategorilerde (`00_` - `05_`) ise her belgenin ve konunun yapay zeka modelleri tarafından anında indekslenip okunmasını sağlayan **yapılandırılmış, YAML frontmatter'lı, tam metin Markdown** karşılıkları yer alır.
 3. **Standart Kaynak ve Güvenilirlik Bildirimi:** Bilgi bankasından beslenen her yapay zeka cevabının sonunda belgenin adı, hukuki dayanağı, geçerlilik yılı ve güvenilirlik kademesi (Tier 1-4) zorunlu olarak sunulur.
-4. **Akıllı Karar Ağacı ([ROUTER_GUIDE.md](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/ROUTER_GUIDE.md)):** Herhangi bir LLM'in kullanıcı sorusunu analiz ederek en doğru dosyaya doğrudan yönelmesini sağlayan karar matrisi içerir.
+4. **Akıllı Karar Ağacı ([ROUTER_GUIDE.md](ROUTER_GUIDE.md)):** Herhangi bir LLM'in kullanıcı sorusunu analiz ederek en doğru dosyaya doğrudan yönelmesini sağlayan karar matrisi içerir.
 
 ---
 
@@ -208,7 +208,7 @@ docker compose logs -f
 
 Bir LLM (Gemini, Claude, GPT, DeepSeek vb.) veya AI Agent bu projeyi kullandığında:
 
-1. **Doğru Dosyayı Bulma:** Kullanıcı sorusunu önce [ROUTER_GUIDE.md](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/ROUTER_GUIDE.md) dosyasındaki yönlendirme tablosuyla eşleştirin.
+1. **Doğru Dosyayı Bulma:** Kullanıcı sorusunu önce [ROUTER_GUIDE.md](ROUTER_GUIDE.md) dosyasındaki yönlendirme tablosuyla eşleştirin.
 2. **Hukuki Dayanak Bildirme:** Cevap verirken genel konuşmayın; yönetmelik madde numarasını (örn: *Lisans Yönetmeliği Madde 23*), Senato yönerge kodunu (*YÖ-075, DD-007*) veya Bologna ders kodunu belirtin.
 3. **Zorunlu Kapanış Bloğu:** Her yanıtın sonuna aşağıdaki doğrulama paneli eklenmelidir:
 

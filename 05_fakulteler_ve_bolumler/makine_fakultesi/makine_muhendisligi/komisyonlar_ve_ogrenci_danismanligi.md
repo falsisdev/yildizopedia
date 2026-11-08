@@ -3,6 +3,7 @@ baslik: "Makine Mühendisliği Komisyonlar ve Danışmanlık"
 kategori: "fakulteler_ve_bolumler"
 fakulte: "Makine Fakültesi"
 bolum: "Makine Mühendisliği"
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # Makine Mühendisliği Komisyonlar ve Öğrenci Danışmanlığı

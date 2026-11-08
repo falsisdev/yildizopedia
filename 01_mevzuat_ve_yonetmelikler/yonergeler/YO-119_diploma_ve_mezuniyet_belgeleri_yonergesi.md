@@ -3,6 +3,7 @@ kod: "YÖ-119"
 baslik: "YTÜ Diploma, Diploma Eki ve Mezuniyete İlişkin Belgelerin Düzenlenme Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['diploma', 'diploma eki', 'geçici mezuniyet', 'kayıp diploma', 'ilişik kesme']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Diploma, Diploma Eki ve Mezuniyete İlişkin Belgelerin Düzenlenme Yönergesi (YÖ-119)

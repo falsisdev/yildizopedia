@@ -3,6 +3,7 @@ baslik: "YBD Sınavlarda Uyulması Zorunlu Kurallar"
 kaynak_url: "https://ybd.yildiz.edu.tr/ogrenci/sinavlarda-uyulmasi-zorunlu-kurallar"
 kategori: "sinav_disiplini"
 anahtar_kelimeler: ["sınav salonu", "kimlik kontrolü", "akıllı saat", "cep telefonu", "optik form", "kopya"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YBD Sınavlarda Uyulması Zorunlu Kurallar

@@ -3,6 +3,7 @@ baslik: "YTÜ Not Sistemi, Harf Notları ve Katsayıları"
 kaynak_url: "https://www.bologna.yildiz.edu.tr/index.php?r=institution/grading"
 kategori: "not_sistemi"
 anahtar_kelimeler: ["harf notu", "katsayı", "aa", "ba", "bb", "cb", "cc", "dc", "dd", "ff", "f0", "fg"]
+guvenilirlik_duzeyi: "Tier 2 (Resmi Üniversite Portalı ve Bologna Bilgi Sistemi)"
 ---
 
 # YTÜ Not Sistemi ve Harf Notları

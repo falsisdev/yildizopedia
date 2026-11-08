@@ -3,6 +3,7 @@ kod: "YÖ-031"
 baslik: "YTÜ Akademik Danışmanlık Yönergesi"
 kategori: "yonerge"
 anahtar_kelimeler: ['danışman', 'akademik danışman', 'ders seçimi', 'onay', 'rehberlik']
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Akademik Danışmanlık Yönergesi (YÖ-031)

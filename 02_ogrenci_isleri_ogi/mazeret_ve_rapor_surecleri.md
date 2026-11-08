@@ -2,6 +2,7 @@
 baslik: "YTÜ Mazeret ve Sağlık Raporu Süreçleri Rehberi"
 kategori: "mazeret"
 anahtar_kelimeler: ["mazeret sınavı", "sağlık raporu", "3 gün", "vize mazereti", "mediko", "bölüm başkanlığı"]
+guvenilirlik_duzeyi: "Tier 1 (Resmi Mevzuat ve Senato Kararları)"
 ---
 
 # YTÜ Mazeret ve Sağlık Raporu Süreçleri

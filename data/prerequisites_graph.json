@@ -1,0 +1,3717 @@
+{
+  "ATA1031": {
+    "name": "Atatürk İlkeleri ve İnkılap Tarihi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "FIZ1001": {
+    "name": "Fizik 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "GDM1301": {
+    "name": "Gıda Mühendisliğine Giriş ve Etik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "KIM1170": {
+    "name": "Genel Kimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "MAT1071": {
+    "name": "Matematik  1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "MDB1031": {
+    "name": "İleri İngilizce 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "TDB1031": {
+    "name": "Türkçe 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "GDM1303": {
+    "name": "Gıda Biyolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "GDM2102": {
+    "name": "Gıda Mühendisliğinde Akışkanlar Mekaniği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "GDM2182": {
+    "name": "Gıda Mikrobiyolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "GDM2042": {
+    "name": "Bilgisayar Destekli Mühendislik Çizimleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "GDM2302": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "GDM2052": {
+    "name": "Mühendislik Çalışmalarında İstatistiksel Yöntemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MES-2B": {
+    "name": "Mesleki Seçmeli -1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "USS-2B": {
+    "name": "ÜNİVERSİTE SOSYAL SEÇMELİ-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "GDM2002": {
+    "name": "Laboratuvar Stajı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "GDM2301": {
+    "name": "Gıda Kimyası ve Biyokimyası",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "GDM2181": {
+    "name": "Genel Mikrobiyoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "GDM2091": {
+    "name": "Kütle ve Enerji Denklikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "MAT2411": {
+    "name": "Diferansiyel Denklemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "KIM2301": {
+    "name": "Analitik Kimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "GDM2112": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "GDM2172": {
+    "name": "Gıda Mühendisliği Termodinamiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "GDM3328": {
+    "name": "Gıda Analizleri Laboratuvarı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "GDM3302": {
+    "name": "Gıda Endüstrisinde Sürdürülebilirlik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "GDM3242": {
+    "name": "Gıda Mühendisliğinde Temel İşlemler 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "GDM3162": {
+    "name": "Gıda İşletmelerinde Proses Kontrolü",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "GDM3252": {
+    "name": "Gıda Katkı Maddeleri ve Toksikolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "MES-3B": {
+    "name": "Mesleki Seçmeli -4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "GDM3001": {
+    "name": "İşletme Stajı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "GDM9000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MES-4B": {
+    "name": "Mesleki Seçmeli -8",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "GDM3211": {
+    "name": "Enstrümental Analizler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "GDM3231": {
+    "name": "Gıda Mühendisliğinde Temel İşlemler 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "GDM3241": {
+    "name": "Gıda Biyoteknolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "GDM3251": {
+    "name": "Isı ve Kütle Aktarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "GDM3261": {
+    "name": "Reaksiyon Kinetiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "GDM3303": {
+    "name": "Gıda Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "GDM3301": {
+    "name": "Gıda Teknolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "GDM3271": {
+    "name": "Girişimcilik ve Proje Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "USS-3G": {
+    "name": "Universite Sosyal Seçmeli-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "GDM4121": {
+    "name": "Gıda Mühendisliğinde Tasarım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "GDM4111": {
+    "name": "Gıda Ambalajlama ve Malzeme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "GDM4301": {
+    "name": "Gıda Analizleri Laboratuvarı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "UMS-4G": {
+    "name": "ÜNİVERSİTE MESLEKİ SEÇMELİ",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MES-4G": {
+    "name": "Mesleki Seçmeli -6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "ATA1032": {
+    "name": "Atatürk İlkeleri ve İnkılâp Tarihi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "FIZ1002": {
+    "name": "Fizik 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "GDM1252": {
+    "name": "Gıda Mühendisliğinde Organik Kimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "GDM1042": {
+    "name": "Gıda Mühendisliğinde Bilgisayar Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "MAT1072": {
+    "name": "Matematik 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "MDB1032": {
+    "name": "İleri İngilizce 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "TDB1032": {
+    "name": "Türkçe 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "USS-1B": {
+    "name": "Üniversite Sosyal Seçmeli 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "KIM1501": {
+    "name": "Genel Kimya 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "KMM1041": {
+    "name": "Kimya Mühendisliğine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "USS-1G": {
+    "name": "Üniversite Sosyal Seçmeli-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "KIM2462": {
+    "name": "Organik Kimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KMM2002": {
+    "name": "Staj 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KMM2602": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KMM2612": {
+    "name": "Kimya Mühendisliğinde Akışkanlar Mekaniği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KMM2622": {
+    "name": "Kimya Mühendisleri için Malzeme Bilimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KMM2632": {
+    "name": "Kimya Mühendisliği Termodinamiği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KMM2601": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "KMM2611": {
+    "name": "Kimya Mühendisliği Hesaplamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "KMM2621": {
+    "name": "Mühendisler için Fiziksel Kimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "KMM2631": {
+    "name": "Mühendisler için Olasılık ve İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "USS-2G": {
+    "name": "ÜNİVERSİTE SOSYAL SEÇMELİ-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "KMM3002": {
+    "name": "Staj 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KMM3502": {
+    "name": "Ayırma İşlemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KMM3512": {
+    "name": "Kimya Mühendisliğinde Bilgisayar Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KMM3522": {
+    "name": "Kimya Mühendisliği Lab 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KMM3532": {
+    "name": "Kimya Mühendisliğinde Matematiksel Modelleme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KMM3542": {
+    "name": "Kimyasal Reaksiyon Mühendisliği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KMM4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "KMM4612": {
+    "name": "Kimya Mühendisliği Lab 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "KMM4622": {
+    "name": "Kimya Mühendisliğinde Proses Tasarımı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "KMM4632": {
+    "name": "Kimyasal Teknolojiler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "KMM3501": {
+    "name": "Girişimcilik ve Proje Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "KMM3511": {
+    "name": "Sayısal Analiz",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "KMM3521": {
+    "name": "Kimya Mühendisliğinde Isı Aktarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "KMM3531": {
+    "name": "Kimya Mühendisliği Termodinamiği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "KMM3541": {
+    "name": "Kütle Aktarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MES-3G": {
+    "name": "Mesleki Seçmeli -3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "KMM4611": {
+    "name": "Kimya Mühendisliğinde Proses Tasarımı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "KMM4621": {
+    "name": "Kimyasal Reaktör Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "KMM4631": {
+    "name": "Proses Dinamiği ve Kontrol",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "KIM1502": {
+    "name": "Genel Kimya 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "KMM1002": {
+    "name": "Temel Bilgisayar Bilimleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "BYM1201": {
+    "name": "Biyomühendisliğe Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "BYM2132": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "BYM2002": {
+    "name": "Staj 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "BYM2712": {
+    "name": "Biyotermodinamik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "BYM2222": {
+    "name": "Hücre Biyolojisi ve Hücresel Mekanizmalar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "BYM2812": {
+    "name": "Biyomühendislikte Akışkanlar Mekaniği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MDB3032": {
+    "name": "İş Hayatı için İngilizce",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MES1-2B": {
+    "name": "Mesleki Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "BYM2131": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "BYM2101": {
+    "name": "Moleküler Biyolojinin Temel Prensipleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "BYM2321": {
+    "name": "Biyomühendislikte Biyokimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "BYM2071": {
+    "name": "Kütle ve Enerji Denklikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "BYM3002": {
+    "name": "Staj 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "BYM3132": {
+    "name": "Biyomühendislikte Matematiksel Modelleme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "BYM3222": {
+    "name": "Biyomühendislik Laboratuvarı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "BYM3302": {
+    "name": "Biyomühendislikte Tasarıma Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "BYM3782": {
+    "name": "Biyoreaktör Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "BYM3192": {
+    "name": "Fizyoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MES3-3B": {
+    "name": "Mesleki Secmeli MES3 - Yapay Zekâ",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "BYM4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MES5-4B": {
+    "name": "Mesleki Seçmeli 5-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BYM3401": {
+    "name": "Biyomühendislikte Ayırma İşlemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "BYM3511": {
+    "name": "Genetik Mühendisliği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "BYM3921": {
+    "name": "Biyomühendislikte Isı ve Kütle Aktarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "BYM3501": {
+    "name": "Girişimcilik ve Proje Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "BYM3031": {
+    "name": "Biyomalzemeler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MES2-3G": {
+    "name": "Mesleki Seçmeli 2-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "BYM4211": {
+    "name": "Doku Mühendisliği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "BYM4231": {
+    "name": "Biyomühendislik Laboratuvarı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "BYM4741": {
+    "name": "Biyoproses Mühendisliği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "BYM4381": {
+    "name": "İmmünoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MES4-4G": {
+    "name": "Mesleki Seçmeli MES4 - Prosesler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "BYM1512": {
+    "name": "Mühendisler için Organik Kimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "BYM1172": {
+    "name": "Temel Bilgisayar Bilimleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "BYM1522": {
+    "name": "Olasılık ve İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MSE1001": {
+    "name": "Mühendislik Uygulamalarının Toplum ve Çevreye Etkileri/Kariyer Danışmanlığı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/1_yariyil.md"
+  },
+  "MSE1911": {
+    "name": "İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/1_yariyil.md"
+  },
+  "MSE1321": {
+    "name": "Akademik Araştırma Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/1_yariyil.md"
+  },
+  "MAT1320": {
+    "name": "Lineer Cebir",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "MSE2762": {
+    "name": "Faz Diyagramları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/4_yariyil.md"
+  },
+  "MSE2902": {
+    "name": "Çözelti Termodinamiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/4_yariyil.md"
+  },
+  "MSE2112": {
+    "name": "Mühendislik Malzemeleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/4_yariyil.md"
+  },
+  "MSE2222": {
+    "name": "Malzemelerin Mikroyapısal Analizi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/4_yariyil.md"
+  },
+  "MSE2182": {
+    "name": "Fiziksel Metalürji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/4_yariyil.md"
+  },
+  "MSE2962": {
+    "name": "Üretim Metalürjisi Prensipleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/4_yariyil.md"
+  },
+  "MSE2091": {
+    "name": "Kütle ve Enerji Denklikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/3_yariyil.md"
+  },
+  "MSE2941": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/3_yariyil.md"
+  },
+  "MSE2711": {
+    "name": "Malzeme Bilimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/3_yariyil.md"
+  },
+  "MSE2911": {
+    "name": "Malzeme Statiği ve Mukavemeti",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/3_yariyil.md"
+  },
+  "MSE2921": {
+    "name": "Malzeme Termodinamiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/3_yariyil.md"
+  },
+  "MSE2101": {
+    "name": "Uygulamalı Mühendislik Matematiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/3_yariyil.md"
+  },
+  "MSE3002": {
+    "name": "Staj 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
+  },
+  "MSE3862": {
+    "name": "Tasarım Esasları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
+  },
+  "MSE3222": {
+    "name": "İmalat Teknolojilerinin Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
+  },
+  "MSE3232": {
+    "name": "Seramik Malzemeler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
+  },
+  "MSE3902": {
+    "name": "Polimer Kimyası ve Polimerik Malzemeler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
+  },
+  "MES4-3B": {
+    "name": "Mesleki Seçmeli 4-3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MSE3932": {
+    "name": "Döküm Teknolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
+  },
+  "MSE3942": {
+    "name": "Isıl İşlemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
+  },
+  "MSE3122": {
+    "name": "Malzeme Karakterizasyon Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
+  },
+  "MSE3432": {
+    "name": "Malzeme Karakterizasyon Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
+  },
+  "MES1-3B": {
+    "name": "MESLEKİ SEÇMELİ 1-4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "MSE4492": {
+    "name": "Kompozit Malzemeler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/8_yariyil.md"
+  },
+  "MSE4302": {
+    "name": "Kalite Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/8_yariyil.md"
+  },
+  "MSE4312": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/8_yariyil.md"
+  },
+  "MSE9000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/8_yariyil.md"
+  },
+  "MES1-4B": {
+    "name": "MESLEKI SECMELI 1-12",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MSE3001": {
+    "name": "Staj 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/5_yariyil.md"
+  },
+  "MSE3911": {
+    "name": "Katılaşma Prensipleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/5_yariyil.md"
+  },
+  "MSE3381": {
+    "name": "Taşınım Olayları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/5_yariyil.md"
+  },
+  "MES4-3G": {
+    "name": "Mesleki Seçmeli 4-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MSE3941": {
+    "name": "Demir-Çelik Metalurjisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/5_yariyil.md"
+  },
+  "MES1-3G": {
+    "name": "MESLEKİ SEÇMELİ 1-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "MES3-3G": {
+    "name": "MESLEKİ SEÇMELİ 3-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "MSE4621": {
+    "name": "Metalurji Kinetiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/7_yariyil.md"
+  },
+  "MSE4631": {
+    "name": "Korozyon ve Korunma",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/7_yariyil.md"
+  },
+  "MSE4121": {
+    "name": "Malzeme Üretim Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/7_yariyil.md"
+  },
+  "MES1-4G": {
+    "name": "MESLEKİ SEÇMELİ 1-8",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MES3-4G": {
+    "name": "Mesleki Seçmeli 3-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MES2-4G": {
+    "name": "Mesleki Seçmeli 2-1 (ÇDTP)",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MSE1902": {
+    "name": "Fizikokimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/2_yariyil.md"
+  },
+  "MEM1001": {
+    "name": "Mühendislik Uygulamalarının Toplum ve Çevreye Etkileri/Kariyer Danışmanlığı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MEM1911": {
+    "name": "İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MEM1321": {
+    "name": "Akademik Araştırma Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MEM2762": {
+    "name": "Faz Diyagramları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MEM2902": {
+    "name": "Çözelti Termodinamiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MEM2112": {
+    "name": "Mühendislik Malzemeleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MEM2222": {
+    "name": "Malzemelerin Mikroyapısal Analizi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MEM2182": {
+    "name": "Fiziksel Metalürji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MEM2962": {
+    "name": "Üretim Metalürjisi Prensipleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MEM2091": {
+    "name": "Kütle ve Enerji Denklikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MEM2941": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MEM2711": {
+    "name": "Malzeme Bilimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MEM2911": {
+    "name": "Malzeme Statiği ve Mukavemeti",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MEM2921": {
+    "name": "Malzeme Termodinamiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MEM2101": {
+    "name": "Uygulamalı Mühendislik Matematiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MEM3002": {
+    "name": "Staj 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MEM3862": {
+    "name": "Tasarım Esasları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MEM3222": {
+    "name": "İmalat Teknolojilerinin Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MEM3232": {
+    "name": "Seramik Malzemeler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MEM3902": {
+    "name": "Polimer Kimyası ve Polimerik Malzemeler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MEM3932": {
+    "name": "Döküm Teknolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MEM3942": {
+    "name": "Isıl İşlemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MEM3122": {
+    "name": "Malzeme Karakterizasyon Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MEM3432": {
+    "name": "Malzeme Karakterizasyon Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MEM4492": {
+    "name": "Kompozit Malzemeler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MEM4302": {
+    "name": "Kalite Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MEM4312": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MEM9000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MEM3001": {
+    "name": "Staj 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MEM3911": {
+    "name": "Katılaşma Prensipleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MEM3381": {
+    "name": "Taşınım Olayları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MEM3941": {
+    "name": "Demir-Çelik Metalurjisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MEM4621": {
+    "name": "Metalurji Kinetiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MEM4631": {
+    "name": "Korozyon ve Korunma",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MEM4121": {
+    "name": "Malzeme Üretim Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MEM1902": {
+    "name": "Fizikokimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MTM1501": {
+    "name": "Analiz 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MTM1511": {
+    "name": "Programlama Dilleri 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MTM1561": {
+    "name": "Matematik Mühendisligine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MTM1551": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MTM2502": {
+    "name": "İleri Analiz 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MTM2592": {
+    "name": "Olasılık Teorisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MTM2522": {
+    "name": "Veri Yönetimi ve Dosya Yapıları 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MTM2532": {
+    "name": "Analitik Geometri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MTM2002": {
+    "name": "Bilgisayar Donanımı ve Temel Uygulamaları Stajı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MTM2501": {
+    "name": "İleri Analiz 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MTM2511": {
+    "name": "Algoritmalar ve Veri Yapıları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MTM2521": {
+    "name": "Nümerik Analiz 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MTM2531": {
+    "name": "Diferansiyel Denklemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MTM3502": {
+    "name": "Kısmi Diferansiyel Denklemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MTM3512": {
+    "name": "Kompleks Analiz 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MTM3522": {
+    "name": "Cebir",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MES5-3B": {
+    "name": "Mesleki Seçmeli 5-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MES6-3B": {
+    "name": "Mesleki Seçmeli 6-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MTM3002": {
+    "name": "Sorun Çözüm Teknikleri Stajı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MTM4502": {
+    "name": "Optimizasyon Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MTM4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MES10-4B": {
+    "name": "Mesleki Seçmeli 10-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MES11-4B": {
+    "name": "Mesleki Seçmeli 11-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MES12-4B": {
+    "name": "Mesleki Seçmeli 12-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MTM3691": {
+    "name": "Lineer Programlama Teorisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MTM3701": {
+    "name": "Mekanik 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MTM3651": {
+    "name": "İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MTM4501": {
+    "name": "Yöneylem Araştırması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MES7-4G": {
+    "name": "Mesleki Seçmeli 7-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MES8-4G": {
+    "name": "Mesleki Seçmeli 8-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MES9-4G": {
+    "name": "Mesleki Seçmeli 9-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MTM4991": {
+    "name": "Çok Disiplinli Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MTM1502": {
+    "name": "Analiz 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MTM1512": {
+    "name": "Programlama Dilleri 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MTM1531": {
+    "name": "Lineer Cebir",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MTM1552": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/matematik_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "ELM1001": {
+    "name": "Elektrik Mühendisliğine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "ELM1071": {
+    "name": "Mühendislikte Çizim ve Tasarım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "ELM1041": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "ELM2002": {
+    "name": "Genel Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "ELM2042": {
+    "name": "Elektronik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "ELM2062": {
+    "name": "Elektrik Devre Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "ELM2122": {
+    "name": "Aydınlatma Tekniği ve İç Tesisat",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "ELM2082": {
+    "name": "Enerji Üretimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "ELM2051": {
+    "name": "Devre Analizi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "SOS-2B": {
+    "name": "Sosyal Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "ELM2061": {
+    "name": "Elektromanyetik Alan Teorisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "ELM2111": {
+    "name": "Devre Teorisi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "ELM2081": {
+    "name": "Olasılık ve İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "MES1-2G": {
+    "name": "Mesleki Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "SECTB-2G": {
+    "name": "Seçmeli Temel Bilim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "ELM3002": {
+    "name": "Mesleki Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "ELM3092": {
+    "name": "Elektrik Makinaları 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "ELM3182": {
+    "name": "Güç Elektroniği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "ELM3192": {
+    "name": "Yüksek Gerilim Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "ELM3141": {
+    "name": "Enerji İletim Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "ELM3792": {
+    "name": "Güç Elektroniği Laboratuvarı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "ELM3091": {
+    "name": "Sayısal Sistemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "SOS-3B": {
+    "name": "Sosyal Seçmeli 1-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "ELM4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MES2-4B": {
+    "name": "Mesleki Seçmeli 2-6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MES3-4B": {
+    "name": "Mesleki Seçmeli 3-4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "USS-4B": {
+    "name": "Üniversite Sosyal Seçmeli 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "ELM3001": {
+    "name": "Elektrik Makinaları 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "ELM3071": {
+    "name": "Güç Elektroniği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "ELM3081": {
+    "name": "Yüksek Gerilim Tekniği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "ELM3762": {
+    "name": "Enerji Dağıtımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "ELM3302": {
+    "name": "Elektrik Enerji Sistemleri Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "ELM3301": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "ELM4041": {
+    "name": "Elektrik Makinaları Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "ELM4051": {
+    "name": "Elektrik Makinalarının Kontrolü",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "ELM4061": {
+    "name": "Mühendislik Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "ELM4810": {
+    "name": "Güç Sistemleri Analizi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MES5-4G": {
+    "name": "Mesleki Seçmeli MES5 - Elektriksel Tahrik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "USS-4G": {
+    "name": "Üniversite Sosyal Seçmeli -2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "ELM1102": {
+    "name": "Devre Teorisi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "ELM1031": {
+    "name": "Mühendislik Matematiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "ELM1092": {
+    "name": "Algoritmalar ve Programlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "BLM1011": {
+    "name": "Bilgisayar Bilimlerine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "BLM1991": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "BLM2512": {
+    "name": "Veri Yapıları ve Algoritmalar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "BLM2022": {
+    "name": "Bilgisayar Organizasyonu",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "BLM2041": {
+    "name": "Bilgisayar Mühendisleri için Sinyaller ve Sistemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "BLM2042": {
+    "name": "Sistem Analizi ve Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "BLM2502": {
+    "name": "Hesaplama Kuramı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "BLM1992": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "BLM2012": {
+    "name": "Nesneye Yönelik Programlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "BLM2611": {
+    "name": "Lojik Devreler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "BLM2642": {
+    "name": "Bilgisayar Mühendisleri için Diferansiyel Denklemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "BLM2011": {
+    "name": "İstatistik ve Olasılık Hesapları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "BLM2521": {
+    "name": "Ayrık Matematik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "BLM3051": {
+    "name": "Veri İletişimi ve Bilgisayar Ağları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "BLM3010": {
+    "name": "Bilgisayar Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "BLM3722": {
+    "name": "Yazılım Mühendisliği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "BLM3510": {
+    "name": "Yapay Zeka",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "BLM4002": {
+    "name": "Mesleki Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "SOS1-3B": {
+    "name": "Sosyal Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "BLM9000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BLM3011": {
+    "name": "İşletim Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "BLM3041": {
+    "name": "Veritabanı Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "BLM3021": {
+    "name": "Algoritma Analizi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "BLM3061": {
+    "name": "Mikroişlemci Sistemleri ve  Assembly Dili",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "BLM3042": {
+    "name": "Seminer ve Meslek Etiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "BLM3002": {
+    "name": "Genel Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "BLM1031": {
+    "name": "Yapısal Programlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "FIZ1951": {
+    "name": "Mühendisler için Yarıiletken Fiziği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "BLM1022": {
+    "name": "Sayısal Analiz",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "BLM1033": {
+    "name": "Devre Teorisi ve Elektronik Devreler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "KOM1021": {
+    "name": "Lineer Cebir ve Kontrol Mühendisliği Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "KOM1061": {
+    "name": "Kontrol ve Otomasyon Müh. Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "KOM1991": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "KOM2002": {
+    "name": "Genel Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KOM2072": {
+    "name": "Devre Analizi ve Sentezi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KOM2732": {
+    "name": "Mikrokontrolörler ve Endüstriyel Uygulamaları 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KOM2712": {
+    "name": "Sistem Dinamiği, Modelleme ve Benzetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KOM2722": {
+    "name": "Nümerik Analiz",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "KOM2742": {
+    "name": "Elektrik Devreleri Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "SOS2-2B": {
+    "name": "Sosyal Seçmeli 2-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "ENF1180": {
+    "name": "Programlama Dilleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "KOM2711": {
+    "name": "İşaretler ve Sistemler, Kontrol Mühendisliğinde Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "KOM2721": {
+    "name": "Elektrik Devre Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "KOM2702": {
+    "name": "Lojik Devrelere Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "SOS1-2G": {
+    "name": "Sosyal Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "KOM3002": {
+    "name": "Mesleki Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KOM3712": {
+    "name": "Kontrol Sistemleri Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "IST1990": {
+    "name": "Olasılık ve İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KOM3792": {
+    "name": "Kontrol Laboratuvarı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KOM3772": {
+    "name": "Endüstriyel Otomasyon Sistemleri Laboratuvarı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MES2-3B": {
+    "name": "Mesleki Secmeli MES2 - Akışkan Gücü Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "SOS2-3B": {
+    "name": "Sosyal Seçmeli 2-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "KOM9000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "KOM3751": {
+    "name": "Kontrol Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "KOM3771": {
+    "name": "Endüstriyel Otomasyon Sistemleri 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "KOM3782": {
+    "name": "Elektronik Devreler ve Ölçme Lab.",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "KOM4321": {
+    "name": "Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "KOM4531": {
+    "name": "İleri Seviye Endüstriyel Otomasyon Sistemleri Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "KOM4521": {
+    "name": "Çok Değişkenli Kontrol Teorisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "KOM1012": {
+    "name": "Algoritma Tasarımı ve Programlamaya Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "KOM1062": {
+    "name": "Ayrık Matematik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "KOM1992": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "Kodu": {
+    "name": "Ders Adı",
+    "prerequisite": "Önkoşul",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "EHM1051": {
+    "name": "Algoritma Tasarımı ve Programlamaya Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "SOS-1G": {
+    "name": "Sosyal Seçmeli",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "EHM1011": {
+    "name": "Elektronik ve Haberleşme Mühendisliğine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "EHM1041": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "Etkinlik": {
+    "name": "Katkı Payı (%)",
+    "prerequisite": "Sayı",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "Laboratuar": {
+    "name": "%60",
+    "prerequisite": "10",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "Ara Sınavlar": {
+    "name": "%60",
+    "prerequisite": "2",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "Final": {
+    "name": "%40",
+    "prerequisite": "1",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "Küçük Sınavlar/Stüdyo Kritiği": {
+    "name": "%20",
+    "prerequisite": "1",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "Devam/Katılım": {
+    "name": "%0",
+    "prerequisite": "14",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "Ödev": {
+    "name": "%30",
+    "prerequisite": "3",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "EHM2002": {
+    "name": "Genel Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "EHM2122": {
+    "name": "Elektronik Devreler 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "EHM2142": {
+    "name": "Olasılık Teorisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "EHM2132": {
+    "name": "Elektromagnetik Dalga Teorisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "EHM2152": {
+    "name": "İşaret ve Sistemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "EHM2162": {
+    "name": "Lojik Devre Laboratuvarı",
+    "prerequisite": "EHM2141 Lojik Devreler",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "Derse Özgü Staj": {
+    "name": "%100",
+    "prerequisite": "1",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "Uygulama": {
+    "name": "%0",
+    "prerequisite": "0",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "Arazi Çalışması": {
+    "name": "%0",
+    "prerequisite": "0",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "Sunum/Jüri": {
+    "name": "%40",
+    "prerequisite": "1",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "Projeler": {
+    "name": "%0",
+    "prerequisite": "0",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "Seminer/Workshop": {
+    "name": "%10",
+    "prerequisite": "1",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM2131": {
+    "name": "Elektromagnetik Alan Teorisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "EHM2141": {
+    "name": "Lojik Devreler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "EHM2161": {
+    "name": "Sayısal Çözüm Yöntemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "EHM2191": {
+    "name": "Mühendislik Matematiği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "EHM2121": {
+    "name": "Devre ve Sistem Analizi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "EHM2171": {
+    "name": "Elektrik Devre Temelleri Laboratuvarı",
+    "prerequisite": "EHM1012",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "EHM3002": {
+    "name": "Mesleki Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "EHM3112": {
+    "name": "Antenler ve Propagasyon",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "EHM3122": {
+    "name": "Haberleşme 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "EHM3132": {
+    "name": "Otomatik Kontrol",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "EHM3172": {
+    "name": "Elektronik Devreler 2 Laboratuvarı",
+    "prerequisite": "EHM3111",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "EHM3152": {
+    "name": "Haberleşme Laboratuvarı",
+    "prerequisite": "EHM3131",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "EHM3162": {
+    "name": "Mikrodalga ve Anten Laboratuvarı",
+    "prerequisite": "EHM3121",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "USS-3B": {
+    "name": "Üniversite Sosyal Seçmeli",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "EHM4012": {
+    "name": "İş Hayatına Hazırlık",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM9000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": "EHM4200",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MTH4110": {
+    "name": "Üründe Elektronik Donanım Geliştirme ve Onay Süreçleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MTH4500": {
+    "name": "Vakum Mikrodalga Tüp Teknolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MTH4100": {
+    "name": "Derin Öğrenme Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MTH4200": {
+    "name": "Model Tabanlı Tasarım ve Yapay Zeka",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MTH4300": {
+    "name": "Elektrikli Araç Teknolojileri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MTH4400": {
+    "name": "Yeni Nesil Kablosuz Haberleşme Teknolojileri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM3741": {
+    "name": "Gömülü Sistemlerde Makine Öğrenmesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM3161": {
+    "name": "İleri Elektronik Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM3171": {
+    "name": "Devre Sentezi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM3181": {
+    "name": "Sayısal  İşaret İşleme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM3731": {
+    "name": "Haberleşme Ağları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4992": {
+    "name": "İşletmede Mesleki Eğitim 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4993": {
+    "name": "İşletmede Mesleki Eğitim 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4994": {
+    "name": "İşletmede Mesleki Eğitim 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4170": {
+    "name": "Programlanabilir Lojik Devreler ile Prototip Geliştirme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4180": {
+    "name": "Sürü Robotiğe Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4190": {
+    "name": "Derin Öğrenme ile Sinyal İşleme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4150": {
+    "name": "Gömülü Sistemlerde Donanım ve Yazılım Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4270": {
+    "name": "Hücresel Haberleşme Sistemleri 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4460": {
+    "name": "Uydu Haberleşmesinin Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4160": {
+    "name": "Uyduların Elektronik Altsistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4140": {
+    "name": "Elektronik Tasarım Otomasyonu",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4210": {
+    "name": "Algılayıcılar ve Dönüştürücüler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4230": {
+    "name": "Mikrodalga 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4240": {
+    "name": "Sayısal Elektromagnetik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4260": {
+    "name": "Veri Haberleşmesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4280": {
+    "name": "Hücresel Haberleşme Sistemleri 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4300": {
+    "name": "Fiber Optiğe Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4310": {
+    "name": "Mikrodalga Elektroniği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4320": {
+    "name": "Optoelektroniğe Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4330": {
+    "name": "Optik Haberleşme Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4340": {
+    "name": "Analog Tümdevreler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4350": {
+    "name": "Sayısal Elektronik Devreleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4360": {
+    "name": "Endüstriyel Elektronik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4380": {
+    "name": "Tümdevre Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4390": {
+    "name": "Güç Elektroniği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4800": {
+    "name": "Yarı iletken Elektroniği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4810": {
+    "name": "Tıp Elektroniği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4820": {
+    "name": "Mikrodenetleyiciler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4830": {
+    "name": "Programlanabilir Lojik Devre Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4840": {
+    "name": "Görüntü İşleme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4850": {
+    "name": "Haberleşme Teorisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4860": {
+    "name": "Sayısal Haberleşme Sistemlerinin Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4870": {
+    "name": "Mikrodalga Sistemlerinin Bilgisayar Destekli Analizi ve Modellenmesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4880": {
+    "name": "Elektronik Savunma Sistemlerine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4130": {
+    "name": "Telekomünikasyon Devreleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4991": {
+    "name": "Çok Disiplinli Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ELM4991": {
+    "name": "Çok Disiplinli Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "KOM4991": {
+    "name": "Çok Disiplinli Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BLM4991": {
+    "name": "Çok Disiplinli Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BME4991": {
+    "name": "Çok Disiplinli Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB2051": {
+    "name": "İngilizce Okuma ve Konuşma",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "TRO2281": {
+    "name": "Türk Dili Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EGT1022": {
+    "name": "Sosyal Antropoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EGT4041": {
+    "name": "Eğitim Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EGT2031": {
+    "name": "İnsan Kaynakları Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MTM3611": {
+    "name": "Matematik Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BED3011": {
+    "name": "Basketbol Temel Teknik Eğitimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BED3041": {
+    "name": "Futbol ve Temel Hareket Öğretimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BED4031": {
+    "name": "Halk oyunları Temel Figür Eğitimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BED3051": {
+    "name": "Hentbol Temel Teknik Eğitimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BED3012": {
+    "name": "Korfbol Temel Teknik Eğitimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BED4022": {
+    "name": "Tenis Teknik ve Taktik Eğitimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BED3042": {
+    "name": "Voleybolda Temel Teknik Eğitimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BED4032": {
+    "name": "Temel Yüzme Teknikleri Eğitimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "TRO2261": {
+    "name": "Türkçe Öğretiminde Edebi Metinler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SNF2112": {
+    "name": "Türkiye Coğrafya ve Jeopolitiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL2560": {
+    "name": "Halkla İlişkiler (İİBF)",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL2710": {
+    "name": "Aile İşletmeleri ve Kurumsallaşma",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL2630": {
+    "name": "Takım Kurma ve Geliştirme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL2901": {
+    "name": "Doğrudan Pazarlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL2760": {
+    "name": "İşletme Lojistiğinin Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP2031": {
+    "name": "Şehir Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB2040": {
+    "name": "Ekonomi Politikaları ve Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3330": {
+    "name": "Çevre ve Ekoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB2090": {
+    "name": "Demokrasi Kültürünün İlke ve Kurumları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3150": {
+    "name": "Tarih ve Sinema",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3020": {
+    "name": "Felsefeye Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3040": {
+    "name": "20. Yüzyılda Siyasal Gelişmeler-Toplumsal Hareketler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3270": {
+    "name": "İstanbul: Dün, Bugün ve Yarın",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ILT1611": {
+    "name": "Fotoğraf Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3260": {
+    "name": "Kültürel Çalışmalar ve Kimlik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3420": {
+    "name": "Osmanlı Devletinin Toplumsal Yapısı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3210": {
+    "name": "Çağdaş Toplum ve İletişim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3220": {
+    "name": "Modernite ve Tüketim Toplumu",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3130": {
+    "name": "Siyasal İdeolojiler: Kuram ve Tarih",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB2080": {
+    "name": "Toplumsal Dönüşüm Sürecinde Kadın",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL2170": {
+    "name": "Muhasebe Organizasyonu",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3010": {
+    "name": "Sosyoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3550": {
+    "name": "İnsan Hakları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3560": {
+    "name": "Siyaset Felsefesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3570": {
+    "name": "Eğitim Felsefesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3390": {
+    "name": "Dünya Uygarlıkları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB2030": {
+    "name": "Bilim Felsefesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB4100": {
+    "name": "Toplumsal Yapılar ve Tarihsel Dönüşümler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ILT1621": {
+    "name": "Grafik Tasarım Araçları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP2082": {
+    "name": "Şehir Sosyolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SYP2192": {
+    "name": "Kültür Yönetimi ve Etkenleri 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SYP3241": {
+    "name": "Halkla İlişkiler (STF)",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MIM1422": {
+    "name": "Sanat ve Mimarlık Tarihine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MIM2421": {
+    "name": "Mimarlık Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MIM1412": {
+    "name": "Uygarlık tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "HRT2941": {
+    "name": "Haritacılık Bilim Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB2020": {
+    "name": "Bilim Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "INS2462": {
+    "name": "Trafik Güvenliği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB4011": {
+    "name": "Almanca Dil Becerilerine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB4021": {
+    "name": "Almanca Dil Becerileri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MAK2100": {
+    "name": "Makine Teknolojisi Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3250": {
+    "name": "Psikolojiye Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB3360": {
+    "name": "Sanat Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MTP4760": {
+    "name": "16.yüzyıldan Günümüze İstanbulda Dans",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "GIM4101": {
+    "name": "Mühendislikte İnovasyon ve Girişimcilik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "TDB4011": {
+    "name": "Etkili İletişim Ve Hazırlıksız Sunum Becerileri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "TDB4031": {
+    "name": "Güzel Konuşma ve Diksiyon",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "TDB4041": {
+    "name": "Türk Öykü ve Romanı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB1680": {
+    "name": "Çok Sesli Müziğe Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "TDB4051": {
+    "name": "Akademik Türkçe",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "DNS1220": {
+    "name": "Beden Farkındalığı ve Nefes Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "DNS1240": {
+    "name": "Yoga ve Anatomi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "GIM4151": {
+    "name": "İnovasyon ve Girişimcilik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ITB4040": {
+    "name": "Gönüllülük Çalışmaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "TDB4061": {
+    "name": "Yeditepe İstanbul",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL1150": {
+    "name": "Kariyer Planlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "KIM1052": {
+    "name": "Hayatın İçinde Kimya",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "CEV3333": {
+    "name": "Patent ve Ticarileşme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BED1013": {
+    "name": "Pilates Temel Eğitimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1016": {
+    "name": "Temel Arapça 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1004": {
+    "name": "Temel İspanyolca 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MKT2201": {
+    "name": "Kişisel Farkındalık ve Gelişim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "GRA2024": {
+    "name": "Sanal Evrene Giriş (Metaverse)",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EUT2022": {
+    "name": "NFT'ye Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1001": {
+    "name": "Temel Fransızca 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1003": {
+    "name": "Temel İspanyolca 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1007": {
+    "name": "Temel İtalyanca 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1009": {
+    "name": "Temel Yunanca 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1011": {
+    "name": "Temel Çince 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1013": {
+    "name": "Temel Japonca 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1015": {
+    "name": "Temel Arapça 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1017": {
+    "name": "Temel Farsça 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1019": {
+    "name": "Temel Rusça 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP2020": {
+    "name": "Deprem ve Planlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "INS4910": {
+    "name": "Afet Bilgisi ve Farkındalığı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1010": {
+    "name": "Temel Yunanca 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "CEV3334": {
+    "name": "Çevre ve İnsan",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MAT4279": {
+    "name": "Yükseköğretimde Temel Hak Ve Sorumluluklar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1002": {
+    "name": "Temel Fransızca 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBO1180": {
+    "name": "Türk Kültür Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "OKL2350": {
+    "name": "Beslenme ve Sağlık",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "RPD2000": {
+    "name": "Bağımlılık ve Bağımlılıkla Mücadele",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBO1120": {
+    "name": "Türk Kültür Coğrafyası",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "TRO2730": {
+    "name": "Medya Okuryazarlığı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BTO1910": {
+    "name": "Eğitim Teknolojilerinde Güncel Uygulamalar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "FBO2260": {
+    "name": "Sürdürülebilirlik ve Eğitim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "IMO2150": {
+    "name": "Lineer Cebirde Kavramlar ve İspatlar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ING2350": {
+    "name": "İngilizce Akademik Yazma ve Sunum Becerileri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1008": {
+    "name": "Temel İtalyanca 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4595": {
+    "name": "İnsan Merkezli Yapay Zeka",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SNF2210": {
+    "name": "Gençlik ve Eğitim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBO1190": {
+    "name": "Masal ve Hikaye Anlatıcılığı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBO1230": {
+    "name": "Çocuklarla Felsefe",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBO1240": {
+    "name": "Çevresel Vatandaşlık ve Eğitim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "YZM4015": {
+    "name": "Yapay Zekaya Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BYM4721": {
+    "name": "Biyomühendislikte Nanoteknoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBU3001": {
+    "name": "Uluslararası İlişkilerde Temel Konular",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "IKT3610": {
+    "name": "Enerji ve Doğal Kaynaklar Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4370": {
+    "name": "Mikroişlemcili Sistem Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4220": {
+    "name": "Uydu Haberleşmesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "GIM4322": {
+    "name": "Enerji Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "GIM4392": {
+    "name": "Mühendislik Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "KIM3557": {
+    "name": "Çevre Kimyası ve Teknolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "KMM3561": {
+    "name": "Teknik İletişim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM4191": {
+    "name": "Derin Öğrenmeye Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL3660": {
+    "name": "İşletmelerde İletişim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "CEV4501": {
+    "name": "Doğal Arıtma",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MAK4482": {
+    "name": "Endüstriyel Otomasyon",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "CEV4111": {
+    "name": "Çevre ve Halk Sağlığı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "HRT4332": {
+    "name": "Navigasyon ve Kinematik Konumlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MIM4341": {
+    "name": "Sinemada Mekan ve Tarih",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ELM4010": {
+    "name": "Akıllı Şebekelere Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP1300": {
+    "name": "Kent Okumaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP4310": {
+    "name": "Katılımcı Kent Yönetiminde Proje Yönetim Süreci",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "KVK4412": {
+    "name": "Cultural Heritage Management",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BME4142": {
+    "name": "Physiological Control Systems",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "IKT3820": {
+    "name": "Sosyal Politikalar İktisadı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL3940": {
+    "name": "Temel Aktüerya Matematiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "INS3841": {
+    "name": "İnşaat Mevzuatına Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BLM4400": {
+    "name": "Bilgisayar Mühendisliğinde Güncel Konular",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BLM1012": {
+    "name": "Yapısal Programlamaya Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "BME4110": {
+    "name": "Mühendisler için Kuantum Fiziği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "TDE3557": {
+    "name": "Modern Türk Edebiyatında Edebi Tartışmalar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MTM4711": {
+    "name": "Matematiksel Modelleme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ELM4071": {
+    "name": "Mühendislikte Sayısal Yöntemler ve Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "KOM4760": {
+    "name": "Mühendislikte Temel Optimizasyon Kavramları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "KOM4770": {
+    "name": "İmalat Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "GMI3850": {
+    "name": "Gemi Kaynaklı Deniz Kirliliği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "GMI3860": {
+    "name": "Yapı Dinamiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "IST3557": {
+    "name": "İstatistik ve Bilimsel Düşünme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MAT3557": {
+    "name": "Şifreleme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "FIZ3557": {
+    "name": "Hayatın İçinde Fizik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MBG3557": {
+    "name": "Evrim ve Moleküler Ekoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MEM4131": {
+    "name": "Malzeme Dünyası",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "KVK4422": {
+    "name": "Müzecilik ve Müzeografi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "GDM4309": {
+    "name": "Gıda Okur Yazarlığı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MKT4403": {
+    "name": "Mekatronik Sistem Entegrasyonu",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "END4393": {
+    "name": "Risk Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "EHM3111": {
+    "name": "Elektronik Devreler 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "EHM3121": {
+    "name": "Mikrodalga 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "EHM3131": {
+    "name": "Haberleşme 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "EHM3141": {
+    "name": "Mikroişlemci Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "EHM3151": {
+    "name": "Elektronik Devreler 1 Laboratuvarı",
+    "prerequisite": "EHM2122",
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "EHM4200": {
+    "name": "Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "EHM1072": {
+    "name": "Mühendislik Matematiği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "EHM1042": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "EHM1062": {
+    "name": "Ayrık Matematik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "EHM1012": {
+    "name": "Elektrik Devre Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "EHM1052": {
+    "name": "Programlama Dilleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "EHM1092": {
+    "name": "Yarı İletken Fiziği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "YZM1021": {
+    "name": "Programlamaya Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "YZM1011": {
+    "name": "Yapay Zekanın Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "YZM1041": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "YZM2011": {
+    "name": "Makine Öğrenmesine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "YZM2022": {
+    "name": "Veri Madenciliği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "YZM2051": {
+    "name": "Sayısal Analiz",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "YZM2052": {
+    "name": "Sinyaller ve Sistemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "YZM2041": {
+    "name": "Yapay Zeka ve Etik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "SOS1-2B": {
+    "name": "Sosyal Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "YZM2061": {
+    "name": "İstatistik ve Olasılık",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "YZM2042": {
+    "name": "Lojik ve Mikroişlemciler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "YZM2021": {
+    "name": "Yazılım Mühendisliğinin İlkeleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "YZM2031": {
+    "name": "Veri Yapıları ve Algoritmalar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "YZM1042": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "YZM3210": {
+    "name": "Yapay Zeka için Optimizasyon Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "YZM3033": {
+    "name": "Robotik Sistemlere Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "YZM3200": {
+    "name": "Yapay Zeka Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "YZM3002": {
+    "name": "Mesleki Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "YZM9000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SOS1-4B": {
+    "name": "Sosyal Seçmeli 1-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "YZM3012": {
+    "name": "Derin Öğrenmeye Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "YZM3011": {
+    "name": "Doğal Dil İşleme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "YZM3031": {
+    "name": "Bilgisayarla Görü",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "YZM3021": {
+    "name": "Algoritma Analizi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "YZM2002": {
+    "name": "Genel Staj",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "YZM4012": {
+    "name": "Büyük Veri Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "YZM1022": {
+    "name": "İleri Programlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "YZM1012": {
+    "name": "Veri Bilimine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "YZM1062": {
+    "name": "Ayrık Matematik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "MKT1111": {
+    "name": "Bilgisayar Destekli Tasarım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MKT1821": {
+    "name": "Mekatronik Mühendisliğine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MKT1801": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MKT1831": {
+    "name": "Lab 1 - Atölye ve İmalat",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "MKT2112": {
+    "name": "Mühendislik Mekaniği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MKT2802": {
+    "name": "Lojik Devreler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MKT2402": {
+    "name": "Uygulamalı Mühendislik Matematiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MKT2142": {
+    "name": "Mukavemet",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MKT2412": {
+    "name": "Mühendisler için İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MKT2832": {
+    "name": "Termodinamik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MKT2151": {
+    "name": "Nesneye Yönelik Programlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MKT2161": {
+    "name": "Mühendislik Mekaniği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MKT2831": {
+    "name": "Lab 2 - Elektrik ve Elektronik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MKT2141": {
+    "name": "Analog Elektronik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MKT2001": {
+    "name": "Atölye Stajı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "MKT3122": {
+    "name": "Otomatik Kontrol",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MKT3812": {
+    "name": "Endüstriyel Otomasyon",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MKT3832": {
+    "name": "Elektromekanik Enerji Dönüşüm Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MKT3822": {
+    "name": "Lab 3 - Sistem Dinamiği ve Kontrol",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MKT4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MES7-4B": {
+    "name": "Mesleki Seçmeli MES7-4 - Genel",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MKT4001": {
+    "name": "Meslekî Alan Stajı-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MKT3801": {
+    "name": "Sistem Dinamiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MKT3421": {
+    "name": "İşaretler ve Sistemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MKT3821": {
+    "name": "Makine Elemanları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MKT3841": {
+    "name": "Sayısal Yöntemler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MKT3811": {
+    "name": "Mikroişlemciler ve Programlanması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MKT3001": {
+    "name": "Meslekî Alan Stajı-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MKT4111": {
+    "name": "Mekatronik Sistem Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MES6-4G": {
+    "name": "Mesleki Seçmeli MES6 - Yönetim Becerileri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MFK4991": {
+    "name": "Çok Disiplinli Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MKT4802": {
+    "name": "Lab 4 - Motorlar ve Sürücüler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MKT1122": {
+    "name": "Malzeme Bilimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MKT1142": {
+    "name": "Bilgisayar Programlama ve Algoritmalar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MKT1132": {
+    "name": "Elektrik Devre Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MKT1802": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "END1911": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "END1991": {
+    "name": "Endüstri Mühendisliğine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "END1151": {
+    "name": "Bilgisayar Programlama 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/1_yariyil.md"
+  },
+  "END2312": {
+    "name": "Ergonomi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "END2972": {
+    "name": "Yöneylem Araştırması 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "END2982": {
+    "name": "Üretim Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "END2992": {
+    "name": "İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "END2962": {
+    "name": "Nümerik Analiz",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MESB-2B": {
+    "name": "Mesleki Seçmeli B-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "END2001": {
+    "name": "Atölye Stajı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "END2151": {
+    "name": "Bilgisayar Programlama 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "END2961": {
+    "name": "Ekonomi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "END2991": {
+    "name": "Olasılık",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/3_yariyil.md"
+  },
+  "END3942": {
+    "name": "Simülasyon",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "END3952": {
+    "name": "Tedarik Zinciri ve Lojistik Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "END3962": {
+    "name": "Üretim Planlama ve Kontrol",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MESA-3B": {
+    "name": "Mesleki Seçmeli A-3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "END3982": {
+    "name": "Endüstriyel Yönetim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "END3192": {
+    "name": "Kariyer Planlama ve İş Hayatına Hazırlık",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MESB-3B": {
+    "name": "Mesleki Seçmeli B-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "END4002": {
+    "name": "Mesleki Alan Stajı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "END4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MESB-4B": {
+    "name": "Mesleki Seçmeli B-7",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "END3401": {
+    "name": "İş Etüdü",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "END3961": {
+    "name": "Sistem Analizi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "END3981": {
+    "name": "Mühendislik Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "END3991": {
+    "name": "Yöneylem Araştırması 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MESA-3G": {
+    "name": "Mesleki Seçmeli A-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "END4001": {
+    "name": "Mesleki Alan Stajı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "END4651": {
+    "name": "Kalite Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "END4971": {
+    "name": "Tesis Tasarımı ve Planlaması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "END4661": {
+    "name": "Endüstri Mühendisliği Tasarım Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MESB-4G": {
+    "name": "Mesleki Seçmeli B-3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MESA-4G": {
+    "name": "Mesleki Seçmeli A-4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "END1902": {
+    "name": "Bilgisayar Destekli Teknik Resim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "END1912": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MAK1051": {
+    "name": "BİLGİSAYAR DESTEKLİ TEKNİK RESİM",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "MAK1062": {
+    "name": "PROGRAMLAMA",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "MAK1071": {
+    "name": "MAKİNE MÜHENDİSLİĞİNE GİRİŞ VE ETİK",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "MAK2112": {
+    "name": "AKIŞKANLAR MEKANİĞİ 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MAK2122": {
+    "name": "İMALAT YÖNTEMLERİ 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MAK2142": {
+    "name": "TERMODİNAMİK 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MAK2212": {
+    "name": "MUKAVEMET 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MAK2152": {
+    "name": "MÜHENDİSLİKTE İSTATİSTİK",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MAK2482": {
+    "name": "ELEKTRİK-ELEKTRONİĞİN  TEMELLERİ",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MES2-2B": {
+    "name": "MESLEKİ SEÇMELİ 2-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MES3-2B": {
+    "name": "MESLEKİ SEÇMELİ 3-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MAK2011": {
+    "name": "ÖLÇME TEKNİĞİ VE DEĞERLENDİRME",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "MAK2061": {
+    "name": "MALZEME",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "MAK2071": {
+    "name": "DİNAMİK 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "MAK2081": {
+    "name": "MUKAVEMET 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "MAK2091": {
+    "name": "TERMODİNAMİK 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "MAK2101": {
+    "name": "SAYISAL YÖNTEMLER",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "MAK3002": {
+    "name": "MESLEKİ ALAN STAJI 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "MAK3072": {
+    "name": "PROJE",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "MAK3172": {
+    "name": "MAKİNE ELEMANLARI  2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "MAK3182": {
+    "name": "MAKİNE DİNAMİĞİ",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "MAK3192": {
+    "name": "TURBO MAKİNELER",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "MAK3262": {
+    "name": "TASARIM TEKNİĞİ 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "MAK4002": {
+    "name": "MESLEKİ ALAN STAJI 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MAK9000": {
+    "name": "BİTİRME ÇALIŞMASI",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MAK4472": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MAK4451": {
+    "name": "MEKANİK TİTREŞİMLER",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MAK3001": {
+    "name": "ATÖLYE STAJI",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "MAK3091": {
+    "name": "MAKİNE ELEMANLARI 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "MAK3271": {
+    "name": "ISI TRANSFERİ 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "MAK3471": {
+    "name": "TAŞIT SİSTEMLERİ",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "MAK3291": {
+    "name": "MÜHENDİSLİK EKONOMİSİ VE DEĞER YÖNETİMİ",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "MAK3301": {
+    "name": "AKIŞKANLAR MEKANİĞİ 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "MAK3391": {
+    "name": "İMALAT YÖNTEMLERİ 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "MAK4291": {
+    "name": "LABORATUVAR",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MAK4391": {
+    "name": "OTOMATİK KONTROL 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MAK4471": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MAK1072": {
+    "name": "STATİK",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "MAK1052": {
+    "name": "TEKNİK RESİM VE TASARIM",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  }
+}

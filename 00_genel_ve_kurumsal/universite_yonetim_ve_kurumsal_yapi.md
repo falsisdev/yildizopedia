@@ -62,7 +62,7 @@ anahtar_kelimeler: ["rektörlük", "eyüp debik", "senato", "yönetim kurulu", "
 
 ---
 ### 📌 Kaynak ve Güvenilirlik Bilgisi
-- **Birincil Kaynak:** [YTÜ Üniversite Portalı](https://yildiz.edu.tr/universite) ve [YTÜ Öğrenci Rehberi](file:///Users/falsis/Desktop/Docs/YTU%20OGRENCI%20ISLERI%20%26%20MEVZUAT/arsiv/mevzuat_ve_yonergeler/ytu_ogrenci_rehberi.pdf)
+- **Birincil Kaynak:** [YTÜ Üniversite Portalı](https://yildiz.edu.tr/universite) ve [YTÜ Öğrenci Rehberi](arsiv/mevzuat_ve_yonergeler/ytu_ogrenci_rehberi.pdf)
 - **Güvenilirlik Düzeyi:** Tier 2 (Resmi Üniversite Portalı ve Rektörlük Yayını)
 - **Geçerlilik / Güncelleme Tarihi:** 2026-2027 Eğitim-Öğretim Yılı
 - **Yasal Dayanak:** 2547 Sayılı Yükseköğretim Kanunu Madde 13, 14, 15 ve YTÜ Teşkilat Şeması
