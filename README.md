@@ -5,42 +5,38 @@
 # 🌟 Yıldızopedia: Yıldız Teknik Üniversitesi Yapay Zeka Ansiklopedisi ve Dijital Bilgi Bankası
 
 [![Veritabanı Durumu](https://img.shields.io/badge/Veritaban%C4%B1-407%20Markdown%20Dosyas%C4%B1-blue.svg)](#)
-[![Metin Hacmi](https://img.shields.io/badge/Kelime%20Hacmi-242.895%20Kelime-success.svg)](#)
-[![Resmi Arşiv](https://img.shields.io/badge/Resmi%20Ar%C5%9Fiv%20Belgesi-93%20Orijinal%20Dosya-orange.svg)](#)
-[![Bologna Müfredatı](https://img.shields.io/badge/Bologna%20Lisans%20Program%C4%B1-20%20Aktif%20M%C3%BCfredat-purple.svg)](#)
-[![Doğrulama Testi](https://img.shields.io/badge/Otomasyon%20Do%C4%9Frulamas%C4%B1-%25100%20Ba%C5%9Far%C4%B1l%C4%B1-brightgreen.svg)](#)
+[![Metin Hacmi](https://img.shields.io/badge/Kelime%20Hacmi-245.214%20Kelime-success.svg)](#)
+[![Ders Önkoşul Grafı](https://img.shields.io/badge/%C3%96nko%C5%9Ful%20Graf%C4%B1-743%20Resm%C3%AE%20Ders-purple.svg)](#)
+[![Bologna Müfredatı](https://img.shields.io/badge/Bologna%20Lisans%20Program%C4%B1-20%20Aktif%20M%C3%BCfredat-orange.svg)](#)
+[![Doğrulama Testi](https://img.shields.io/badge/Otomasyon%20Testi-%25100%20Ba%C5%9Far%C4%B1l%C4%B1-brightgreen.svg)](#)
 [![Yıldız Teknik Üniversitesi](https://img.shields.io/badge/YT%C3%9C-1911-red.svg)](https://yildiz.edu.tr)
 
-**Yıldızopedia**, Yıldız Teknik Üniversitesi (YTÜ) hakkında sorulabilecek her türlü soruya (mevzuat, öğrenci işleri, sınav kuralları, hazırlık okulu, not sistemi, taban puanları, kurumsal yönetim, tarihi kökler, fakülte ve bölüm müfredatları, laboratuvarlar, staj esasları ve öğrenci toplulukları) **yapay zeka modellerinin ve ajanların sıfır spekülasyon, maksimum doğruluk ve standart kaynak atfıyla** anında yanıt vermesini sağlamak üzere inşa edilmiş kapsamlı bir açık kaynaklı dijital ansiklopedidir.
+**Yıldızopedia**, Yıldız Teknik Üniversitesi (YTÜ) hakkında sorulabilecek her türlü soruya (mevzuat, öğrenci işleri, sınav kuralları, hazırlık okulu, not sistemi, taban puanları, kurumsal yönetim, tarihi kökler, fakülte ve bölüm müfredatları, laboratuvarlar, staj esasları ve öğrenci toplulukları) **yapay zeka modellerinin ve ajanların sıfır halüsinasyon, maksimum doğruluk ve kesin hukuki dayanakla** anında yanıt vermesini sağlamak üzere inşa edilmiş kapsamlı bir açık kaynaklı dijital bilgi bankası ve akıllı öğrenci danışmanıdır.
 
 ---
 
-## 🎯 Projenin Temel İlkeleri ve Felsefesi
+## 🎯 Projenin Temel İlkeleri ve Mimarisi
 
-1. **Sıfır Halüsinasyon (Zero-Hallucination):** Yapay zeka modelleri genel kültürlerinden ya da internet tahminlerinden değil; doğrudan bu veri tabanındaki Senato kararları, yönetmelik maddeleri ve Bologna ders kodlarıyla yanıt verir.
-2. **Hibrit Depolama Mimarisi:**
-   - `arsiv/` klasöründe Senato kararlarının, resmi yönergelerin, sınav örneklerinin, staj defterlerinin ve formların **orijinal PDF, DOCX ve XLSX** kopyaları kalıcı olarak saklanır.
-   - Ana kategorilerde (`00_` - `05_`) ise her belgenin ve konunun yapay zeka modelleri tarafından anında indekslenip okunmasını sağlayan **yapılandırılmış, YAML frontmatter'lı, tam metin Markdown** karşılıkları yer alır.
-3. **Standart Kaynak ve Güvenilirlik Bildirimi:** Bilgi bankasından beslenen her yapay zeka cevabının sonunda belgenin adı, hukuki dayanağı, geçerlilik yılı ve güvenilirlik kademesi (Tier 1-4) zorunlu olarak sunulur.
-4. **Akıllı Karar Ağacı ([ROUTER_GUIDE.md](ROUTER_GUIDE.md)):** Herhangi bir LLM'in kullanıcı sorusunu analiz ederek en doğru dosyaya doğrudan yönelmesini sağlayan karar matrisi içerir.
-
----
-
-## ⚖️ 4 Kademeli Güvenilirlik Hiyerarşisi (Tiers)
-
-Bilgi kaynakları arasında çelişki olması halinde daima şu üstünlük sırası geçerlidir:
-- **Tier 1 (Resmi Mevzuat ve Senato Kararları - En Yüksek Hukuki Bağlayıcılık):** Resmi Gazete Yönetmelikleri, 2547 s.K., YTÜ Senato Kararları, YÖ- ve DD- kodlu yönergeler.
-- **Tier 2 (Resmi Üniversite Portalları ve Bologna Bilgi Sistemi):** `yildiz.edu.tr`, `ogi.yildiz.edu.tr`, `ybd.yildiz.edu.tr`, fakülte ve bölüm web siteleri.
-- **Tier 3 (İkincil / İstatistiki Kaynaklar):** ÖSYM / Kariyer.net taban puanları ve başarı sıralamaları, Vikipedi YTÜ külliyatı.
-- **Tier 4 (Gayriresmî Topluluk Paylaşımları / Doğrulamaya Muhtaç):** Reddit `r/ytu`, `ytuitirafediyor.com`, `ytukampus.com`. Hoca tavsiyesi ve kampüs deneyimi için faydalanılır; resmi bağlayıcılığı yoktur.
+1. **Sıfır Halüsinasyon (Zero-Hallucination):** Yapay zeka modelleri genel internet varsayımlarından veya diğer üniversitelerin yönetmeliklerinden değil; doğrudan bu veri tabanındaki Senato kararları, yönetmelik maddeleri ve Bologna ders önkoşul grafıyla yanıt verir.
+2. **Otomatize Veri Kaynağı Derleme Motoru (`pipelines/`):**
+   - 400+ doküman statik olarak bırakılmaz; tekil modüler scraper'lar (`pipelines/scrapers/`) aracılığıyla Bologna, Mevzuat ve Fakülte portallarından derlenir.
+   - `python -m pipelines.compiler` ile ders önkoşulları taranarak anında yapısal bir **Ders Önkoşul Grafı (`data/prerequisites_graph.json`)** üretilir.
+   - `python -m pipelines.validator` ile tüm dökümanların YAML frontmatter ve hukuki güvenilirlik seviyeleri (Tier) otomatik denetlenir.
+3. **Çok Turlu Akıllı Takip Sorusu Çözücü (`query_rewriter`):**
+   - Öğrenciler *"Peki önkoşulu var mı?"*, *"Bu dersten kalırsam ne olur?"* gibi zamirli takip soruları sorduğunda, bot konuşma geçmişinden ders kodunu (örn: `BLM2012`) tespit ederek arama sorgusunu otomatik zenginleştirir.
+4. **Hukuki Güvenilirlik Seviyeleri (Tiers):**
+   - Her dokümanın başında doğrulanmış `guvenilirlik_duzeyi` yer alır ve bot her cevabın altında yasal dayanağını şeffafça ilan eder:
+     - **Tier 1 (Resmi Mevzuat ve Senato Kararları):** Resmi Gazete Yönetmelikleri, 2547 s.K., YTÜ Senato Kararları, YÖ- ve DD- kodlu yönergeler.
+     - **Tier 2 (Resmi Üniversite Portalları ve Bologna Sistemi):** `yildiz.edu.tr`, `ogi.yildiz.edu.tr`, `ybd.yildiz.edu.tr`, fakülte ve bölüm müfredatları.
+     - **Tier 3 (İkincil / İstatistiki Kaynaklar):** ÖSYM / Kariyer.net taban puanları, başarı sıralamaları, tarihsel külliyat.
+     - **Tier 4 (Gayriresmî Öğrenci Deneyimi):** Reddit `r/ytu`, `ytuitirafediyor.com`. Kampüs kültürü için faydalanılır; resmi bağlayıcılığı yoktur.
+5. **Akıllı Karar Ağacı ([ROUTER_GUIDE.md](ROUTER_GUIDE.md)):** Herhangi bir LLM'in veya ajanın kullanıcı sorusunu analiz ederek en doğru dosyaya doğrudan yönelmesini sağlayan karar matrisi içerir.
 
 ---
 
-## 📈 Canlı İlerleme ve Kapsam Tablosu
+## 📈 Kapsam ve İlerleme Durumu
 
-Aşağıdaki tablo, projenin mevcut tamamlanma durumunu ve gelecek yol haritasını göstermektedir:
-
-### ✅ 1. Tamamlanan ve Kullanıma Hazır Kısımlar (3 Fakülte, 14 Bölüm, 20 Lisans Müfredatı)
+### ✅ Tamamlanan ve Kullanıma Hazır Kısımlar (3 Fakülte, 14 Bölüm, 20 Lisans Müfredatı)
 
 | Kategori / Birim | Kapsam ve İçerik | Durum | Dosya Adedi |
 |---|---|:---:|:---:|
@@ -56,22 +52,6 @@ Aşağıdaki tablo, projenin mevcut tamamlanma durumunu ve gelecek yol haritası
 
 ---
 
-### ⏳ 2. Gelecek Yol Haritası ve Eklenecek Fakülteler (Roadmap)
-
-Projenin nihai hedefi Yıldız Teknik Üniversitesi'nin tüm akademik ve idari birimlerini bünyesine katmaktır:
-
-- [ ] **İnşaat Fakültesi:** İnşaat Mühendisliği, Çevre Mühendisliği, Harita (Geomatik) Mühendisliği
-- [ ] **Mimarlık Fakültesi:** Mimarlık, Şehir ve Bölge Planlama, Endüstriyel Tasarım
-- [ ] **Fen-Edebiyat Fakültesi:** Fizik, Kimya, Matematik, Moleküler Biyoloji ve Genetik, İstatistik, Türk Dili ve Edebiyatı, Batı Dilleri ve Edebiyatları, İnsan ve Toplum Bilimleri
-- [ ] **İktisadi ve İdari Bilimler Fakültesi (İİBF):** İktisat, İşletme, Siyaset Bilimi ve Uluslararası İlişkiler
-- [ ] **Gemi İnşaatı ve Denizcilik Fakültesi:** Gemi İnşaatı ve Gemi Makineleri Mühendisliği, Gemi Makineleri İşletme Mühendisliği
-- [ ] **Sanat ve Tasarım Fakültesi:** Müzik ve Sahne Sanatları, İletişim Tasarımı, Sanat
-- [ ] **Eğitim Fakültesi:** Bilgisayar ve Öğretim Teknolojileri, Eğitim Bilimleri, Temel Eğitim, Türkçe ve Sosyal Bilimler, Yabancı Diller Eğitimi
-- [ ] **Uygulamalı Bilimler Fakültesi:** Havacılık Elektroniği
-- [ ] **Enstitüler:** Fen Bilimleri Enstitüsü (FBE) ve Sosyal Bilimler Enstitüsü (SBE) lisansüstü tez/yayın yönergeleri
-
----
-
 ## 📁 Dizin Hiyerarşisi
 
 ```
@@ -79,161 +59,155 @@ Yıldızopedia/
 ├── README.md                                # Proje ana tanıtımı ve canlı ilerleme durumu
 ├── INDEX.md                                 # Master konu indeksi ve A'dan Z'ye fihrist
 ├── ROUTER_GUIDE.md                          # Yapay Zeka Karar Ağacı ve Soru Yönlendirme Matrisi
-├── AGENT_INSTRUCTIONS.md                    # Yapay Zeka Ajanları İçin Çalışma Kuralları
-├── .gitignore                               # Git takip dışı dosyalar listesi
+├── AGENT_INSTRUCTIONS.md                    # Yapay Zeka Ajanları İçin Standart Kurallar
+├── docker-compose.yml                       # Docker Compose üretim servis tanımı
+├── pytest.ini                               # Otomatik test yapılandırması
 │
-├── 00_genel_ve_kurumsal/                   # Rektörlük, 2026-2027 Takvim, Yerleşkeler, Forumlar
+├── 00_genel_ve_kurumsal/                   # Rektörlük, 2026-2027 Takvim, Yerleşkeler, Topluluklar
 ├── 01_mevzuat_ve_yonetmelikler/             # Lisans Yönetmeliği (15812), Disiplin (2547 m.54)
 │   ├── yonergeler/                          # YÖ-075, YÖ-007, YÖ-098, YÖ-103, YÖ-096 vb.
 │   └── senato_esaslari_ve_tablolar/         # DD-007, DD-125, DD-040, Not Dönüşüm Tabloları vb.
 ├── 02_ogrenci_isleri_ogi/                   # OGİ 73 SSS tam metin, Raporlar, Harçlar, Mezuniyet
 ├── 03_yabanci_diller_yuksekokulu_ybd/       # Hazırlık, Kurlar (A1-C1), 46 SSS, İYS Sınav Arşivi
 ├── 04_bologna_ve_not_sistemi/               # BDS Bağıl Değerlendirme, Harf Notları, YKS Sıralamaları
+├── 05_fakulteler_ve_bolumler/               # EEF, Makine ve KMF 14 Lisans Bölüm Külliyatı
 │
-├── 05_fakulteler_ve_bolumler/               # Fakülte ve Bölüm Külliyatları
-│   ├── elektrik_elektronik_fakultesi/       # EEF Dekanlığı + ELM, CE, EHM, KOM, BME, AI
-│   ├── makine_fakultesi/                    # Makine Dekanlığı + MKM, ENM, MKT
-│   └── kimya_metalurji_fakultesi/           # Kimya-Metalurji Dekanlığı + BIO, FOOD, KMM, MTM, MET
+├── pipelines/                               # Veri Kaynağı Derleme Motoru (Data Pipeline)
+│   ├── sources.yaml                         # Tüm birimlerin Bologna ID ve URL kayıt defteri
+│   ├── compiler.py                          # Link düzeltici, graph üretici, istatistik derleyici
+│   ├── validator.py                         # %100 Frontmatter ve Tier bütünlük denetleyicisi
+│   └── scrapers/                            # Bologna ve portal kazıyıcı modülleri
 │
-├── bot/                                     # 7/24 Telegram Botu & 0 TL RAG Servisi
+├── data/                                    # Derlenmiş Yapısal Veriler
+│   └── prerequisites_graph.json             # 743 dersin resmi önkoşul haritası
+│
+├── var/                                     # Kalıcı Veritabanı ve Loglar (Docker Mount)
+│   └── bot_data.sqlite3                     # SQLite kota, kullanıcı ve hafıza veritabanı
+│
+├── bot/                                     # 7/24 Telegram Botu & 0 TL Hibrit RAG Servisi
 │   ├── main.py                              # aiogram 3.x başlatıcı servis
-│   ├── rag_engine.py                        # Yerel ChromaDB + Okapi BM25 hibrit arama motoru
-│   ├── llm_client.py                        # Groq (Llama 3.3 70B) & Gemini Flash failover katmanı
-│   ├── database.py                          # SQLite kullanıcı kotası (15 soru/gün) & Admin takibi
-│   ├── handlers.py                          # /start, /yardim, /kalan, /stats komutları
-│   ├── Dockerfile                           # Python 3.11-slim konteyner tanımı
-│   └── requirements.txt                     # Bot bağımlılıkları
-├── docker-compose.yml                       # Tek komutla VPS dağıtım dosyası
-├── arsiv/                                   # 93 adet orijinal PDF, DOCX, XLSX arşiv belgesi
-└── scripts/                                 # Otomatik veri çekme ve %100 doğrulama test araçları
+│   ├── config.py                            # Pydantic tabanlı ortam değişkenleri
+│   ├── database.py                          # Günlük kota (15 soru/gün) ve sohbet hafızası
+│   ├── handlers.py                          # /start, /yardim, /kalan, /stats, /reload_kb
+│   ├── llm_client.py                        # Async httpx Groq Llama 3.3 70B & Gemini Flash failover
+│   ├── rag_engine.py                        # YAML frontmatter ayrıştırıcılı Okapi BM25 motoru
+│   ├── Dockerfile                           # Ultra hafif Python 3.11-slim konteyner tanımı
+│   ├── requirements.txt                     # Bot bağımlılıkları
+│   └── retrieval/                           # Akıllı Sorgu ve Arama Modülleri
+│       ├── query_rewriter.py                # Takip soruları çözücü (BLM2012 entity enjektörü)
+│       └── hybrid_search.py                 # Önkoşul grafı sentetik bağlam entegratörü
+│
+├── tests/                                   # Otomasyon Test Süiti (pytest)
+│   └── test_retrieval.py                    # Tier ayrıştırma, split, rewriter ve graph testleri
+└── arsiv/                                   # 93 adet orijinal PDF, DOCX, XLSX arşiv belgesi
 ```
 
 ---
 
 ## 📱 7/24 Canlı Telegram Botu (`@yildizopedia_bot`)
 
-Yıldızopedia, teknik bilgisi olmayan tüm Yıldız öğrencilerinin doğrudan akıllı telefonlarından veya bilgisayarlarından soru sorabilmesi için resmi bir **Telegram Botu** olarak paketlenmiştir.
+Yıldızopedia, tüm Yıldız öğrencilerinin akıllı telefonlarından doğrudan soru sorabilmesi için resmî bir **Telegram Botu** olarak paketlenmiştir.
 
 - **Bot Adı:** Yıldızopedia
 - **Kullanıcı Adı:** `@yildizopedia_bot`
-- **🧠 Çok Turlu Sohbet Hafızası (Conversation Memory):** Bot, kullanıcının sorduğu önceki soruları ve kendi verdiği yanıtları hatırlar. Öğrenciler *"Peki bu derslerin önkoşulları var mı?"*, *"O dersten kalırsam ne olur?"* gibi doğal takip sorularını rahatça sorabilir.
+- **🧠 Çok Turlu Sohbet Hafızası & Takip Soruları (`query_rewriter`):**
+  Bot, kullanıcının sorduğu önceki soruları hatırlar. Öğrenci *"Peki bu dersin önkoşulu var mı?"* dediğinde, geçmiş konuşmadan ders kodunu çıkararak doğrudan Bologna grafından yanıt verir.
+- **🛡️ Sıfır Spekülasyon & Kesin Önkoşul Grafı:** Ders sorularında doğrudan derlenmiş `prerequisites_graph.json` devreye girerek en güncel Bologna önkoşulunu 1. sıraya yerleştirir.
 - **🧹 Hafıza Sıfırlama (`/temizle`):** Yeni bir konuya geçerken hafızayı tek komutla temizleyip sıfırdan başlama imkanı sunar.
-- **⚡ Hot Process Reload (`/sync`):** GitHub'a yeni kod veya müfredat yüklendiğinde, sunucuya SSH ile bağlanıp `systemctl restart` yazmaya gerek kalmaz. Yönetici Telegram'dan `/sync` yazdığında bot hem dökümanları çeker hem de kendi prosesini hafızada (in-memory) 1 saniyede yeniden başlatır.
-- **🎯 Deterministik Müfredat Router'ı:** Bölüm ve yarıyıl sorularında (örn: *"EHM 1. sınıf güz dersleri"*), tüm ders tablosunu (kredi, AKTS, önkoşul) eksiksiz olarak yapay zekaya enjekte eder.
+- **⚡ Kesintisiz Bilgi Bankası Tazeleme (`/reload_kb`):** Dökümanlar güncellendiğinde botu kapatıp açmaya gerek kalmaz. Yönetici `/reload_kb` yazdığında bellek içi arama indeksi ve önkoşul grafı 0.1 saniyede kesintisiz yenilenir.
 - **0 TL İşletim Maliyeti:** Öğrenciden API anahtarı istenmez. Sunucuda Groq Cloud (Llama 3.3 70B) birincil model, Google AI Studio (Gemini Flash) ise otomatik yedek model olarak çalışır.
-- **Eşit ve Sürdürülebilir Erişim:** Sistemin tek bir kullanıcı tarafından kilitlenmesini önlemek için öğrenci başına **günde 15 soru limiti** (SQLite tabanlı) uygulanır. Her gece 00:00'da sayaçlar sıfırlanır.
-- **Yönetici Modu:** Bot yöneticisi (`ADMIN_TELEGRAM_ID`) sınırsız soru hakkına sahiptir ve `/stats` komutuyla günün aktif öğrenci sayısını, sorulan toplam soruları anlık izleyebilir.
+- **Eşit ve Sürdürülebilir Erişim:** Sistemin kilitlenmesini önlemek için öğrenci başına **günde 15 soru limiti** uygulanır. Her gece 00:00'da sayaçlar sıfırlanır. Hata anında öğrencinin kotası düşmez.
+- **Yönetici Modu:** Bot yöneticisi (`ADMIN_TELEGRAM_ID`) sınırsız soru hakkına sahiptir ve `/stats` komutuyla günün istatistiklerini anlık izleyebilir.
 
 ---
 
-## 🌐 Tamamen Açık Kaynaklı Bilgi Bankası
+## 🚀 Sunucu (VPS) Dağıtım Kılavuzu
 
-> [!NOTE]
-> **Öğrenci Odaklı Açık Kaynak Politikası:**
-> Yıldızopedia projesindeki 407 adet kurumsal Markdown belgesi, Senato arşivleri, ders planları ve yönergeler; tüm Yıldız Teknik Üniversitesi öğrencilerinin, kulüplerinin ve araştırmacılarının serbestçe faydalanabilmesi, kendi projelerine entegre edebilmesi amacıyla **GitHub üzerinde tamamen açık kaynak olarak paylaşılmaktadır.**
->
-> Projede yalnızca `.env` gibi özel API anahtarları ve yerel veritabanı dosyaları (`.sqlite3`, `chroma_db/`) güvenlik sebebiyle `.gitignore` ile korunmaktadır.
+Botu sunucuda kalıcı (7/24) çalıştırmak için önerilen yöntemler:
 
----
+### 1. Yol: Docker Compose İle Çalıştırma (Önerilen)
 
-## 🚀 VPS Dağıtım ve 7/24 Çalıştırma Seçenekleri
-
-Botunuzu sunucuda kalıcı (7/24) çalıştırmak için önerilen yöntemler:
-
-### 1. Yol: Linux Systemd Servisi Olarak Çalıştırma (Önerilen Üretim Modu)
-Sunucu yeniden başladığında otomatik açılan ve arkaplanda kesintisiz çalışan kalıcı sistem servisi:
-
-1. **Repoyu Klonlayın ve Bağımlılıkları Kurun:**
-   ```bash
-   cd ~/Desktop
-   git clone https://github.com/falsisdev/yildizopedia.git
-   cd yildizopedia
-   cp .env.example .env   # API anahtarlarınızı ve ADMIN_TELEGRAM_ID değerinizi girin
-   pip install -r bot/requirements.txt
-   ```
-
-2. **Systemd Servis Dosyası Oluşturun (`/etc/systemd/system/yildizopedia.service`):**
-   ```ini
-   [Unit]
-   Description=Yıldızopedia 7/24 Telegram Bot Servisi
-   After=network.target
-
-   [Service]
-   Type=simple
-   User=root
-   WorkingDirectory=/root/Desktop/yildizopedia
-   ExecStart=/usr/bin/python3 -m bot.main
-   Restart=always
-   RestartSec=5
-   Environment=PYTHONUNBUFFERED=1
-
-   [Install]
-   WantedBy=multi-user.target
-   ```
-
-3. **Servisi Etkinleştirin ve Başlatın:**
-   ```bash
-   sudo systemctl daemon-reload
-   sudo systemctl enable yildizopedia
-   sudo systemctl start yildizopedia
-   sudo systemctl status yildizopedia
-   ```
-   *Artık sunucuyu kapatsanız veya SSH bağlantısını kesseniz dahi bot 7/24 çalışmaya devam eder.*
-
----
-
-### 2. Yol: Tek Bağımsız Binary İle Çalıştırma (Hızlı & Sıfır Bağımlılık)
-Herhangi bir Python kütüphanesi kurmadan tek bir çalıştırılabilir binary dosyasıyla başlatmak için:
-
-1. **Binary'yi Derleyin:**
-   ```bash
-   bash scripts/build_binary.sh
-   ```
-2. **Çalıştırın:**
-   ```bash
-   ./dist/yildizopedia-bot
-   ```
-
----
-
-### 3. Yol: Docker & Docker Compose İle Çalıştırma
 ```bash
+# 1. Repoyu klonlayın ve klasöre girin
+git clone https://github.com/falsisdev/yildizopedia.git
+cd yildizopedia
+
+# 2. .env dosyasını oluşturup API anahtarlarınızı girin
+cp .env.example .env
+nano .env
+
+# 3. Kalıcı veritabanı klasörünü açın
+mkdir -p var
+
+# 4. Arka planda derleyip başlatın
 docker compose up -d --build
+
+# 5. Logları izleyin
 docker compose logs -f
 ```
 
----
-
-## 🤖 Yapay Zeka Modelleri İçin Kullanım Kılavuzu
-
-Bir LLM (Gemini, Claude, GPT, DeepSeek vb.) veya AI Agent bu projeyi kullandığında:
-
-1. **Doğru Dosyayı Bulma:** Kullanıcı sorusunu önce [ROUTER_GUIDE.md](ROUTER_GUIDE.md) dosyasındaki yönlendirme tablosuyla eşleştirin.
-2. **Hukuki Dayanak Bildirme:** Cevap verirken genel konuşmayın; yönetmelik madde numarasını (örn: *Lisans Yönetmeliği Madde 23*), Senato yönerge kodunu (*YÖ-075, DD-007*) veya Bologna ders kodunu belirtin.
-3. **Zorunlu Kapanış Bloğu:** Her yanıtın sonuna aşağıdaki doğrulama paneli eklenmelidir:
-
-```markdown
----
-### 📌 Kaynak ve Güvenilirlik Bilgisi
-- **Birincil Kaynak:** [Belge veya Sayfa Adı](dosya-yolu-veya-link)
-- **Güvenilirlik Düzeyi:** [Tier 1 | Tier 2 | Tier 3 | Tier 4]
-- **Geçerlilik / Güncelleme Tarihi:** [2026-2027 Akademik Yılı]
-- **Yasal Dayanak / Belge No:** [Örn: Senato YÖ-075 Yönergesi Madde 9]
+*(Sunucunuzda `docker compose` yerine doğrudan Docker kullanmak isterseniz:)*
+```bash
+docker build -t yildizopedia-bot -f bot/Dockerfile .
+docker run -d --name yildizopedia_bot --restart unless-stopped --env-file .env -v $(pwd):/app -v $(pwd)/var:/app/var yildizopedia-bot
 ```
 
 ---
 
-## 👥 Öğrenciler ve Geliştiriciler İçin Kullanım
+### 2. Yol: Linux Systemd Servisi Olarak Çalıştırma
 
-- **VS Code / Cursor / Obsidian / Typora:** Projeyi doğrudan bir çalışma alanı (workspace) olarak açarak Markdown dosyaları arasında hızlı arama (`Ctrl+Shift+F` veya `Cmd+Shift+F`) yapabilirsiniz.
-- **AI Coding Ajanları (Google Antigravity, Claude Code, Roo Code, Aider):** Bu klasörü aktif workspace olarak gösterip doğrudan sohbet penceresinden *"Makine Fakültesi staj kuralları nelerdir?"*, *"Yaz okulunda en fazla kaç kredi alabilirim?"*, *"Biyomedikal ÇDTP şartları nelerdir?"* gibi sorular yöneltebilirsiniz.
-- **Otomatik Bütünlük Testi:** Projede herhangi bir dosyanın eksik olup olmadığını veya verilerin tutarlılığını test etmek için:
-  ```bash
-  python scripts/verify_knowledge_base.py
-  ```
-  Test çıktısı tüm 407 dosyayı ve 27 kritik mevzuat kriterini denetleyerek sonucu raporlar.
+```bash
+# 1. Sanal ortamı kurun ve bağımlılıkları yükleyin
+python3 -m venv venv
+source venv/bin/activate
+pip install -r bot/requirements.txt
+
+# 2. Servis dosyasını hazırlayın (/etc/systemd/system/yildizopedia.service)
+sudo nano /etc/systemd/system/yildizopedia.service
+```
+
+```ini
+[Unit]
+Description=Yıldızopedia 7/24 Telegram Bot Servisi
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/yildizopedia
+ExecStart=/root/yildizopedia/venv/bin/python -m bot.main
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+# 3. Servisi başlatın
+sudo systemctl daemon-reload
+sudo systemctl enable yildizopedia
+sudo systemctl start yildizopedia
+```
+
+---
+
+## 🛠️ Geliştirici ve Veri Derleme Araçları (Pipelines)
+
+```bash
+# 1. Ders Önkoşul Grafını ve İstatistikleri Derleme
+python -m pipelines.compiler
+
+# 2. Bilgi Bankası Standartlarını ve Frontmatter Bütünlüğünü Denetleme
+python -m pipelines.validator
+
+# 3. Arama ve RAG Alt Sistem Testlerini Çalıştırma (pytest)
+pytest tests/test_retrieval.py
+```
 
 ---
 
 ## 📜 Lisans ve Sorumluluk Reddi
+
 Bu proje, Yıldız Teknik Üniversitesi öğrencilerine ve araştırmacılarına doğru, tarafsız ve güncel bilgi sunmak amacıyla hazırlanmış bir açık kaynak kamu hizmetidir. Resmi kararlarda ve ihtilaflı durumlarda YTÜ Senatosu, Rektörlüğü ve ilgili Fakülte Yönetim Kurulları'nın ıslak imzalı veya EBYS üzerinden yayımlanan nihai resmi kararları esastır.
