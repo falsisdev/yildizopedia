@@ -1,0 +1,15 @@
+---
+baslik: "Mimarlık Önkoşul Zinciri ve Bağımlılık Haritası"
+kategori: "fakulteler_ve_bolumler"
+bolum: "Mimarlık"
+kaynak: "http://www.bologna.yildiz.edu.tr/index.php?r=program/view&id=429&aid=38"
+guvenilirlik_duzeyi: "Tier 2 (Resmi Bologna Bilgi Sistemi)"
+---
+
+# Mimarlık Önkoşul Zinciri ve Bağımlılık Haritası (%100 İngilizce)
+
+Bu belgede, bölüm müfredatında yer alan derslerin önkoşul kuralları listelenmektedir.
+
+| Hedef Ders Kodu | Hedef Ders Adı | Yarıyıl | Gerekli Önkoşul(lar) |
+| :--- | :--- | :---: | :--- |
+| - | Doğrudan önkoşul bağımlılığı bulunmamaktadır. | - | - |

@@ -320,3 +320,129 @@ Bu dizin, Yıldız Teknik Üniversitesi Bilgi Bankası içindeki tüm konuları,
 - **Lisansüstü Programlar:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/gemi_insaati_ve_denizcilik_fakultesi/gemi_makineleri_isletme_muhendisligi/lisansustu_programlar.md)
 - **GMİM SSS (Liman Cüzdanı, GASM, Çarkçıbaşı):** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/gemi_insaati_ve_denizcilik_fakultesi/gemi_makineleri_isletme_muhendisligi/sikca_sorulan_sorular.md)
 - **Bologna %30 İngilizce Müfredatı (ID: 141):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/gemi_insaati_ve_denizcilik_fakultesi/gemi_makineleri_isletme_muhendisligi/bologna_ders_plani/README.md)
+
+---
+
+### 10. Mimarlık Fakültesi Külliyatı
+- **Fakülte Genel Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/README.md)
+- **Dekanlık ve Teşkilat Yapısı:** [dekanlik_ve_teskilat_yapisi.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/dekanlik_ve_teskilat_yapisi.md)
+- **Fakülte SSS:** [fakulte_sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/fakulte_sikca_sorulan_sorular.md)
+- **Akran Danışmanlığı ve Öğrenci Rehberi:** [akran_danismanligi_ve_ogrenci_rehberi.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/akran_danismanligi_ve_ogrenci_rehberi.md)
+- **Staj ve Atölye Esasları:** [staj_ve_atolye_esaslari.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/staj_ve_atolye_esaslari.md)
+
+#### 10.1 Mimarlık Bölümü
+- **Mimarlık Bölüm Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/README.md)
+- **Lisans Eğitim Yapısı:** [lisans_egitim_yapisi.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/lisans_egitim_yapisi.md)
+- **Staj (Şantiye/Büro) ve Diploma Projesi Esasları:** [staj_tasarim_ve_bitirme_esaslari.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/staj_tasarim_ve_bitirme_esaslari.md)
+- **Laboratuvarlar ve Stüdyolar (MTS, CAD/BIM, Maket):** [laboratuvarlar_ve_arastirma.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/laboratuvarlar_ve_arastirma.md)
+- **Komisyonlar ve Öğrenci Danışmanlığı (MİAK/NAAB):** [komisyonlar_ve_ogrenci_danismanligi.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/komisyonlar_ve_ogrenci_danismanligi.md)
+- **Lisansüstü Programlar:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/lisansustu_programlar.md)
+- **Mimarlık SSS:** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/sikca_sorulan_sorular.md)
+- **Bologna %30 İngilizce Müfredatı (ID: 50):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/README.md)
+- **Bologna %100 İngilizce Müfredatı (ID: 429):** [bologna_ders_plani_yuzde100/README.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani_yuzde100/README.md)
+
+#### 10.2 Şehir ve Bölge Planlama Bölümü (ŞBP)
+- **ŞBP Bölüm Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/README.md)
+- **Lisans Eğitim Yapısı:** [lisans_egitim_yapisi.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/lisans_egitim_yapisi.md)
+- **Staj (Kamu/Büro) ve Bitirme Projesi Esasları:** [staj_tasarim_ve_bitirme_esaslari.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/staj_tasarim_ve_bitirme_esaslari.md)
+- **Laboratuvarlar ve Stüdyolar (CBS/GIS, Kentsel Modelleme):** [laboratuvarlar_ve_arastirma.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/laboratuvarlar_ve_arastirma.md)
+- **Komisyonlar ve Öğrenci Danışmanlığı:** [komisyonlar_ve_ogrenci_danismanligi.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/komisyonlar_ve_ogrenci_danismanligi.md)
+- **Lisansüstü Programlar:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/lisansustu_programlar.md)
+- **ŞBP SSS:** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/sikca_sorulan_sorular.md)
+- **Bologna %30 İngilizce Müfredatı (ID: 51):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/README.md)
+
+#### 10.3 Endüstriyel Tasarım Bölümü
+- **Endüstriyel Tasarım Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/README.md)
+- **Lisans Eğitim Yapısı:** [lisans_egitim_yapisi.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/lisans_egitim_yapisi.md)
+- **Staj (Fabrika/Ofis) ve Ürün Tasarımı Bitirme Esasları:** [staj_tasarim_ve_bitirme_esaslari.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/staj_tasarim_ve_bitirme_esaslari.md)
+- **Laboratuvarlar ve Atölyeler (Hızlı Prototipleme, Ergonomi):** [laboratuvarlar_ve_arastirma.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/laboratuvarlar_ve_arastirma.md)
+- **Komisyonlar ve Öğrenci Danışmanlığı:** [komisyonlar_ve_ogrenci_danismanligi.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/komisyonlar_ve_ogrenci_danismanligi.md)
+- **Lisansüstü Programlar:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/lisansustu_programlar.md)
+- **Endüstriyel Tasarım SSS:** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/sikca_sorulan_sorular.md)
+- **Bologna Müfredatı (ID: 516):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/README.md)
+
+---
+
+### 11. İktisadi ve İdari Bilimler Fakültesi Külliyatı (İİBF)
+- **Fakülte Genel Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/README.md)
+- **Dekanlık ve Teşkilat Yapısı:** [dekanlik_ve_teskilat_yapisi.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/dekanlik_ve_teskilat_yapisi.md)
+- **Fakülte SSS:** [fakulte_sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/fakulte_sikca_sorulan_sorular.md)
+- **Akran Danışmanlığı ve Öğrenci Rehberi:** [akran_danismanligi_ve_ogrenci_rehberi.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/akran_danismanligi_ve_ogrenci_rehberi.md)
+- **Staj ve Kariyer Esasları:** [staj_ve_kariyer_esaslari.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/staj_ve_kariyer_esaslari.md)
+
+#### 11.1 İktisat Bölümü
+- **İktisat Bölüm Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/README.md)
+- **Lisans Eğitim Yapısı:** [lisans_egitim_yapisi.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/lisans_egitim_yapisi.md)
+- **Staj ve Bitirme Tezi Esasları:** [staj_tasarim_ve_bitirme_esaslari.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/staj_tasarim_ve_bitirme_esaslari.md)
+- **Laboratuvarlar ve Araştırma (Ekonometri, Finansal Piyasalar):** [laboratuvarlar_ve_arastirma.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/laboratuvarlar_ve_arastirma.md)
+- **Komisyonlar ve Danışmanlık:** [komisyonlar_ve_ogrenci_danismanligi.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/komisyonlar_ve_ogrenci_danismanligi.md)
+- **Lisansüstü Programlar:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/lisansustu_programlar.md)
+- **İktisat SSS:** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/sikca_sorulan_sorular.md)
+- **Bologna %30 İngilizce Müfredatı (ID: 54):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/README.md)
+- **Bologna %100 İngilizce Müfredatı (ID: 535):** [bologna_ders_plani_yuzde100/README.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani_yuzde100/README.md)
+
+#### 11.2 İşletme Bölümü
+- **İşletme Bölüm Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/README.md)
+- **Lisans Eğitim Yapısı:** [lisans_egitim_yapisi.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/lisans_egitim_yapisi.md)
+- **Staj ve Bitirme Projesi Esasları:** [staj_tasarim_ve_bitirme_esaslari.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/staj_tasarim_ve_bitirme_esaslari.md)
+- **Laboratuvarlar ve Araştırma (ERP/SAP, Tüketici Davranışları):** [laboratuvarlar_ve_arastirma.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/laboratuvarlar_ve_arastirma.md)
+- **Komisyonlar ve Öğrenci Danışmanlığı:** [komisyonlar_ve_ogrenci_danismanligi.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/komisyonlar_ve_ogrenci_danismanligi.md)
+- **Lisansüstü Programlar:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/lisansustu_programlar.md)
+- **İşletme SSS:** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/sikca_sorulan_sorular.md)
+- **Bologna %30 İngilizce Müfredatı (ID: 55):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/README.md)
+- **Bologna %100 İngilizce Müfredatı (ID: 539):** [bologna_ders_plani_yuzde100/README.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani_yuzde100/README.md)
+
+#### 11.3 Siyaset Bilimi ve Uluslararası İlişkiler Bölümü (SBUI)
+- **SBUI Bölüm Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/README.md)
+- **Lisans Eğitim Yapısı:** [lisans_egitim_yapisi.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/lisans_egitim_yapisi.md)
+- **Staj (Diplomasi/STK) ve Bitirme Tezi Esasları:** [staj_tasarim_ve_bitirme_esaslari.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/staj_tasarim_ve_bitirme_esaslari.md)
+- **Laboratuvarlar ve Araştırma (Diplomasi Simülasyon Salonu):** [laboratuvarlar_ve_arastirma.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/laboratuvarlar_ve_arastirma.md)
+- **Komisyonlar ve Öğrenci Danışmanlığı:** [komisyonlar_ve_ogrenci_danismanligi.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/komisyonlar_ve_ogrenci_danismanligi.md)
+- **Lisansüstü Programlar:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/lisansustu_programlar.md)
+- **SBUI SSS:** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/sikca_sorulan_sorular.md)
+- **Bologna %30 İngilizce Müfredatı (ID: 56):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/README.md)
+
+---
+
+### 12. Sanat ve Tasarım Fakültesi Külliyatı (STF)
+- **Fakülte Genel Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/README.md)
+- **Dekanlık ve Teşkilat Yapısı:** [dekanlik_ve_teskilat_yapisi.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/dekanlik_ve_teskilat_yapisi.md)
+- **Fakülte SSS:** [fakulte_sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/fakulte_sikca_sorulan_sorular.md)
+- **Akran Danışmanlığı ve Öğrenci Rehberi:** [akran_danismanligi_ve_ogrenci_rehberi.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/akran_danismanligi_ve_ogrenci_rehberi.md)
+- **Özel Yetenek ve Sanatsal Etkinlik Esasları:** [ozel_yetenek_ve_sanatsal_etkinlik_esaslari.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/ozel_yetenek_ve_sanatsal_etkinlik_esaslari.md)
+
+#### 12.1 Müzik ve Sahne Sanatları Bölümü (MSSB)
+- **MSSB Bölüm Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/README.md)
+- **Lisans Eğitim Yapısı:** [lisans_egitim_yapisi.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/lisans_egitim_yapisi.md)
+- **Staj / Sahne Uygulaması ve Konser Bitirme Esasları:** [staj_tasarim_ve_bitirme_esaslari.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/staj_tasarim_ve_bitirme_esaslari.md)
+- **Laboratuvarlar ve Stüdyolar (Ses Kayıt Stüdyosu, Prova Odaları, Dans Salonu):** [laboratuvarlar_ve_arastirma.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/laboratuvarlar_ve_arastirma.md)
+- **Komisyonlar ve Danışmanlık:** [komisyonlar_ve_ogrenci_danismanligi.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/komisyonlar_ve_ogrenci_danismanligi.md)
+- **Lisansüstü Programlar:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/lisansustu_programlar.md)
+- **MSSB SSS:** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/sikca_sorulan_sorular.md)
+- **Müzik Toplulukları Bologna Müfredatı (ID: 208):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/README.md)
+- **Ses Sanatları Tasarımı Bologna Müfredatı (ID: 206):** [bologna_ders_plani_ses/README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_ses/README.md)
+- **Dans Bologna Müfredatı (ID: 207):** [bologna_ders_plani_dans/README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/README.md)
+
+#### 12.2 İletişim Tasarımı Bölümü
+- **İletişim Tasarımı Bölüm Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/README.md)
+- **Lisans Eğitim Yapısı:** [lisans_egitim_yapisi.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/lisans_egitim_yapisi.md)
+- **Staj (Ajans/Medya) ve Portfolyo Bitirme Esasları:** [staj_tasarim_ve_bitirme_esaslari.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/staj_tasarim_ve_bitirme_esaslari.md)
+- **Laboratuvarlar ve Stüdyolar (Animasyon, Post-Prodüksiyon, UI/UX):** [laboratuvarlar_ve_arastirma.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/laboratuvarlar_ve_arastirma.md)
+- **Komisyonlar ve Öğrenci Danışmanlığı:** [komisyonlar_ve_ogrenci_danismanligi.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/komisyonlar_ve_ogrenci_danismanligi.md)
+- **Lisansüstü Programlar:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/lisansustu_programlar.md)
+- **İletişim Tasarımı SSS:** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/sikca_sorulan_sorular.md)
+- **Bologna Müfredatı (ID: 52):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/README.md)
+
+#### 12.3 Sanat Bölümü
+- **Sanat Bölüm Tanıtımı:** [README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/README.md)
+- **Lisans Eğitim Yapısı:** [lisans_egitim_yapisi.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/lisans_egitim_yapisi.md)
+- **Staj (Müze/Galeri/Atölye) ve Sergi Bitirme Esasları:** [staj_tasarim_ve_bitirme_esaslari.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/staj_tasarim_ve_bitirme_esaslari.md)
+- **Laboratuvarlar ve Atölyeler (Baskı, Heykel, Fotoğraf/Karanlık Oda, Grafik):** [laboratuvarlar_ve_arastirma.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/laboratuvarlar_ve_arastirma.md)
+- **Komisyonlar ve Sergi Kurulu:** [komisyonlar_ve_ogrenci_danismanligi.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/komisyonlar_ve_ogrenci_danismanligi.md)
+- **Lisansüstü ve Sanatta Yeterlik Programları:** [lisansustu_programlar.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/lisansustu_programlar.md)
+- **Sanat SSS:** [sikca_sorulan_sorular.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/sikca_sorulan_sorular.md)
+- **Bileşik Sanatlar Bologna Müfredatı (ID: 259):** [bologna_ders_plani/README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/README.md)
+- **Grafik Tasarımı Bologna Müfredatı (ID: 513):** [bologna_ders_plani_grafik/README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/README.md)
+- **Fotoğraf ve Video Bologna Müfredatı (ID: 281):** [bologna_ders_plani_fotograf/README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/README.md)
+- **Sanat ve Kültür Yönetimi Bologna Müfredatı (ID: 263):** [bologna_ders_plani_yonetim/README.md](05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/README.md)
+

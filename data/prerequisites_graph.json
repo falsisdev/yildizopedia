@@ -1,8 +1,1163 @@
 {
+  "IKT1101": {
+    "name": "İktisada Giriş 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/1_yariyil.md"
+  },
+  "IKT1111": {
+    "name": "İktisatçılar için Matematik 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/1_yariyil.md"
+  },
+  "ISL1171": {
+    "name": "Genel Muhasebe 1 (İşletme)",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/1_yariyil.md"
+  },
+  "ISL1711": {
+    "name": "Hukukun Genel Kavramları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/1_yariyil.md"
+  },
+  "MDB1031": {
+    "name": "İleri İngilizce 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "TDB1031": {
+    "name": "Türkçe 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "ATA1031": {
+    "name": "Atatürk İlkeleri ve İnkılap Tarihi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "ISL1611": {
+    "name": "İşletme Bilimine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/1_yariyil.md"
+  },
+  "IKT2104": {
+    "name": "Makro İktisat 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/4_yariyil.md"
+  },
+  "IKT2103": {
+    "name": "Mikro İktisat 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/4_yariyil.md"
+  },
+  "IKT2212": {
+    "name": "İstatistik 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/4_yariyil.md"
+  },
+  "IKT2272": {
+    "name": "Kamu Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/3_yariyil.md"
+  },
+  "USS-2B": {
+    "name": "ÜNİVERSİTE SOSYAL SEÇMELİ-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "IKT2102": {
+    "name": "Makro İktisat 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/3_yariyil.md"
+  },
+  "IKT2101": {
+    "name": "Mikro İktisat 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/3_yariyil.md"
+  },
+  "IKT2211": {
+    "name": "İstatistik 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/3_yariyil.md"
+  },
+  "IKT2281": {
+    "name": "Genel İktisat Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/3_yariyil.md"
+  },
+  "IKT2901": {
+    "name": "İktisatta Araştırma Yöntemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/3_yariyil.md"
+  },
+  "IKT3902": {
+    "name": "Ekonometri 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/6_yariyil.md"
+  },
+  "IKT3992": {
+    "name": "İktisadi Düşünce Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/6_yariyil.md"
+  },
+  "IKT3492": {
+    "name": "Türkiye Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/6_yariyil.md"
+  },
+  "MES-3B": {
+    "name": "Mesleki Seçmeli -4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "UMS-3B": {
+    "name": "Üniversite Mesleki Seçmeli 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/6_yariyil.md"
+  },
+  "IKT4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/8_yariyil.md"
+  },
+  "MES-4B": {
+    "name": "Mesleki Seçmeli -8",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "IKT3911": {
+    "name": "Uluslararası İktisat",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/5_yariyil.md"
+  },
+  "IKT3321": {
+    "name": "Para Teorisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/5_yariyil.md"
+  },
+  "IKT3901": {
+    "name": "Ekonometri 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/5_yariyil.md"
+  },
+  "MES-3G": {
+    "name": "Mesleki Seçmeli -3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MES-4G": {
+    "name": "Mesleki Seçmeli -6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "USS-4G": {
+    "name": "Üniversite Sosyal Seçmeli -2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "UMS-4G": {
+    "name": "ÜNİVERSİTE MESLEKİ SEÇMELİ",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "IKT1102": {
+    "name": "İktisada Giriş 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/2_yariyil.md"
+  },
+  "IKT1112": {
+    "name": "İktisatçılar için Matematik 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/2_yariyil.md"
+  },
+  "MDB1032": {
+    "name": "İleri İngilizce 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "TDB1032": {
+    "name": "Türkçe 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "ATA1032": {
+    "name": "Atatürk İlkeleri ve İnkılâp Tarihi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "IKT1170": {
+    "name": "Temel Bilgisayar Bilimleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/iktisat/bologna_ders_plani/2_yariyil.md"
+  },
+  "ISL1182": {
+    "name": "Genel Muhasebe 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/2_yariyil.md"
+  },
+  "ISL1181": {
+    "name": "İşletmeciler için Matematik 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/1_yariyil.md"
+  },
+  "ENF1170": {
+    "name": "Temel Bilgisayar Bilimleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/4_yariyil.md"
+  },
+  "ISL2442": {
+    "name": "Ticaret Hukuku",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/4_yariyil.md"
+  },
+  "ISL2452": {
+    "name": "İşletmeciler için İstatistik 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/4_yariyil.md"
+  },
+  "ISL2642": {
+    "name": "Örgütsel Davranış",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/4_yariyil.md"
+  },
+  "ISL2305": {
+    "name": "Stratejik İşletme Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/4_yariyil.md"
+  },
+  "ISL2322": {
+    "name": "Finansal Yönetim 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/4_yariyil.md"
+  },
+  "ISL2441": {
+    "name": "İşletmeciler için İstatistik 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/3_yariyil.md"
+  },
+  "ISL2481": {
+    "name": "Temel İşletme Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/3_yariyil.md"
+  },
+  "ISL2731": {
+    "name": "Araştırma Yöntemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/3_yariyil.md"
+  },
+  "ISL2321": {
+    "name": "Finansal Yönetim 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/3_yariyil.md"
+  },
+  "ISL2301": {
+    "name": "Pazarlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/3_yariyil.md"
+  },
+  "USS-2G": {
+    "name": "ÜNİVERSİTE SOSYAL SEÇMELİ-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "ISL3862": {
+    "name": "İş Hukuku",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/6_yariyil.md"
+  },
+  "ISL3253": {
+    "name": "İşletmelerde Güncel Sorunlara Çözüm Seminerleri 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/6_yariyil.md"
+  },
+  "ISL3231": {
+    "name": "Nicel Karar Verme Teknikleri 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/6_yariyil.md"
+  },
+  "ISL4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/8_yariyil.md"
+  },
+  "ISL3152": {
+    "name": "İşletmelerde Güncel Sorunlara Çözüm Seminerleri 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/5_yariyil.md"
+  },
+  "ISL3230": {
+    "name": "Nicel Karar Verme Teknikleri 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/5_yariyil.md"
+  },
+  "ISL3621": {
+    "name": "Üretim Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/5_yariyil.md"
+  },
+  "ISL1552": {
+    "name": "İşletmeciler için Matematik 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/2_yariyil.md"
+  },
+  "ISL1622": {
+    "name": "Davranış Bilimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/isletme/bologna_ders_plani/2_yariyil.md"
+  },
+  "SBU1401": {
+    "name": "Siyaset Bilimine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/1_yariyil.md"
+  },
+  "SBU1031": {
+    "name": "Sosyoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/1_yariyil.md"
+  },
+  "SBU1701": {
+    "name": "Hukuka Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/1_yariyil.md"
+  },
+  "SBU2301": {
+    "name": "Mesleki İngilizce 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/4_yariyil.md"
+  },
+  "ISL2742": {
+    "name": "Sosyal Bilimlerde İstatistik Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/4_yariyil.md"
+  },
+  "SBU2142": {
+    "name": "Türkiye'nin Yönetim Yapısı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/4_yariyil.md"
+  },
+  "SBU2152": {
+    "name": "Siyasi Tarih 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/4_yariyil.md"
+  },
+  "SBU2502": {
+    "name": "Siyaset Kuramı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/4_yariyil.md"
+  },
+  "MES-2B": {
+    "name": "Mesleki Seçmeli -1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MDB2051": {
+    "name": "İngilizce Okuma ve Konuşma",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBU2132": {
+    "name": "Mesleki İngilizce 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/3_yariyil.md"
+  },
+  "SBU2211": {
+    "name": "Kamu Yönetimine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/3_yariyil.md"
+  },
+  "SBU2311": {
+    "name": "Siyasi Tarih 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/3_yariyil.md"
+  },
+  "SBU2501": {
+    "name": "Siyaset Kuramı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/3_yariyil.md"
+  },
+  "MES-2G": {
+    "name": "Mesleki Seçmeli 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/3_yariyil.md"
+  },
+  "MDB3032": {
+    "name": "İş Hayatı için İngilizce",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBU3102": {
+    "name": "Uluslararası İlişkiler 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/6_yariyil.md"
+  },
+  "SBU3202": {
+    "name": "Karşılaştırmalı Siyaset",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/6_yariyil.md"
+  },
+  "SBU3302": {
+    "name": "Türkiye Siyaseti 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/6_yariyil.md"
+  },
+  "SBU3402": {
+    "name": "Devletler Hukuku 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/6_yariyil.md"
+  },
+  "SBU4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBU4122": {
+    "name": "Uluslararası İlişkilerde Güncel Konular",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBU4222": {
+    "name": "Türkiye'nin Dış Politikası 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBU3011": {
+    "name": "Devletler Hukuku 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBU3101": {
+    "name": "Uluslararası İlişkiler 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBU3111": {
+    "name": "Türkiye Siyaseti 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBU3201": {
+    "name": "Karşılaştırmalı Devlet Sistemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBU3401": {
+    "name": "Araştırma Yöntemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBU4221": {
+    "name": "Sosyal Politika ve Sosyal Ekonomi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/7_yariyil.md"
+  },
+  "SBU4111": {
+    "name": "Türkiye'nin Dış Politikası 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/7_yariyil.md"
+  },
+  "SBU4121": {
+    "name": "Uluslararası İlişkiler Kuramları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/7_yariyil.md"
+  },
+  "SBU1032": {
+    "name": "Türkiye'nin Toplumsal Yapısı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/2_yariyil.md"
+  },
+  "SBU1612": {
+    "name": "Anayasa Hukuku",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/2_yariyil.md"
+  },
+  "SBU1702": {
+    "name": "Uluslararası İlişkilere Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/iktisadi_ve_idari_bilimler_fakultesi/siyaset_bilimi_ve_uluslararasi_iliskiler/bologna_ders_plani/2_yariyil.md"
+  },
+  "USS-1B": {
+    "name": "Üniversite Sosyal Seçmeli 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
+  },
+  "MIM1011": {
+    "name": "Mimari Tasarıma Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/1_yariyil.md"
+  },
+  "MIM1031": {
+    "name": "Mimari Anlatım Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/1_yariyil.md"
+  },
+  "MIM1041": {
+    "name": "Temel Tasar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/1_yariyil.md"
+  },
+  "MIM1051": {
+    "name": "Bina Tasarımı ve Kuramı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/1_yariyil.md"
+  },
+  "MAT1821": {
+    "name": "Matematik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/1_yariyil.md"
+  },
+  "MIM1201": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/1_yariyil.md"
+  },
+  "MIM2012": {
+    "name": "Mimari Tasarım 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/4_yariyil.md"
+  },
+  "MIM2092": {
+    "name": "Taşıyıcı Sistem Tasarımı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/4_yariyil.md"
+  },
+  "MIM2052": {
+    "name": "Mimarlık Tarihi 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/4_yariyil.md"
+  },
+  "MES1-2B": {
+    "name": "Mesleki Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
+  },
+  "MES3-2B": {
+    "name": "MESLEKİ SEÇMELİ 3-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
+  },
+  "MIM2011": {
+    "name": "Mimari Tasarım 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/3_yariyil.md"
+  },
+  "MIM2031": {
+    "name": "Mimarlıkta Yapı Statiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/3_yariyil.md"
+  },
+  "MIM2041": {
+    "name": "Mimarlık Tarihi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/3_yariyil.md"
+  },
+  "MIM2101": {
+    "name": "Yapı Elemanları 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/3_yariyil.md"
+  },
+  "MIM2081": {
+    "name": "Bilgisayar Ortamında Mimarlık",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/3_yariyil.md"
+  },
+  "MES2-2G": {
+    "name": "Mesleki Seçmeli 2-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/harita_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "MIM2001": {
+    "name": "Staj 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/3_yariyil.md"
+  },
+  "MIM3012": {
+    "name": "Mimari Tasarım 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/6_yariyil.md"
+  },
+  "MIM3042": {
+    "name": "Yapı Fiziği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/6_yariyil.md"
+  },
+  "MIM3052": {
+    "name": "Mimarlık Meslek Pratiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/6_yariyil.md"
+  },
+  "MIM3032": {
+    "name": "Yapı Çözümlemesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/6_yariyil.md"
+  },
+  "MES3-3B": {
+    "name": "Mesleki Secmeli MES3 - Yapay Zekâ",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
+  },
+  "MES1-3B": {
+    "name": "MESLEKİ SEÇMELİ 1-4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/6_yariyil.md"
+  },
+  "MIM4000": {
+    "name": "Bitirme Çalışması (MT7)",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/8_yariyil.md"
+  },
+  "MIM4012": {
+    "name": "Bitirme Raporu",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/8_yariyil.md"
+  },
+  "MES1-4B": {
+    "name": "MESLEKI SECMELI 1-12",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MES2-4B": {
+    "name": "Mesleki Seçmeli 2-6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MES3-4B": {
+    "name": "Mesleki Seçmeli 3-4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
+  },
+  "MIM3011": {
+    "name": "Mimari Tasarım 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/5_yariyil.md"
+  },
+  "MIM3041": {
+    "name": "Taşıyıcı Sistem Tasarımı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/5_yariyil.md"
+  },
+  "MIM3061": {
+    "name": "Mimarlık Tarihi 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBP3991": {
+    "name": "Şehir Planlama ve İmar Hukuku",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/5_yariyil.md"
+  },
+  "MIM3031": {
+    "name": "Yapı Fiziği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/5_yariyil.md"
+  },
+  "MES2-3G": {
+    "name": "Mesleki Seçmeli 2-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
+  },
+  "MIM3002": {
+    "name": "Staj 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/5_yariyil.md"
+  },
+  "MIM4011": {
+    "name": "Mimari Tasarım 6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/7_yariyil.md"
+  },
+  "MIM4031": {
+    "name": "Yapım Yönetimi ve Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/7_yariyil.md"
+  },
+  "MIM4051": {
+    "name": "Koruma Restorasyon",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/7_yariyil.md"
+  },
+  "MIM4301": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/7_yariyil.md"
+  },
+  "MES4-4G": {
+    "name": "Mesleki Seçmeli MES4 - Prosesler",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
+  },
+  "MIM4001": {
+    "name": "Staj 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/7_yariyil.md"
+  },
+  "MIM1012": {
+    "name": "Mimari Tasarım 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/2_yariyil.md"
+  },
+  "MIM1062": {
+    "name": "Bina Bilgisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/2_yariyil.md"
+  },
+  "MIM1042": {
+    "name": "Statik-Mukavemet",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/2_yariyil.md"
+  },
+  "MIM1072": {
+    "name": "Mimarlık Tarihi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/2_yariyil.md"
+  },
+  "MIM1032": {
+    "name": "Yapı Malzemesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/2_yariyil.md"
+  },
+  "MIM1052": {
+    "name": "Yapı Elemanları 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/mimarlik/bologna_ders_plani/2_yariyil.md"
+  },
+  "MES1-1B": {
+    "name": "Mesleki Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/2_yariyil.md"
+  },
+  "SBP1410": {
+    "name": "Temel Bilgisayar Bilimleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/1_yariyil.md"
+  },
+  "SBP1031": {
+    "name": "Şehir ve Planlama 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/1_yariyil.md"
+  },
+  "SBP1041": {
+    "name": "Sosyoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/1_yariyil.md"
+  },
+  "SBP1111": {
+    "name": "Planlama 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/1_yariyil.md"
+  },
+  "SBP1121": {
+    "name": "Tasarım İlkeleri ve İfade Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/1_yariyil.md"
+  },
+  "SBP2172": {
+    "name": "Şehir ve Planlama 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/4_yariyil.md"
+  },
+  "SBP2002": {
+    "name": "Staj 01",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/4_yariyil.md"
+  },
+  "SBP2062": {
+    "name": "Planlama 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/4_yariyil.md"
+  },
+  "SBP2072": {
+    "name": "Kent ve Planlama Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/4_yariyil.md"
+  },
+  "SBP2082": {
+    "name": "Şehir Sosyolojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP2021": {
+    "name": "Bölge Planlama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/3_yariyil.md"
+  },
+  "SBP2031": {
+    "name": "Şehir Ekonomisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP2051": {
+    "name": "Ekoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/3_yariyil.md"
+  },
+  "SBP2061": {
+    "name": "Planlama 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/3_yariyil.md"
+  },
+  "SBP2941": {
+    "name": "Analiz Yöntem ve Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/3_yariyil.md"
+  },
+  "MES1-2G": {
+    "name": "Mesleki Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/3_yariyil.md"
+  },
+  "SBP3002": {
+    "name": "Staj 02",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/6_yariyil.md"
+  },
+  "SBP3052": {
+    "name": "Planlama 6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/6_yariyil.md"
+  },
+  "SBP3172": {
+    "name": "Kentsel Tasarım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/6_yariyil.md"
+  },
+  "SBP4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP4182": {
+    "name": "İş Sağlığı ve Güvenliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP4912": {
+    "name": "Planlama 8",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/8_yariyil.md"
+  },
+  "SBP3021": {
+    "name": "Planlama Kuram ve Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBP3031": {
+    "name": "Şehir ve Toplum Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBP3041": {
+    "name": "Kentsel Ulaşım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBP3111": {
+    "name": "Planlama 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBP3161": {
+    "name": "Şehir Yenileme ve Koruma",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBP3181": {
+    "name": "İmar ve Çevre Hukuku",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/5_yariyil.md"
+  },
+  "MES1-3G": {
+    "name": "MESLEKİ SEÇMELİ 1-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
+  },
+  "SBP4181": {
+    "name": "İş Sağlığı ve Güvenliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/7_yariyil.md"
+  },
+  "SBP4911": {
+    "name": "Planlama 7",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/7_yariyil.md"
+  },
+  "MES1-4G": {
+    "name": "MESLEKİ SEÇMELİ 1-8",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "MES2-4G": {
+    "name": "Mesleki Seçmeli 2-1 (ÇDTP)",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/7_yariyil.md"
+  },
+  "IKT1092": {
+    "name": "Ekonomi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/2_yariyil.md"
+  },
+  "IST1930": {
+    "name": "Uygulamalı Bilimler İçin İstatistik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/2_yariyil.md"
+  },
+  "SBP1062": {
+    "name": "İnsan Yerleşmelerinin Evrimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/2_yariyil.md"
+  },
+  "SBP1112": {
+    "name": "Planlama 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/sehir_ve_bolge_planlama/bologna_ders_plani/2_yariyil.md"
+  },
+  "EUT1621": {
+    "name": "Endüstri Ürünleri Tasarımı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/1_yariyil.md"
+  },
+  "BSP1101": {
+    "name": "Temel Tasarım 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/1_yariyil.md"
+  },
+  "EUT1031": {
+    "name": "Teknik Çizim 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/1_yariyil.md"
+  },
+  "MAT1071": {
+    "name": "Matematik  1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
   "FIZ1001": {
     "name": "Fizik 1",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
+  },
+  "SYP1041": {
+    "name": "Sanat Tarihine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/1_yariyil.md"
+  },
+  "EUT2632": {
+    "name": "Bilgisayar Destekli Tasarım 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/4_yariyil.md"
+  },
+  "EUT2052": {
+    "name": "Tasarım Tarihi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/4_yariyil.md"
+  },
+  "EUT2012": {
+    "name": "Malzeme Bilgisi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/4_yariyil.md"
+  },
+  "EUT2062": {
+    "name": "Seramik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/4_yariyil.md"
+  },
+  "EUT2002": {
+    "name": "Üretim Mühendisliği 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/4_yariyil.md"
+  },
+  "SEC0002": {
+    "name": "Mesleki Seçimlik 2-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/2_yariyil.md"
+  },
+  "EUT2622": {
+    "name": "Endüstri Ürünleri Tasarımı 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/4_yariyil.md"
+  },
+  "EUT2042": {
+    "name": "Model Tasarımı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/4_yariyil.md"
+  },
+  "EUT2621": {
+    "name": "Endüstri Ürünleri Tasarımı 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/3_yariyil.md"
+  },
+  "EUT2041": {
+    "name": "Model Tasarımı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/3_yariyil.md"
+  },
+  "EUT2631": {
+    "name": "Bilgisayar Destekli Tasarım 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/3_yariyil.md"
+  },
+  "EUT2051": {
+    "name": "Tasarım Tarihi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/3_yariyil.md"
+  },
+  "EUT2061": {
+    "name": "Strüktür",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/3_yariyil.md"
+  },
+  "EUT2001": {
+    "name": "Üretim Mühendisliği 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/3_yariyil.md"
+  },
+  "EUT2011": {
+    "name": "Malzeme Bilgisi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/3_yariyil.md"
+  },
+  "SEC0001": {
+    "name": "Mesleki Seçimlik 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/1_yariyil.md"
+  },
+  "EUT3632": {
+    "name": "Bilgisayar Destekli Tasarım 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/6_yariyil.md"
+  },
+  "EUT3622": {
+    "name": "Üretim ve Pazarlama 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/6_yariyil.md"
+  },
+  "EUT3152": {
+    "name": "Türk Sanatında Tasarım İlkeleri 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/6_yariyil.md"
+  },
+  "SEC0006": {
+    "name": "Seçmeli 2-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/4_yariyil.md"
+  },
+  "SEC0007": {
+    "name": "Mesleki Seçimlik 5-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/4_yariyil.md"
+  },
+  "SEC0008": {
+    "name": "Mesleki Seçimlik 6-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/4_yariyil.md"
+  },
+  "EUT4622": {
+    "name": "Tasarım ve İletişim 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/8_yariyil.md"
+  },
+  "EUT4632": {
+    "name": "Bilgisayar Destekli Tasarım 6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/8_yariyil.md"
+  },
+  "EUT4002": {
+    "name": "Proje 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/8_yariyil.md"
+  },
+  "SEC0011": {
+    "name": "Mesleki Seçimlik 7-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/5_yariyil.md"
+  },
+  "SEC0012": {
+    "name": "Seçmeli 3-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/5_yariyil.md"
+  },
+  "EUT3631": {
+    "name": "Bilgisayar Destekli Tasarım 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/5_yariyil.md"
+  },
+  "EUT3621": {
+    "name": "Üretim ve Pazarlama 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/5_yariyil.md"
+  },
+  "EUT3151": {
+    "name": "Türk Sanatında Tasarım İlkeleri 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/5_yariyil.md"
+  },
+  "SEC0003": {
+    "name": "Mesleki Seçimlik 3-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/3_yariyil.md"
+  },
+  "SEC0004": {
+    "name": "Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/3_yariyil.md"
+  },
+  "SEC0005": {
+    "name": "Mesleki Seçimlik 4-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/3_yariyil.md"
+  },
+  "EUT4621": {
+    "name": "Tasarım ve İletişim 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/7_yariyil.md"
+  },
+  "EUT4631": {
+    "name": "Bilgisayar Destekli Tasarım 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/7_yariyil.md"
+  },
+  "EUT4001": {
+    "name": "Proje 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/7_yariyil.md"
+  },
+  "SEC0009": {
+    "name": "Mesleki Seçimlik 8-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/5_yariyil.md"
+  },
+  "SEC0010": {
+    "name": "Mesleki Seçimlik 9-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/5_yariyil.md"
+  },
+  "EUT1622": {
+    "name": "Endüstri Ürünleri Tasarımı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/2_yariyil.md"
+  },
+  "BSP1102": {
+    "name": "Temel Tasarım 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/2_yariyil.md"
+  },
+  "EUT1032": {
+    "name": "Teknik Çizim 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/mimarlik_fakultesi/endustriyel_tasarim/bologna_ders_plani/2_yariyil.md"
+  },
+  "MAT1072": {
+    "name": "Matematik 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "FIZ1002": {
+    "name": "Fizik 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "SYP2131": {
+    "name": "Türk ve Osmanlı Sanatı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/3_yariyil.md"
   },
   "INS1011": {
     "name": "İnşaat Mühendisliğine Giriş",
@@ -19,23 +1174,8 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
   },
-  "MAT1071": {
-    "name": "Matematik  1",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
-  },
   "MAT1320": {
     "name": "Lineer Cebir",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
-  },
-  "MDB1031": {
-    "name": "İleri İngilizce 1",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
-  },
-  "TDB1031": {
-    "name": "Türkçe 1",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/1_yariyil.md"
   },
@@ -69,11 +1209,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/insaat_muhendisligi/bologna_ders_plani/4_yariyil.md"
   },
-  "ATA1032": {
-    "name": "Atatürk İlkeleri ve İnkılâp Tarihi 2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
   "INS4901": {
     "name": "İş Sağlığı ve Güvenliği 1",
     "prerequisite": null,
@@ -103,21 +1238,6 @@
     "name": "Olasılık ve İstatistik",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/insaat_muhendisligi/bologna_ders_plani/3_yariyil.md"
-  },
-  "ATA1031": {
-    "name": "Atatürk İlkeleri ve İnkılap Tarihi 1",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
-  },
-  "USS-2G": {
-    "name": "ÜNİVERSİTE SOSYAL SEÇMELİ-1",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/3_yariyil.md"
-  },
-  "MES1-2G": {
-    "name": "Mesleki Seçmeli 1-1",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektrik_muhendisligi/bologna_ders_plani/3_yariyil.md"
   },
   "INS3541": {
     "name": "Yapı Statiği 2",
@@ -149,11 +1269,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/insaat_muhendisligi/bologna_ders_plani/6_yariyil.md"
   },
-  "MES3-3B": {
-    "name": "Mesleki Secmeli MES3 - Yapay Zekâ",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
-  },
   "MES2-3B": {
     "name": "Mesleki Secmeli MES2 - Akışkan Gücü Sistemleri",
     "prerequisite": null,
@@ -163,11 +1278,6 @@
     "name": "Bitirme Çalışması",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/insaat_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
-  "MES3-4B": {
-    "name": "Mesleki Seçmeli 3-4",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
   },
   "MES6-4B": {
     "name": "Mesleki Seçmeli 6-4",
@@ -234,16 +1344,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/insaat_muhendisligi/bologna_ders_plani/7_yariyil.md"
   },
-  "MES4-4G": {
-    "name": "Mesleki Seçmeli MES4 - Prosesler",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
-  },
-  "MES2-4G": {
-    "name": "Mesleki Seçmeli 2-1 (ÇDTP)",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/yapay_zeka_ve_veri_muhendisligi/bologna_ders_plani/7_yariyil.md"
-  },
   "MES3-4G": {
     "name": "Mesleki Seçmeli 3-1",
     "prerequisite": null,
@@ -254,11 +1354,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/mekatronik_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
   },
-  "FIZ1002": {
-    "name": "Fizik 2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
-  },
   "INS1122": {
     "name": "Jeoloji",
     "prerequisite": null,
@@ -268,21 +1363,6 @@
     "name": "Statik",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/insaat_muhendisligi/bologna_ders_plani/2_yariyil.md"
-  },
-  "MAT1072": {
-    "name": "Matematik 2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
-  },
-  "MDB1032": {
-    "name": "İleri İngilizce 2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
-  },
-  "TDB1032": {
-    "name": "Türkçe 2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/2_yariyil.md"
   },
   "HRT1011": {
     "name": "Harita Mühendisliğine Giriş",
@@ -319,16 +1399,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/harita_muhendisligi/bologna_ders_plani/4_yariyil.md"
   },
-  "MES1-2B": {
-    "name": "Mesleki Seçmeli 1-1",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
-  },
-  "USS-2B": {
-    "name": "ÜNİVERSİTE SOSYAL SEÇMELİ-2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
-  },
   "HRT2111": {
     "name": "Geometrik Jeodezi",
     "prerequisite": null,
@@ -351,11 +1421,6 @@
   },
   "HRT2411": {
     "name": "Matematiksel Kartografya",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/harita_muhendisligi/bologna_ders_plani/3_yariyil.md"
-  },
-  "MES2-2G": {
-    "name": "Mesleki Seçmeli 2-1",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/harita_muhendisligi/bologna_ders_plani/3_yariyil.md"
   },
@@ -488,11 +1553,6 @@
     "name": "Mesleki Seçmeli 7 (Proje)",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/gemi_insaati_ve_denizcilik_fakultesi/gemi_insaati_ve_gemi_makineleri_muhendisligi/bologna_ders_plani/7_yariyil.md"
-  },
-  "UMS-4G": {
-    "name": "ÜNİVERSİTE MESLEKİ SEÇMELİ",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
   },
   "HRT1172": {
     "name": "Temel Bilgisayar Bilimleri",
@@ -654,11 +1714,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/cevre_muhendisligi/bologna_ders_plani/5_yariyil.md"
   },
-  "MES2-3G": {
-    "name": "Mesleki Seçmeli 2-2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/kontrol_ve_otomasyon_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
-  },
   "CEV4041": {
     "name": "Endüstriyel Kirlenme Kontrolü",
     "prerequisite": null,
@@ -688,6 +1743,1056 @@
     "name": "Temel Bilgisayar Bilimleri",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/insaat_fakultesi/cevre_muhendisligi/bologna_ders_plani/2_yariyil.md"
+  },
+  "BSP2161": {
+    "name": "Desen 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/1_yariyil.md"
+  },
+  "ILT1611": {
+    "name": "Fotoğraf Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "ILT1621": {
+    "name": "Grafik Tasarım Araçları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "MDB1051": {
+    "name": "İngilizce 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/1_yariyil.md"
+  },
+  "SYP1611": {
+    "name": "Uygarlık ve Sanat Tarihi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/1_yariyil.md"
+  },
+  "ILT2612": {
+    "name": "1950 Sonrası Tasarım Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/4_yariyil.md"
+  },
+  "ILT2652": {
+    "name": "Proje 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/4_yariyil.md"
+  },
+  "ILT2662": {
+    "name": "Etkileşimli Ortam Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/4_yariyil.md"
+  },
+  "ILT2601": {
+    "name": "Projeye Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/3_yariyil.md"
+  },
+  "ILT2611": {
+    "name": "1950 Öncesi Tasarım Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/3_yariyil.md"
+  },
+  "ILT2661": {
+    "name": "Simge Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/3_yariyil.md"
+  },
+  "ILT2651": {
+    "name": "İnteraktif Tasarım Araçları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/3_yariyil.md"
+  },
+  "BSP3282": {
+    "name": "Disiplinlerarası Sanat",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/6_yariyil.md"
+  },
+  "ILT3622": {
+    "name": "Tipografik Animasyon",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/6_yariyil.md"
+  },
+  "ILT3652": {
+    "name": "Proje 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/6_yariyil.md"
+  },
+  "ILT4000": {
+    "name": "Bitirme  Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SEC0015": {
+    "name": "Seçmeli 4-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/6_yariyil.md"
+  },
+  "SEC0016": {
+    "name": "Mesleki Seçimlik 12-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/7_yariyil.md"
+  },
+  "SEC0017": {
+    "name": "Mesleki Seçimlik 13-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/7_yariyil.md"
+  },
+  "SEC0018": {
+    "name": "Mesleki Seçimlik 14-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/7_yariyil.md"
+  },
+  "ILT3671": {
+    "name": "Enformasyon Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/5_yariyil.md"
+  },
+  "ILT3651": {
+    "name": "Proje 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/5_yariyil.md"
+  },
+  "ILT3661": {
+    "name": "Kullanılabilirlik Temelleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/5_yariyil.md"
+  },
+  "ILT4651": {
+    "name": "Proje 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/7_yariyil.md"
+  },
+  "SEC0013": {
+    "name": "Mesleki Seçimlik 11-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/6_yariyil.md"
+  },
+  "SEC0014": {
+    "name": "Mesleki Seçimlik 10-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/6_yariyil.md"
+  },
+  "BSP2162": {
+    "name": "Desen 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/2_yariyil.md"
+  },
+  "ILT1612": {
+    "name": "Video Çekim Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/2_yariyil.md"
+  },
+  "ILT1622": {
+    "name": "Sunum Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/iletisim_tasarimi/bologna_ders_plani/2_yariyil.md"
+  },
+  "MDB1052": {
+    "name": "İngilizce 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/2_yariyil.md"
+  },
+  "SYP1612": {
+    "name": "Uygarlık ve Sanat Tarihi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/2_yariyil.md"
+  },
+  "SYP1061": {
+    "name": "Dijital Ortamda Tasarım Yöntemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/2_yariyil.md"
+  },
+  "SYP1071": {
+    "name": "Sanat Yönetimi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/1_yariyil.md"
+  },
+  "SYP1092": {
+    "name": "Bilgi Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/1_yariyil.md"
+  },
+  "SYP2111": {
+    "name": "İşletmeye Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/1_yariyil.md"
+  },
+  "SYP2142": {
+    "name": "Türk Sanatı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/4_yariyil.md"
+  },
+  "SYP2182": {
+    "name": "Aydınlanma Döneminden Postmodernizme Sanat",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/4_yariyil.md"
+  },
+  "SYP2192": {
+    "name": "Kültür Yönetimi ve Etkenleri 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SYP1392": {
+    "name": "Sanat Pedagojisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/3_yariyil.md"
+  },
+  "SYP2151": {
+    "name": "Sanat Kurumlarının Gelişim Süreci",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/3_yariyil.md"
+  },
+  "SYP2161": {
+    "name": "Kültür Yönetimi ve Etkenleri 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/3_yariyil.md"
+  },
+  "SYP2171": {
+    "name": "Türk Sanatı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/3_yariyil.md"
+  },
+  "SYP2561": {
+    "name": "Sanat ve Eleştiri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/3_yariyil.md"
+  },
+  "SYP3252": {
+    "name": "Atölye 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/6_yariyil.md"
+  },
+  "SYP3352": {
+    "name": "Türk Sanatında Motif ve Tasarım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/6_yariyil.md"
+  },
+  "SYP3342": {
+    "name": "Müzeler ve Müzecilik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/6_yariyil.md"
+  },
+  "SYP4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/8_yariyil.md"
+  },
+  "SYP4412": {
+    "name": "Etkinlik Yönetimi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/8_yariyil.md"
+  },
+  "SEC0019": {
+    "name": "Mesleki Seçimlik 14-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/8_yariyil.md"
+  },
+  "SYP3211": {
+    "name": "Atölye 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/5_yariyil.md"
+  },
+  "SYP3221": {
+    "name": "Batılılaşma Döneminden Günümüze Türk Sanatı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/5_yariyil.md"
+  },
+  "SYP3241": {
+    "name": "Halkla İlişkiler (STF)",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
+  },
+  "SYP4421": {
+    "name": "Sanatta Sponsorluk",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/7_yariyil.md"
+  },
+  "SYP4491": {
+    "name": "Sanat Yönetiminde Uygulama",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/7_yariyil.md"
+  },
+  "SYP1062": {
+    "name": "Araştırma Yazma Yöntemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/2_yariyil.md"
+  },
+  "SYP1072": {
+    "name": "Ortaçağ’dan Endüstri Devrimine Avrupa Sanatı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/2_yariyil.md"
+  },
+  "SYP1082": {
+    "name": "Sanat Yönetimi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/2_yariyil.md"
+  },
+  "SYP1112": {
+    "name": "Sanat ve Kültür Kurumları İşletmeciliği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/2_yariyil.md"
+  },
+  "SYP1422": {
+    "name": "Sanatçı Hakları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_yonetim/2_yariyil.md"
+  },
+  "GRA1011": {
+    "name": "Temel Tasarım 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/1_yariyil.md"
+  },
+  "GRA1021": {
+    "name": "Fotoğraf 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/1_yariyil.md"
+  },
+  "GRA1031": {
+    "name": "Desen 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/1_yariyil.md"
+  },
+  "GRA1041": {
+    "name": "Bilgisayar Destekli Tasarım 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/1_yariyil.md"
+  },
+  "GRA2012": {
+    "name": "Grafik Tasarımı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/4_yariyil.md"
+  },
+  "GRA2022": {
+    "name": "Arayüz Tasarımı 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/4_yariyil.md"
+  },
+  "GRA2032": {
+    "name": "Tipografi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/4_yariyil.md"
+  },
+  "GRA2042": {
+    "name": "Grafik Tasarımı Tarihi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/4_yariyil.md"
+  },
+  "GRA2052": {
+    "name": "İllüstrasyon 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/4_yariyil.md"
+  },
+  "GRA2011": {
+    "name": "Grafik Tasarımı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/3_yariyil.md"
+  },
+  "GRA2021": {
+    "name": "Arayüz Tasarımı 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/3_yariyil.md"
+  },
+  "GRA2031": {
+    "name": "Tipografi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/3_yariyil.md"
+  },
+  "GRA2041": {
+    "name": "Grafik Tasarımı Tarihi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/3_yariyil.md"
+  },
+  "GRA2051": {
+    "name": "İllüstrasyon 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/3_yariyil.md"
+  },
+  "GRA3012": {
+    "name": "Grafik Tasarımı 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/6_yariyil.md"
+  },
+  "GRA3022": {
+    "name": "Veri Görselleştirme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/6_yariyil.md"
+  },
+  "GRA3032": {
+    "name": "Çevresel Grafik Tasarım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/6_yariyil.md"
+  },
+  "GRA3042": {
+    "name": "Türk Sanatları Tasarımı Analizi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/6_yariyil.md"
+  },
+  "GRA4000": {
+    "name": "Bitirme Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/8_yariyil.md"
+  },
+  "GRA4032": {
+    "name": "Hareketli Grafik Tasarım 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/8_yariyil.md"
+  },
+  "GRA4022": {
+    "name": "Tasarım Etiği",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/8_yariyil.md"
+  },
+  "GRA3011": {
+    "name": "Grafik Tasarımı 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/5_yariyil.md"
+  },
+  "GRA3021": {
+    "name": "Editoryal Tasarım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/5_yariyil.md"
+  },
+  "GRA3031": {
+    "name": "Üç Boyutlu Tasarım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/5_yariyil.md"
+  },
+  "GRA3041": {
+    "name": "Türk Sanatları Tasarımı Analizi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/5_yariyil.md"
+  },
+  "GRA4011": {
+    "name": "Grafik Tasarımı 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/7_yariyil.md"
+  },
+  "GRA4021": {
+    "name": "Portfolyo Tasarımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/7_yariyil.md"
+  },
+  "GRA4031": {
+    "name": "Hareketli Grafik Tasarım 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/7_yariyil.md"
+  },
+  "GRA1012": {
+    "name": "Temel Tasarım 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/2_yariyil.md"
+  },
+  "GRA1022": {
+    "name": "Fotoğraf 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/2_yariyil.md"
+  },
+  "GRA1032": {
+    "name": "Desen 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/2_yariyil.md"
+  },
+  "GRA1042": {
+    "name": "Bilgisayar Destekli Tasarım 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_grafik/2_yariyil.md"
+  },
+  "FVP1141": {
+    "name": "Fotoğraf Bilgisi - 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/1_yariyil.md"
+  },
+  "FVP1121": {
+    "name": "Desen 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/1_yariyil.md"
+  },
+  "FVP1131": {
+    "name": "Karanlık Oda Teknikleri - I",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/1_yariyil.md"
+  },
+  "SYP1021": {
+    "name": "Uygarlık Tarihi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/1_yariyil.md"
+  },
+  "FVP2102": {
+    "name": "Stüdyo 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/4_yariyil.md"
+  },
+  "FVP2112": {
+    "name": "Sayısal Fotoğraf - 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/4_yariyil.md"
+  },
+  "FVP2132": {
+    "name": "Seminer - 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/4_yariyil.md"
+  },
+  "FVP2122": {
+    "name": "Video Uygulama - 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/4_yariyil.md"
+  },
+  "FVP2142": {
+    "name": "Fotografik Tasarıma Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/4_yariyil.md"
+  },
+  "FVP2101": {
+    "name": "Stüdyo 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/3_yariyil.md"
+  },
+  "FVP2111": {
+    "name": "Sayısal Fotoğraf - 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/3_yariyil.md"
+  },
+  "FVP2151": {
+    "name": "Belgesel Fotoğraf",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/3_yariyil.md"
+  },
+  "FVP2131": {
+    "name": "Video Uygulama - 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/3_yariyil.md"
+  },
+  "FVP2141": {
+    "name": "Mesleki Temel Eğitim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/3_yariyil.md"
+  },
+  "FVP3132": {
+    "name": "Fotoğraf Tarihi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/6_yariyil.md"
+  },
+  "FVP3142": {
+    "name": "Fotoğraf ve Video Uygulamaları - 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/6_yariyil.md"
+  },
+  "FVP3122": {
+    "name": "Seminer - 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/6_yariyil.md"
+  },
+  "FVP4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/8_yariyil.md"
+  },
+  "SEC0020": {
+    "name": "Mesleki Seçimlik 14-3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/8_yariyil.md"
+  },
+  "SEC0021": {
+    "name": "Mesleki Seçimlik 15-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/8_yariyil.md"
+  },
+  "FVP3131": {
+    "name": "Fotoğraf Tarihi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/5_yariyil.md"
+  },
+  "FVP3151": {
+    "name": "Fotoğraf ve Video Uygulamaları - 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/5_yariyil.md"
+  },
+  "FVP3121": {
+    "name": "İleri Çekim Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/5_yariyil.md"
+  },
+  "FVP3141": {
+    "name": "Görüntü İşleme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/5_yariyil.md"
+  },
+  "FVP4301": {
+    "name": "Fotoğraf ve Video Uygulamaları - 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/7_yariyil.md"
+  },
+  "FVP4111": {
+    "name": "Basım-Çoğaltım",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/7_yariyil.md"
+  },
+  "FVP1132": {
+    "name": "Video Bilgisi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/2_yariyil.md"
+  },
+  "FVP1102": {
+    "name": "Fotoğraf Bilgisi - 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/2_yariyil.md"
+  },
+  "FVP1122": {
+    "name": "Sayısal Görüntü Teknikleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani_fotograf/2_yariyil.md"
+  },
+  "BSP1231": {
+    "name": "Temel Modlaj Atölyesi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/1_yariyil.md"
+  },
+  "BSP2032": {
+    "name": "Sanat Atölyesi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/4_yariyil.md"
+  },
+  "BSP2432": {
+    "name": "Üç Boyutlu Sanat Atölyesi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/4_yariyil.md"
+  },
+  "BSP2452": {
+    "name": "Baskı Resim – 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/4_yariyil.md"
+  },
+  "BSP2231": {
+    "name": "Sanat Atölyesi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/3_yariyil.md"
+  },
+  "BSP2431": {
+    "name": "Üç Boyutlu Sanat Atölyesi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/3_yariyil.md"
+  },
+  "BSP2451": {
+    "name": "Baskı Resim – 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/3_yariyil.md"
+  },
+  "BSP3012": {
+    "name": "Üç Boyutlu Sanat Atölyesi 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/6_yariyil.md"
+  },
+  "BSP3222": {
+    "name": "Sanat Atölyesi 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/6_yariyil.md"
+  },
+  "BSP3292": {
+    "name": "Dijital Ortamda Sanat",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/6_yariyil.md"
+  },
+  "BSP4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/8_yariyil.md"
+  },
+  "BSP4252": {
+    "name": "Sergileme Yöntemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/8_yariyil.md"
+  },
+  "BSP3011": {
+    "name": "Üç Boyutlu Sanat Atölyesi 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/5_yariyil.md"
+  },
+  "BSP3231": {
+    "name": "Sanat Atölyesi 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/5_yariyil.md"
+  },
+  "BSP4221": {
+    "name": "Üç Boyutlu Sanat Atölyesi 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/7_yariyil.md"
+  },
+  "BSP4231": {
+    "name": "Sanat Atölyesi 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/7_yariyil.md"
+  },
+  "BSP4241": {
+    "name": "Açık Alan Uygulamaları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/7_yariyil.md"
+  },
+  "BSP1232": {
+    "name": "Temel Modlaj Atölyesi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/sanat/bologna_ders_plani/2_yariyil.md"
+  },
+  "DTP1801": {
+    "name": "Solfej 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/1_yariyil.md"
+  },
+  "MTP1151": {
+    "name": "Müzik Tarihi Antik Yunan ve Rönesans",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/1_yariyil.md"
+  },
+  "DTP2802": {
+    "name": "Solfej 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/4_yariyil.md"
+  },
+  "DTP2812": {
+    "name": "Armoni 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/4_yariyil.md"
+  },
+  "DTP2822": {
+    "name": "Uzmanlık Alan Semineri - 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_ses/4_yariyil.md"
+  },
+  "MTP2152": {
+    "name": "Müzik Tarihi 19. Yüzyıl",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/4_yariyil.md"
+  },
+  "MTP2162": {
+    "name": "Yardımcı Piyano 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/4_yariyil.md"
+  },
+  "MTP2172": {
+    "name": "Koro 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/4_yariyil.md"
+  },
+  "DTP2801": {
+    "name": "Solfej 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/3_yariyil.md"
+  },
+  "DTP2811": {
+    "name": "Armoni 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/3_yariyil.md"
+  },
+  "DTP2821": {
+    "name": "Uzmanlık Alan Semineri - 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_ses/3_yariyil.md"
+  },
+  "MTP2151": {
+    "name": "Müzik Tarihi Klasik",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/3_yariyil.md"
+  },
+  "MTP2161": {
+    "name": "Yardımcı Piyano 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/3_yariyil.md"
+  },
+  "MTP2171": {
+    "name": "Koro 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/3_yariyil.md"
+  },
+  "DTP3802": {
+    "name": "Solfej 6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/6_yariyil.md"
+  },
+  "DTP3812": {
+    "name": "Armoni 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/6_yariyil.md"
+  },
+  "DTP3822": {
+    "name": "Uzmanlık Alan Semineri - 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_ses/6_yariyil.md"
+  },
+  "DTP3832": {
+    "name": "Form Bilgisi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/6_yariyil.md"
+  },
+  "MTP3152": {
+    "name": "Müzik Tarihi 1950 Sonrası",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/6_yariyil.md"
+  },
+  "MTP3162": {
+    "name": "Yardımcı Piyano Bitirme",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/6_yariyil.md"
+  },
+  "DTP4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_ses/8_yariyil.md"
+  },
+  "DTP3801": {
+    "name": "Solfej 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/5_yariyil.md"
+  },
+  "DTP3811": {
+    "name": "Armoni 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/5_yariyil.md"
+  },
+  "DTP3821": {
+    "name": "Uzmanlık Alan Semineri - 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_ses/5_yariyil.md"
+  },
+  "DTP3831": {
+    "name": "Form Bilgisi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/5_yariyil.md"
+  },
+  "DTP3841": {
+    "name": "Bilgisayar Ortamında Müzik Yazılımı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_ses/5_yariyil.md"
+  },
+  "MTP3151": {
+    "name": "Müzik Tarihi 1900/1950 Arası",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/5_yariyil.md"
+  },
+  "MTP3161": {
+    "name": "Yardımcı Piyano 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/5_yariyil.md"
+  },
+  "DTP4801": {
+    "name": "Solfej 7",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/7_yariyil.md"
+  },
+  "DTP4811": {
+    "name": "Armoni 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/7_yariyil.md"
+  },
+  "DTP4821": {
+    "name": "Uzmanlık Alan Projesi",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_ses/7_yariyil.md"
+  },
+  "DTP4831": {
+    "name": "Form Bilgisi 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/7_yariyil.md"
+  },
+  "MTP4151": {
+    "name": "Müzik Tarihi Ulusal",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/7_yariyil.md"
+  },
+  "DTP1802": {
+    "name": "Solfej 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/2_yariyil.md"
+  },
+  "MTP1152": {
+    "name": "Müzik Tarihi Barok",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/2_yariyil.md"
+  },
+  "MTP1162": {
+    "name": "Yardımcı Piyano 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/2_yariyil.md"
+  },
+  "DNS1211": {
+    "name": "Beden ve Hareket Farkındalığı",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/1_yariyil.md"
+  },
+  "DNS1321": {
+    "name": "Temel Bale Kavramları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/1_yariyil.md"
+  },
+  "DNS1411": {
+    "name": "Doğaçlama 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/1_yariyil.md"
+  },
+  "DNS1421": {
+    "name": "Anatomi ve Kineziyoloji",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/1_yariyil.md"
+  },
+  "DNS2542": {
+    "name": "Mesleki İngilizce 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/4_yariyil.md"
+  },
+  "DNS2622": {
+    "name": "Çağdaş Dans Teknikleri 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/4_yariyil.md"
+  },
+  "DNS2632": {
+    "name": "Bale 3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/4_yariyil.md"
+  },
+  "DNS2642": {
+    "name": "Dans Prodüksyonu",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/4_yariyil.md"
+  },
+  "DNS2662": {
+    "name": "Müzik Teorileri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/4_yariyil.md"
+  },
+  "DNS2451": {
+    "name": "Dansta Müzik ve Ritim",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/3_yariyil.md"
+  },
+  "DNS2621": {
+    "name": "Çağdaş Dans Teknikleri 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/3_yariyil.md"
+  },
+  "DNS2631": {
+    "name": "Bale 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/3_yariyil.md"
+  },
+  "DNS2641": {
+    "name": "Dans Kompozisyonu",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/3_yariyil.md"
+  },
+  "DNS3362": {
+    "name": "Bale 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/6_yariyil.md"
+  },
+  "DNS3622": {
+    "name": "Çağdaş Dans Teknikleri – 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/6_yariyil.md"
+  },
+  "DNS3642": {
+    "name": "Koreografi Yöntemleri",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/6_yariyil.md"
+  },
+  "DNS3652": {
+    "name": "Repertuar",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/6_yariyil.md"
+  },
+  "DNS4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/8_yariyil.md"
+  },
+  "DNS4282": {
+    "name": "Çağdaş Dans Teknikleri 6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/8_yariyil.md"
+  },
+  "DNS4382": {
+    "name": "Bale 7",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/8_yariyil.md"
+  },
+  "DNS3251": {
+    "name": "Çağdaş Dans Teknikleri  3",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/5_yariyil.md"
+  },
+  "DNS3551": {
+    "name": "Mesleki İngilizce 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/5_yariyil.md"
+  },
+  "DNS3631": {
+    "name": "Bale 4",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/5_yariyil.md"
+  },
+  "DNS3641": {
+    "name": "Performans",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/5_yariyil.md"
+  },
+  "DNS4271": {
+    "name": "Çağdaş Dans Teknikleri 5",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/7_yariyil.md"
+  },
+  "DNS4371": {
+    "name": "Bale 6",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/7_yariyil.md"
+  },
+  "DNS4531": {
+    "name": "Dünya Dans Formları",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/7_yariyil.md"
+  },
+  "DNS4651": {
+    "name": "Videodans",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/7_yariyil.md"
+  },
+  "DNS1222": {
+    "name": "Çağdaş Dans Tekniklerine Giriş",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/2_yariyil.md"
+  },
+  "DNS1322": {
+    "name": "Bale 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/2_yariyil.md"
+  },
+  "DNS1422": {
+    "name": "Doğaçlama-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani_dans/2_yariyil.md"
+  },
+  "MTP2182": {
+    "name": "Makam Bilgisi 2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/4_yariyil.md"
+  },
+  "MTP2181": {
+    "name": "Makam Bilgisi 1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/3_yariyil.md"
+  },
+  "MTP4000": {
+    "name": "Bitirme Çalışması",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/8_yariyil.md"
+  },
+  "SEC0022": {
+    "name": "Mesleki Seçimlik 15-2",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/8_yariyil.md"
+  },
+  "SEC0023": {
+    "name": "Sosyal Seçmeli 1-1",
+    "prerequisite": null,
+    "source_file": "05_fakulteler_ve_bolumler/sanat_ve_tasarim_fakultesi/muzik_ve_sahne_sanatlari/bologna_ders_plani/8_yariyil.md"
   },
   "GDM1301": {
     "name": "Gıda Mühendisliğine Giriş ve Etik",
@@ -723,11 +2828,6 @@
     "name": "Mühendislik Çalışmalarında İstatistiksel Yöntemler",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/4_yariyil.md"
-  },
-  "MES-2B": {
-    "name": "Mesleki Seçmeli -1",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/4_yariyil.md"
   },
   "GDM2002": {
     "name": "Laboratuvar Stajı",
@@ -789,11 +2889,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/6_yariyil.md"
   },
-  "MES-3B": {
-    "name": "Mesleki Seçmeli -4",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/6_yariyil.md"
-  },
   "GDM3001": {
     "name": "İşletme Stajı",
     "prerequisite": null,
@@ -803,11 +2898,6 @@
     "name": "Bitirme Çalışması",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
-  "MES-4B": {
-    "name": "Mesleki Seçmeli -8",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/8_yariyil.md"
   },
   "GDM3211": {
     "name": "Enstrümental Analizler",
@@ -864,11 +2954,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/7_yariyil.md"
   },
-  "MES-4G": {
-    "name": "Mesleki Seçmeli -6",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/7_yariyil.md"
-  },
   "GDM1252": {
     "name": "Gıda Mühendisliğinde Organik Kimya",
     "prerequisite": null,
@@ -878,11 +2963,6 @@
     "name": "Gıda Mühendisliğinde Bilgisayar Uygulamaları",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/gida_muhendisligi/bologna_ders_plani/2_yariyil.md"
-  },
-  "USS-1B": {
-    "name": "Üniversite Sosyal Seçmeli 1",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/endustri_muhendisligi/bologna_ders_plani_yuzde30/2_yariyil.md"
   },
   "KIM1501": {
     "name": "Genel Kimya 1",
@@ -1024,11 +3104,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
   },
-  "MES-3G": {
-    "name": "Mesleki Seçmeli -3",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/kimya_muhendisligi/bologna_ders_plani_yuzde30/5_yariyil.md"
-  },
   "KMM4611": {
     "name": "Kimya Mühendisliğinde Proses Tasarımı 1",
     "prerequisite": null,
@@ -1083,11 +3158,6 @@
     "name": "Biyomühendislikte Akışkanlar Mekaniği",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/biyomuhendislik/bologna_ders_plani_yuzde30/4_yariyil.md"
-  },
-  "MDB3032": {
-    "name": "İş Hayatı için İngilizce",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
   },
   "BYM2131": {
     "name": "İş Sağlığı ve Güvenliği 1",
@@ -1329,11 +3399,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/6_yariyil.md"
   },
-  "MES1-3B": {
-    "name": "MESLEKİ SEÇMELİ 1-4",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/6_yariyil.md"
-  },
   "MSE4492": {
     "name": "Kompozit Malzemeler",
     "prerequisite": null,
@@ -1353,11 +3418,6 @@
     "name": "Bitirme Çalışması",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/8_yariyil.md"
-  },
-  "MES1-4B": {
-    "name": "MESLEKI SECMELI 1-12",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/8_yariyil.md"
   },
   "MSE3001": {
     "name": "Staj 1",
@@ -1379,11 +3439,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/5_yariyil.md"
   },
-  "MES1-3G": {
-    "name": "MESLEKİ SEÇMELİ 1-2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/5_yariyil.md"
-  },
   "MSE4621": {
     "name": "Metalurji Kinetiği",
     "prerequisite": null,
@@ -1398,11 +3453,6 @@
     "name": "Malzeme Üretim Laboratuvarı",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/kimya_metalurji_fakultesi/metalurji_ve_malzeme_muhendisligi/bologna_ders_plani_yuzde100/7_yariyil.md"
-  },
-  "MES1-4G": {
-    "name": "MESLEKİ SEÇMELİ 1-8",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/7_yariyil.md"
   },
   "MSE1902": {
     "name": "Fizikokimya",
@@ -1919,11 +3969,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/gemi_insaati_ve_denizcilik_fakultesi/gemi_insaati_ve_gemi_makineleri_muhendisligi/bologna_ders_plani/7_yariyil.md"
   },
-  "USS-4G": {
-    "name": "Üniversite Sosyal Seçmeli -2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/bilgisayar_muhendisligi/bologna_ders_plani/7_yariyil.md"
-  },
   "GIM1002": {
     "name": "Atölye Stajı",
     "prerequisite": null,
@@ -2078,11 +4123,6 @@
     "name": "Gemi Yardımcı Makine Tasarımı",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/gemi_insaati_ve_denizcilik_fakultesi/gemi_makineleri_isletme_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
-  "MES2-4B": {
-    "name": "Mesleki Seçmeli 2-6",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
   },
   "GMI3181": {
     "name": "Otomatik Kontrol",
@@ -3104,11 +5144,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
   },
-  "MDB2051": {
-    "name": "İngilizce Okuma ve Konuşma",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
   "TRO2281": {
     "name": "Türk Dili Tarihi",
     "prerequisite": null,
@@ -3209,11 +5244,6 @@
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
   },
-  "SBP2031": {
-    "name": "Şehir Ekonomisi",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
   "ITB2040": {
     "name": "Ekonomi Politikaları ve Uygulamaları",
     "prerequisite": null,
@@ -3246,11 +5276,6 @@
   },
   "ITB3270": {
     "name": "İstanbul: Dün, Bugün ve Yarın",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
-  "ILT1611": {
-    "name": "Fotoğraf Teknikleri",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
   },
@@ -3321,26 +5346,6 @@
   },
   "ITB4100": {
     "name": "Toplumsal Yapılar ve Tarihsel Dönüşümler",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
-  "ILT1621": {
-    "name": "Grafik Tasarım Araçları",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
-  "SBP2082": {
-    "name": "Şehir Sosyolojisi",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
-  "SYP2192": {
-    "name": "Kültür Yönetimi ve Etkenleri 2",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
-  },
-  "SYP3241": {
-    "name": "Halkla İlişkiler (STF)",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/elektrik_elektronik_fakultesi/elektronik_ve_haberlesme_muhendisligi/bologna_ders_plani/8_yariyil.md"
   },
@@ -4476,11 +6481,6 @@
   },
   "MES2-2B": {
     "name": "MESLEKİ SEÇMELİ 2-1",
-    "prerequisite": null,
-    "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
-  },
-  "MES3-2B": {
-    "name": "MESLEKİ SEÇMELİ 3-1",
     "prerequisite": null,
     "source_file": "05_fakulteler_ve_bolumler/makine_fakultesi/makine_muhendisligi/bologna_ders_plani/4_yariyil.md"
   },

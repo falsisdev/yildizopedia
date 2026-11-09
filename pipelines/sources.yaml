@@ -130,3 +130,75 @@ fakulteler:
         bologna_id: 141
         aid: 36
         web: "https://gmim.yildiz.edu.tr"
+
+  mimarlik_fakultesi:
+    ad: "Mimarlık Fakültesi"
+    web: "http://www.mmr.yildiz.edu.tr"
+    yerleske: "Yıldız (Merkez)"
+    bolumler:
+      mimarlik:
+        ad: "Mimarlık"
+        bologna_id: 50
+        bologna_id_yuzde100: 429
+        aid: 38
+        web: "http://mim.yildiz.edu.tr"
+      sehir_ve_bolge_planlama:
+        ad: "Şehir ve Bölge Planlama"
+        bologna_id: 51
+        aid: 39
+        web: "http://sbp.yildiz.edu.tr"
+      endustriyel_tasarim:
+        ad: "Endüstriyel Tasarım (Endüstri Ürünleri Tasarımı)"
+        bologna_id: 516
+        aid: 41
+        web: "http://www.mmr.yildiz.edu.tr"
+
+  iktisadi_ve_idari_bilimler_fakultesi:
+    ad: "İktisadi ve İdari Bilimler Fakültesi"
+    web: "https://iib.yildiz.edu.tr"
+    yerleske: "Davutpaşa"
+    bolumler:
+      iktisat:
+        ad: "İktisat"
+        bologna_id: 54
+        bologna_id_yuzde100: 535
+        aid: 45
+        web: "http://ikt.yildiz.edu.tr"
+      isletme:
+        ad: "İşletme"
+        bologna_id: 55
+        bologna_id_yuzde100: 539
+        aid: 46
+        web: "http://isl.yildiz.edu.tr"
+      siyaset_bilimi_ve_uluslararasi_iliskiler:
+        ad: "Siyaset Bilimi ve Uluslararası İlişkiler"
+        bologna_id: 56
+        aid: 47
+        web: "http://sbu.yildiz.edu.tr"
+
+  sanat_ve_tasarim_fakultesi:
+    ad: "Sanat ve Tasarım Fakültesi"
+    web: "http://www.sts.yildiz.edu.tr"
+    yerleske: "Davutpaşa"
+    bolumler:
+      muzik_ve_sahne_sanatlari:
+        ad: "Müzik ve Sahne Sanatları"
+        bologna_id: 208
+        bologna_id_ses: 206
+        bologna_id_dans: 207
+        aid: 43
+        web: "https://mssb.yildiz.edu.tr"
+      iletisim_tasarimi:
+        ad: "İletişim Tasarımı"
+        bologna_id: 52
+        aid: 42
+        web: "https://ilet.yildiz.edu.tr"
+      sanat:
+        ad: "Sanat"
+        bologna_id: 259
+        bologna_id_grafik: 513
+        bologna_id_fotograf: 281
+        bologna_id_yonetim: 263
+        aid: 41
+        web: "https://sab.yildiz.edu.tr"
+

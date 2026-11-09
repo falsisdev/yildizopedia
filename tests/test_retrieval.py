@@ -54,3 +54,21 @@ def test_prerequisite_graph():
     assert ctx is not None
     assert "BLM2012" in ctx["title"]
     assert "Resmi Bologna" in ctx["tier"]
+
+def test_new_faculties_retrieval(rag_engine):
+    """Yeni eklenen Mimarlık, İİBF ve Sanat-Tasarım fakültelerinden doğru getirme testleri."""
+    # Mimarlık
+    res_mim = rag_engine.search("Mimarlık Bölümü mimari tasarım stüdyoları şantiye stajı", top_k=3)
+    assert len(res_mim) > 0
+    assert any("mimarlik" in r["file_path"].lower() for r in res_mim)
+
+    # İİBF
+    res_iib = rag_engine.search("İktisat Bölümü ekonometri veri analizi", top_k=3)
+    assert len(res_iib) > 0
+    assert any("iktisat" in r["file_path"].lower() or "iibf" in r["file_path"].lower() for r in res_iib)
+
+    # Sanat ve Tasarım
+    res_stf = rag_engine.search("Müzik ve Sahne Sanatları Bölümü ses kayıt stüdyoları", top_k=3)
+    assert len(res_stf) > 0
+    assert any("muzik" in r["file_path"].lower() or "sanat" in r["file_path"].lower() for r in res_stf)
+
