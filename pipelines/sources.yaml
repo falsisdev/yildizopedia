@@ -92,3 +92,41 @@ fakulteler:
         ad: "Endüstri Mühendisliği"
         bologna_id: 572
         web: "https://end.yildiz.edu.tr"
+
+  insaat_fakultesi:
+    ad: "İnşaat Fakültesi"
+    web: "https://ins.yildiz.edu.tr"
+    yerleske: "Davutpaşa"
+    bolumler:
+      insaat_muhendisligi:
+        ad: "İnşaat Mühendisliği"
+        bologna_id: 40
+        bologna_id_yuzde100: 397
+        aid: 28
+        web: "https://inm.yildiz.edu.tr"
+      cevre_muhendisligi:
+        ad: "Çevre Mühendisliği"
+        bologna_id: 43
+        aid: 29
+        web: "https://cem.yildiz.edu.tr"
+      harita_muhendisligi:
+        ad: "Harita Mühendisliği"
+        bologna_id: 44
+        aid: 30
+        web: "https://hrm.yildiz.edu.tr"
+
+  gemi_insaati_ve_denizcilik_fakultesi:
+    ad: "Gemi İnşaatı ve Denizcilik Fakültesi"
+    web: "https://gidf.yildiz.edu.tr"
+    yerleske: "Yıldız (Merkez)"
+    bolumler:
+      gemi_insaati_ve_gemi_makineleri_muhendisligi:
+        ad: "Gemi İnşaatı ve Gemi Makineleri Mühendisliği"
+        bologna_id: 48
+        aid: 35
+        web: "https://gim.yildiz.edu.tr"
+      gemi_makineleri_isletme_muhendisligi:
+        ad: "Gemi Makineleri İşletme Mühendisliği"
+        bologna_id: 141
+        aid: 36
+        web: "https://gmim.yildiz.edu.tr"

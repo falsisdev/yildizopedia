@@ -4,10 +4,10 @@
 
 # 🌟 Yıldızopedia: Yıldız Teknik Üniversitesi Yapay Zeka Ansiklopedisi ve Dijital Bilgi Bankası
 
-[![Veritabanı Durumu](https://img.shields.io/badge/Veritaban%C4%B1-407%20Markdown%20Dosyas%C4%B1-blue.svg)](#)
-[![Metin Hacmi](https://img.shields.io/badge/Kelime%20Hacmi-245.214%20Kelime-success.svg)](#)
-[![Ders Önkoşul Grafı](https://img.shields.io/badge/%C3%96nko%C5%9Ful%20Graf%C4%B1-743%20Resm%C3%AE%20Ders-purple.svg)](#)
-[![Bologna Müfredatı](https://img.shields.io/badge/Bologna%20Lisans%20Program%C4%B1-20%20Aktif%20M%C3%BCfredat-orange.svg)](#)
+[![Veritabanı Durumu](https://img.shields.io/badge/Veritaban%C4%B1-519%20Markdown%20Dosyas%C4%B1-blue.svg)](#)
+[![Metin Hacmi](https://img.shields.io/badge/Kelime%20Hacmi-296.714%20Kelime-success.svg)](#)
+[![Ders Önkoşul Grafı](https://img.shields.io/badge/%C3%96nko%C5%9Ful%20Graf%C4%B1-925%20Resm%C3%AE%20Ders-purple.svg)](#)
+[![Bologna Müfredatı](https://img.shields.io/badge/Bologna%20Lisans%20Program%C4%B1-26%20Aktif%20M%C3%BCfredat-orange.svg)](#)
 [![Doğrulama Testi](https://img.shields.io/badge/Otomasyon%20Testi-%25100%20Ba%C5%9Far%C4%B1l%C4%B1-brightgreen.svg)](#)
 [![Yıldız Teknik Üniversitesi](https://img.shields.io/badge/YT%C3%9C-1911-red.svg)](https://yildiz.edu.tr)
 
@@ -36,7 +36,7 @@
 
 ## 📈 Kapsam ve İlerleme Durumu
 
-### ✅ Tamamlanan ve Kullanıma Hazır Kısımlar (3 Fakülte, 14 Bölüm, 20 Lisans Müfredatı)
+### ✅ Tamamlanan ve Kullanıma Hazır Kısımlar (5 Fakülte, 19 Bölüm, 26 Lisans Müfredatı)
 
 | Kategori / Birim | Kapsam ve İçerik | Durum | Dosya Adedi |
 |---|---|:---:|:---:|
@@ -48,6 +48,8 @@
 | **05.1 Elektrik-Elektronik Fakültesi (EEF)** | **Dekanlık:** Prof. Dr. Ahmet Faruk BAKAN, YÖ-033 Etik Yönergesi, Akran Danışmanlığı, 12 Fakülte SSS.<br/>**6 Bölüm (Bologna 1-8. yarıyıl kartları, önkoşullar, staj, lablar):**<br/>• Elektrik Mühendisliği (%30 İng - ID: 7, Yüksek Gerilim Labı, DD-087 KOOP)<br/>• Bilgisayar Mühendisliği (%30 İng - ID: 550, 44 SSS TR/EN, Sky Lab, Proje Portalı)<br/>• Elektronik ve Haberleşme Mühendisliği (%30 İng - ID: 6, MÜDEK PÇ-1..11, 30+30 Staj)<br/>• Kontrol ve Otomasyon Mühendisliği (%30 [ID: 29] & %100 İng [ID: 403], Omron/Schneider)<br/>• Biyomedikal Mühendisliği (%100 İng - ID: 504, Hastane Stajı, ÇDTP FR-1558)<br/>• Yapay Zeka ve Veri Mühendisliği (%100 İng - ID: 557, YZM Müfredatı, GPU Altyapısı) | **HAZIR** | 125 Dosya |
 | **05.2 Makine Fakültesi** | **Dekanlık:** Prof. Dr. Zehra YUMURTACI, Fakülte SSS, KOOP Esasları, Acil Eylem Planı.<br/>**3 Bölüm (Bologna 1-8. yarıyıl kartları, önkoşullar, staj, lablar):**<br/>• Makine Mühendisliği (%30 İng - ID: 391, Otomotiv Stajı, ÇAP Eşlenik Tablosu)<br/>• Endüstri Mühendisliği (%30 [ID: 45] & %100 İng [ID: 405], ÇDTP Şablonu, END4000 Kılavuzu)<br/>• Mekatronik Mühendisliği (%30 [ID: 46] & %100 İng [ID: 404], 2026-2027 MST ve Bitirme) | **HAZIR** | 73 Dosya |
 | **05.3 Kimya-Metalurji Fakültesi** | **Dekanlık:** Prof. Dr. Musa TÜRKER, KMF Hizmet Standartları Tablosu ve Envanteri.<br/>**5 Bölüm (Bologna 1-8. yarıyıl kartları, önkoşullar, staj, lablar):**<br/>• Biyomühendislik (%30 [ID: 147] & %100 İng [ID: 163], Staj Yönetmeliği, Biyoreaktör Labı)<br/>• Gıda Mühendisliği (%30 İng - ID: 195, Duyusal Analiz ve Mikrobiyoloji Güvenlik Föyü)<br/>• Kimya Mühendisliği (%30 [ID: 36] & %100 İng [ID: 398], Staj Rehberi, FR-0750/0751, Unit Op.)<br/>• Matematik Mühendisliği (%30 [ID: 37] & %100 İng [ID: 222], Donanım ve Yazılım Staj Defterleri)<br/>• Metalurji ve Malzeme Müh. (%30 [ID: 38] & %100 İng [ID: 401], STAJ-1/2 Esasları, SEM/XRD) | **HAZIR** | 128 Dosya |
+| **05.4 İnşaat Fakültesi** | **Dekanlık:** Prof. Dr. Uğur KURT, DD-074 Staj İlkeleri, Fakülte SSS, Akran Danışmanlığı.<br/>**3 Bölüm (Bologna 1-8. yarıyıl kartları, önkoşullar, staj, lablar):**<br/>• İnşaat Mühendisliği (%30 [ID: 40] & %100 İng [ID: 397], Kutay Özaydın Labı, 60 Gün Şantiye/Büro Stajı)<br/>• Çevre Mühendisliği (%30 İng - ID: 43, DD-071 Staj Esasları, Su ve Arıtma Labları)<br/>• Harita Mühendisliği (%30 İng - ID: 44, Fotogrametri, CBS ve Jeodezi Labları, 60 Gün Arazi/Büro Stajı) | **HAZIR** | 59 Dosya |
+| **05.5 Gemi İnşaatı ve Denizcilik Fakültesi (GİDF)** | **Dekanlık:** Prof. Dr. Serkan EKİNCİ, STCW Deniz Eğitimi Esasları, Fakülte SSS, Akran Rehberi.<br/>**2 Bölüm (Bologna 1-8. yarıyıl kartları, önkoşullar, staj, lablar):**<br/>• Gemi İnşaatı ve Gemi Makineleri (%30 İng - ID: 48, Çekme Tankı, FEA Labı, 60 Gün Tersane/Dizayn Stajı)<br/>• Gemi Makineleri İşletme (%30 İng - ID: 141, Köprüüstü Simülatörü, 150 Gün Atölye + 180 Gün Açık Deniz Stajı, GASM/Liman Cüzdanı) | **HAZIR** | 52 Dosya |
 | **Resmi Doküman Arşivi (`arsiv/`)** | Senato kararları, yönergeler, acil durum planları, örnek staj defterleri, bitirme tez şablonları, ÇAP tabloları, İYS sınav kitapçıkları | **HAZIR** | 93 Orijinal Belge |
 
 ---
@@ -70,7 +72,12 @@ Yıldızopedia/
 ├── 02_ogrenci_isleri_ogi/                   # OGİ 73 SSS tam metin, Raporlar, Harçlar, Mezuniyet
 ├── 03_yabanci_diller_yuksekokulu_ybd/       # Hazırlık, Kurlar (A1-C1), 46 SSS, İYS Sınav Arşivi
 ├── 04_bologna_ve_not_sistemi/               # BDS Bağıl Değerlendirme, Harf Notları, YKS Sıralamaları
-├── 05_fakulteler_ve_bolumler/               # EEF, Makine ve KMF 14 Lisans Bölüm Külliyatı
+├── 05_fakulteler_ve_bolumler/               # 5 Fakülte ve 19 Lisans Bölüm Külliyatı
+│   ├── elektrik_elektronik_fakultesi/       # EEF Dekanlığı + ELM, CE, EHM, KOM, BME, AI
+│   ├── makine_fakultesi/                    # Makine Dekanlığı + MKM, ENM, MKT
+│   ├── kimya_metalurji_fakultesi/           # Kimya-Metalurji Dekanlığı + BIO, FOOD, KMM, MTM, MET
+│   ├── insaat_fakultesi/                    # İnşaat Fakültesi Dekanlığı + INM, CEM, HRM
+│   └── gemi_insaati_ve_denizcilik_fakultesi/# GİDF Dekanlığı + GİM, GMİM
 │
 ├── pipelines/                               # Veri Kaynağı Derleme Motoru (Data Pipeline)
 │   ├── sources.yaml                         # Tüm birimlerin Bologna ID ve URL kayıt defteri
@@ -79,7 +86,7 @@ Yıldızopedia/
 │   └── scrapers/                            # Bologna ve portal kazıyıcı modülleri
 │
 ├── data/                                    # Derlenmiş Yapısal Veriler
-│   └── prerequisites_graph.json             # 743 dersin resmi önkoşul haritası
+│   └── prerequisites_graph.json             # 925 dersin resmi önkoşul haritası
 │
 ├── var/                                     # Kalıcı Veritabanı ve Loglar (Docker Mount)
 │   └── bot_data.sqlite3                     # SQLite kota, kullanıcı ve hafıza veritabanı

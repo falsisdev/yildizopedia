@@ -244,7 +244,27 @@ class RAGEngine:
             "elektrik": "elektrik_muhendisligi",
             "kontrol": "kontrol_ve_otomasyon",
             "biyomedikal": "biyomedikal_muhendisligi",
-            "yapay zeka": "yapay_zeka_ve_veri"
+            "yapay zeka": "yapay_zeka_ve_veri",
+            # İnşaat Fakültesi
+            "inşaat": "insaat_muhendisligi",
+            "insaat": "insaat_muhendisligi",
+            "inm": "insaat_muhendisligi",
+            "çevre": "cevre_muhendisligi",
+            "cevre": "cevre_muhendisligi",
+            "cem": "cevre_muhendisligi",
+            "harita": "harita_muhendisligi",
+            "geomatik": "harita_muhendisligi",
+            "hrm": "harita_muhendisligi",
+            # Gemi İnşaatı ve Denizcilik Fakültesi
+            "gemi makineleri işletme": "gemi_makineleri_isletme_muhendisligi",
+            "gemi makinaları işletme": "gemi_makineleri_isletme_muhendisligi",
+            "gmim": "gemi_makineleri_isletme_muhendisligi",
+            "vardiya": "gemi_makineleri_isletme_muhendisligi",
+            "çarkçı": "gemi_makineleri_isletme_muhendisligi",
+            "gemi inşaatı": "gemi_insaati_ve_gemi_makineleri_muhendisligi",
+            "gemi insaati": "gemi_insaati_ve_gemi_makineleri_muhendisligi",
+            "gim": "gemi_insaati_ve_gemi_makineleri_muhendisligi",
+            "gemi": "gemi_insaati_ve_gemi_makineleri_muhendisligi"
         }
 
         detected_dept = None
